@@ -33,7 +33,7 @@ export default function() {
         "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
       }]
     }
-  });
+  })
 
   // this.urlPrefix = '';    // make this `http://localhost:8080`, for example, if your API is on a different server
   // this.namespace = '';    // make this `api`, for example, if your API is namespaced
