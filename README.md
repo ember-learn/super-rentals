@@ -1,7 +1,8 @@
 # Super-rentals
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Super-rentals is meant to be a working repository of the Ember tutorial: https://guides.emberjs.com/v2.3.0/tutorial/ember-cli/
+
+This repo is currently *under development*.
 
 ## Prerequisites
 
