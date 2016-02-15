@@ -1,12 +1,21 @@
-<h1> Welcome to Super Rentals </h1>
+<div class="rentalBanner">
+  <h1> Welcome to Super Rentals </h1>
 
-We hope you find exactly what you're looking for in a place to stay.
-
-<ul>
-  {{#each model as |rentalUnit|}}
-    {{rental-listing rental=rentalUnit}}
-  {{/each}}
-</ul>
-
-{{#link-to 'about'}}About{{/link-to}}
-{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+  We hope you find exactly what you're looking for in a place to stay.
+</div>
+<div class="rentalContainer">
+  <div class="rentalList">
+    <ul>
+      {{#each model as |rentalUnit|}}
+        {{rental-listing rental=rentalUnit selectedUnit=selectedUnit click=(action "select" rentalUnit)}}
+      {{/each}}
+    </ul>
+  </div>
+  <div class="rentalMap">
+    {{google-map startCoords=geolocation.position destCoords=selectedCoords class="google-map"}}
+  </div>
+</div>
+<div class="rentalFooter">
+  {{#link-to 'about'}}About{{/link-to}} |
+  {{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+</div>
