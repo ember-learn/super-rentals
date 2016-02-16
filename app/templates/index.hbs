@@ -1,7 +1,8 @@
 <h1> Welcome to Super Rentals </h1>
 
 We hope you find exactly what you're looking for in a place to stay.
-
+<br/><br/>
+{{filter-listing filteredList=filteredList autoComplete=(action 'autoComplete') search=(action 'search')}}
 <ul>
   {{#each model as |rentalUnit|}}
     {{rental-listing rental=rentalUnit}}
