@@ -14,6 +14,7 @@ export default function() {
         type: 'rental',
         id: 1,
         attributes: {
+          "title": "Grand Old Mansion",
           "owner": "Veruca Salt",
           "city": "San Francisco",
           "type": "Estate",
@@ -25,6 +26,7 @@ export default function() {
         type: 'rental',
         "id": 2,
         attributes: {
+          "title": "Urban Living",
           "owner": "Mike Teavee",
           "city": "Seattle",
           "type": "Condo",
@@ -36,6 +38,7 @@ export default function() {
         type: 'rental',
         "id": 3,
         attributes: {
+          "title": "Downtown Charm",
           "owner": "Violet Beauregarde",
           "city": "Portland",
           "type": "Apartment",
