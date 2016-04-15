@@ -11,7 +11,7 @@ export default function() {
   this.get('/rentals', function(db, request) {
     let rentals = [
       {
-        type: 'rental',
+        type: 'rentals',
         id: 1,
         attributes: {
           "title": "Grand Old Mansion",
@@ -23,7 +23,7 @@ export default function() {
         }
       },
       {
-        type: 'rental',
+        type: 'rentals',
         "id": 2,
         attributes: {
           "title": "Urban Living",
@@ -35,7 +35,7 @@ export default function() {
         }
       },
       {
-        type: 'rental',
+        type: 'rentals',
         "id": 3,
         attributes: {
           "title": "Downtown Charm",
