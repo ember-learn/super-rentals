@@ -2,6 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Controller.extend({
   filteredList: null,
+
   actions: {
     autoComplete(param) {
       if (param !== '') {
