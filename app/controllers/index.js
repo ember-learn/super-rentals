@@ -3,19 +3,46 @@ import Ember from 'ember';
 export default Ember.Controller.extend({
   filteredList: null,
 
+  findAllRentals() {
+    return this.get('store').findAll('rental');
+  },
+
+  queryRentals(filter) {
+    return this.get('store').query('rental', { city: filter });
+  },
+
+  resetRentalModel() {
+    this.findAllRentals().then(result => {
+      this.set('model', result);
+    });
+  },
+
+  updateFilteredList(filter) {
+    this.queryRentals(filter).then(result => {
+      this.set('filteredList', result);
+    });
+  },
+
+  updateRentalModel(filter) {
+    this.queryRentals(filter).then(result => {
+      this.set('model', result);
+    });
+  },
+
   actions: {
-    autoComplete(param) {
-      if (param !== '') {
-        this.get('store').query('rental', { city: param }).then((result) => this.set('filteredList', result));
+    autoComplete(filter) {
+      if (filter && filter !== '') {
+        this.updateFilteredList(filter);
       } else {
         this.set('filteredList', null);
       }
     },
-    search(param) {
-      if (param !== '') {
-        this.store.query('rental', { city: param }).then((result) => this.set('model', result));
+
+    search(filter) {
+      if (filter && filter !== '') {
+        this.updateRentalModel(filter);
       } else {
-        this.get('store').findAll('rental').then((result) => this.set('model', result));
+        this.resetRentalModel();
       }
     }
   }
