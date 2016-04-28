@@ -1,12 +1,20 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  filter: null,
-  filteredList: null,
+  classNames: ['filter-listing'],
+  value: '',
+
+  init() {
+    this._super(...arguments);
+    this.get('filter')('').then((results) => this.set('rentals', results));
+  },
 
   actions: {
-    choose(city) {
-      this.set('filter', city);
+    handleFilterEntry() {
+      let filterInputValue = this.get('value');
+      let filterAction = this.get('filter');
+      filterAction(filterInputValue).then((filterResults) => this.set('rentals', filterResults));
     }
   }
+
 });
