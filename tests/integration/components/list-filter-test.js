@@ -3,7 +3,7 @@ import { moduleForComponent, test } from 'ember-qunit';
 import hbs from 'htmlbars-inline-precompile';
 import wait from 'ember-test-helpers/wait';
 
-moduleForComponent('filter-listing', 'Integration | Component | filter listing', {
+moduleForComponent('list-filter', 'Integration | Component | list filter', {
   integration: true
 });
 
@@ -20,7 +20,7 @@ test('should initially load all listings', function (assert) {
   });
 
   this.render(hbs`
-    {{#filter-listing filter=(action 'filterByCity') as |rentals|}}
+    {{#list-filter filter=(action 'filterByCity') as |rentals|}}
       <ul>
       {{#each rentals as |item|}}
         <li class="city">
@@ -28,7 +28,7 @@ test('should initially load all listings', function (assert) {
         </li>
       {{/each}}
       </ul>
-    {{/filter-listing}}
+    {{/list-filter}}
   `);
 
   return wait().then(() => {
@@ -47,7 +47,7 @@ test('should update with matching listings', function (assert) {
   });
 
   this.render(hbs`
-    {{#filter-listing filter=(action 'filterByCity') as |rentals|}}
+    {{#list-filter filter=(action 'filterByCity') as |rentals|}}
       <ul>
       {{#each rentals as |item|}}
         <li class="city">
@@ -55,10 +55,10 @@ test('should update with matching listings', function (assert) {
         </li>
       {{/each}}
       </ul>
-    {{/filter-listing}}
+    {{/list-filter}}
   `);
 
-  this.$('.filter-listing input').val('San').keyup();
+  this.$('.list-filter input').val('San').keyup();
 
   return wait().then(() => {
     assert.equal(this.$('.city').length, 1);

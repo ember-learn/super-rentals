@@ -1,19 +1,19 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  classNames: ['filter-listing'],
+  classNames: ['list-filter'],
   value: '',
 
   init() {
     this._super(...arguments);
-    this.get('filter')('').then((results) => this.set('rentals', results));
+    this.get('filter')('').then((allResults) => this.set('results', allResults));
   },
 
   actions: {
     handleFilterEntry() {
       let filterInputValue = this.get('value');
       let filterAction = this.get('filter');
-      filterAction(filterInputValue).then((filterResults) => this.set('rentals', filterResults));
+      filterAction(filterInputValue).then((filteredResults) => this.set('results', filteredResults));
     }
   }
 
