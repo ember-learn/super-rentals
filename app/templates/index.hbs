@@ -3,16 +3,15 @@
 We hope you find exactly what you're looking for in a place to stay.
 <br/><br/>
 
-{{filter-listing
-  filteredList=filteredList
-  autoComplete=(action 'autoComplete')
-  search=(action 'search')}}
-
-<ul>
-  {{#each model as |rentalUnit|}}
-    {{rental-listing rental=rentalUnit}}
-  {{/each}}
-</ul>
+{{#list-filter
+   filter=(action 'filterByCity')
+   as |rentals|}}
+  <ul>
+    {{#each rentals as |rentalUnit|}}
+      {{rental-listing rental=rentalUnit}}
+    {{/each}}
+  </ul>
+{{/list-filter}}
 
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Click here to contact us.{{/link-to}}
