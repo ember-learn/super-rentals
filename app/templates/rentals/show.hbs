@@ -1,0 +1,22 @@
+<div class="jumbo">
+  <a href="#" class="button right up-11">Edit</a>
+  <h2 style="margin-bottom:15px">{{model.title}}</h2>
+  <div class="right" style="width:50%;padding-left:30px">
+    <div class="map right" style="background: url({{model.address}}) center center;"></div>
+    <div class="detail" style="margin-top:10px">
+      <strong>Owner:</strong> {{model.owner}}
+    </div>
+    <div class="detail">
+      <strong>Type:</strong> {{rental-property-type model.type}} - {{model.type}}
+    </div>
+    <div class="detail">
+      <strong>Location:</strong> {{model.city}}
+    </div>
+    <div class="detail">
+      <strong>Number of bedrooms:</strong> {{model.bedrooms}}
+    </div>
+    <p>&nbsp;</p>
+    <p>{{model.description}}</p>
+  </div>
+  <img src="{{model.image}}" alt="" class="" style="width:50%;height:initial;position:static">
+</div>
