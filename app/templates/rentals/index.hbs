@@ -1,7 +1,9 @@
-<ul class="results">
-  {{#each model as |rentalUnit|}}
-    {{#link-to "rentals.show" rentalUnit.slug}}
-      {{rental-listing rental=rentalUnit}}
-    {{/link-to}}
-  {{/each}}
-</ul>
+{{#list-filter
+   filter=(action 'filterByCity')
+   as |rentals|}}
+  <ul class="results">
+    {{#each rentals as |rentalUnit|}}
+      <li>{{rental-listing rental=rentalUnit}}</li>
+    {{/each}}
+  </ul>
+{{/list-filter}}

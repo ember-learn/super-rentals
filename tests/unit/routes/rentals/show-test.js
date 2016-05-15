@@ -2,23 +2,13 @@ import { moduleFor, test } from 'ember-qunit';
 
 moduleFor('route:rentals/show', 'Unit | Route | rentals/show', {});
 
-test('`setupController` sets rental from our model', function(assert) {
-  assert.expect(1);
-  const route = this.subject();
-
-  const model = {
-    title: "Grand Old Mansion",
-    owner: "Veruca Salt",
-    city: "San Francisco"
+test('should query for selected rental by slug', function(assert) {
+  let store = {
+    queryRecord(path, options) {
+      assert.equal(path, 'rental', 'queryRecord calls rental path on API');
+      assert.deepEqual(options, { slug: 'rental-thing' });
+    }
   };
-
-  const controller = {};
-
-  route.setupController(controller, model);
-
-  const expectedController = {
-    rental: model
-  };
-
-  assert.deepEqual(controller, expectedController, 'rental is added');
+  let route = this.subject({ store });
+  route.model({ slug: 'rental-thing' });
 });

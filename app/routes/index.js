@@ -1,7 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  model() {
-    return this.get('store').findAll('rental');
+  beforeModel() {
+    this.transitionTo('rentals.index');
+    this._super(...arguments);
   }
 });
