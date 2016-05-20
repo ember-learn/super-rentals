@@ -1,6 +1,6 @@
 <article class="listing">
-  <a {{action 'toggleImageSize'}} class="image {{if isWide "wide"}}">
-    <img src="{{rental.image}}" alt="">
+  <a {{action 'toggleImageSize'}} class="image {{if isWide "wide"}}" aria-hidden="true" tabindex="-1">
+    <img src="{{rental.image}}" alt="image of rental">
     <small>View Larger</small>
   </a>
   <h3>{{rental.title}}</h3>

@@ -1,6 +1,13 @@
+/* globals axe */
 import { test } from 'qunit';
 import moduleForAcceptance from 'super-rentals/tests/helpers/module-for-acceptance';
 import Ember from 'ember';
+
+axe.ember.testOptions = {
+  "rules": {
+    "color-contrast": { enabled: false }
+  }
+};
 
 let StubMapsService = Ember.Service.extend({
   getMapElement() {
