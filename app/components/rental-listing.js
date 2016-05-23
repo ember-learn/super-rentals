@@ -1,13 +1,10 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  isImageShowing: false,
+  isWide: false,
   actions: {
-    imageShow() {
-      this.set('isImageShowing', true);
-    },
-    imageHide() {
-      this.set('isImageShowing', false);
+    toggleImageSize() {
+      this.toggleProperty('isWide');
     }
   }
 });

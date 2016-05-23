@@ -26,8 +26,6 @@ export default Ember.Service.extend({
   createMapElement() {
     let element = document.createElement('div');
     element.className = 'map';
-    element.setAttribute('style', 'width:300px;height:300px;');
     return element;
   }
-
 });
