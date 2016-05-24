@@ -10,8 +10,7 @@ export default Ember.Component.extend({
   },
 
   actions: {
-    handleFilterEntry() {
-      let filterInputValue = this.get('value');
+    handleFilterEntry(filterInputValue) {
       let filterAction = this.get('filter');
       filterAction(filterInputValue).then((filteredResults) => this.set('results', filteredResults));
     }
