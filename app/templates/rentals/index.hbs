@@ -1,5 +1,7 @@
 <ul class="results">
   {{#each model as |rentalUnit|}}
-    {{rental-listing rental=rentalUnit goToShowRoute="goToShowRoute"}}
+    {{#link-to "rentals.show" rentalUnit.slug}}
+      {{rental-listing rental=rentalUnit}}
+    {{/link-to}}
   {{/each}}
 </ul>

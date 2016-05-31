@@ -5,10 +5,6 @@ export default Ember.Component.extend({
   actions: {
     toggleImageSize() {
       this.toggleProperty('isWide');
-    },
-    goToShowRoute() {
-      let slug = Ember.get(this, 'rental.slug');
-      this.sendAction('goToShowRoute', slug);
     }
   }
 });
