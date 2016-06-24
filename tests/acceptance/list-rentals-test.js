@@ -18,7 +18,7 @@ moduleForAcceptance('Acceptance | list rentals', {
 test('should initially list 3 rentals', function (assert) {
   visit('/');
   andThen(function () {
-    assert.equal(this.$('.results .listing').length, 3, "should display 3 listings");
+    assert.equal(find('.results .listing').length, 3, 'should display 3 listings');
   });
 });
 
@@ -26,7 +26,7 @@ test('should link to about page', function (assert) {
   visit('/');
   click('a:contains("About")');
   andThen(function () {
-    assert.equal(currentURL(), '/about', "should navigate to about");
+    assert.equal(currentURL(), '/about', 'should navigate to about');
   });
 });
 
@@ -34,7 +34,7 @@ test('should link to contacts page', function (assert) {
   visit('/');
   click('a:contains("Contact")');
   andThen(function () {
-    assert.equal(currentURL(), '/contact', "should navigate to contact");
+    assert.equal(currentURL(), '/contact', 'should navigate to contact');
   });
 });
 
@@ -43,7 +43,7 @@ test('should list 1 rental when filtering by Seattle', function (assert) {
   fillIn('.list-filter input', 'seattle');
   keyEvent('.list-filter input', 'keyup', 69);
   andThen(function () {
-    assert.equal(this.$('.results .listing').length, 1, "should display 1 listing");
-    assert.equal(this.$(".listing .location:contains('Seattle')").length, 1, "should contain 1 listing with location Seattle");
+    assert.equal(find('.results .listing').length, 1, 'should display 1 listing');
+    assert.equal(find('.listing .location:contains("Seattle")').length, 1, 'should contain 1 listing with location Seattle');
   });
 });
