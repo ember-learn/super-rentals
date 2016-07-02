@@ -7,6 +7,6 @@ moduleForModel('rental', 'Unit | Model | rental', {
 
 test('it exists', function(assert) {
   let model = this.subject();
-  // let store = this.store();
+  // let store = this.get('store')();
   assert.ok(!!model);
 });
