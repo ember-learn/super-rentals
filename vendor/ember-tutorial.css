@@ -230,7 +230,7 @@ p {
   display: none;
 }
 
-.listing a {
+.listing a.image {
   max-width: 150px;
   display: block;
 }
@@ -244,6 +244,10 @@ p {
 
 .listing h3 {
   padding: 0 15px 0 0;
+}
+
+.listing h3 a {
+  display: inline;
 }
 
 .listing .map {
