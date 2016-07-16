@@ -15,6 +15,13 @@ moduleForAcceptance('Acceptance | list rentals', {
   }
 });
 
+test('should redirect to rentals route', function (assert) {
+  visit('/');
+  andThen(function() {
+    assert.equal(currentURL(), '/rentals', 'should redirect automatically');
+  });
+});
+
 test('should initially list 3 rentals', function (assert) {
   visit('/');
   andThen(function () {
@@ -45,5 +52,13 @@ test('should list 1 rental when filtering by Seattle', function (assert) {
   andThen(function () {
     assert.equal(find('.results .listing').length, 1, 'should display 1 listing');
     assert.equal(find('.listing .location:contains("Seattle")').length, 1, 'should contain 1 listing with location Seattle');
+  });
+});
+
+test('should link to each rental show routes', function (assert) {
+  visit('/rentals');
+  click('a:contains("Grand Old Mansion")');
+  andThen(function() {
+    assert.equal(currentURL(), '/rentals/grand-old-mansion', "should navigate to show route");
   });
 });

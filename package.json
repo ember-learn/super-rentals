@@ -34,7 +34,7 @@
     "ember-cli-qunit": "^1.4.0",
     "ember-cli-release": "0.2.8",
     "ember-cli-sri": "^2.1.0",
-    "ember-cli-tutorial-style": "0.0.3",
+    "ember-cli-tutorial-style": "0.0.4",
     "ember-cli-uglify": "^1.2.0",
     "ember-data": "^2.5.2",
     "ember-export-application-global": "^1.0.5",
