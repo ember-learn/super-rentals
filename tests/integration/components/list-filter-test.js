@@ -1,6 +1,6 @@
-import Ember from 'ember';
 import { moduleForComponent, test } from 'ember-qunit';
 import hbs from 'htmlbars-inline-precompile';
+import RSVP from 'rsvp';
 import wait from 'ember-test-helpers/wait';
 
 moduleForComponent('list-filter', 'Integration | Component | list filter', {
@@ -13,9 +13,9 @@ const FILTERED_ITEMS = [{city: 'San Francisco'}];
 test('should initially load all listings', function (assert) {
   this.on('filterByCity', (val) => {
     if (val === '') {
-      return Ember.RSVP.resolve(ITEMS);
+      return RSVP.resolve(ITEMS);
     } else {
-      return Ember.RSVP.resolve(FILTERED_ITEMS);
+      return RSVP.resolve(FILTERED_ITEMS);
     }
   });
 
@@ -40,9 +40,9 @@ test('should initially load all listings', function (assert) {
 test('should update with matching listings', function (assert) {
   this.on('filterByCity', (val) => {
     if (val === '') {
-      return Ember.RSVP.resolve(ITEMS);
+      return RSVP.resolve(ITEMS);
     } else {
-      return Ember.RSVP.resolve(FILTERED_ITEMS);
+      return RSVP.resolve(FILTERED_ITEMS);
     }
   });
 
