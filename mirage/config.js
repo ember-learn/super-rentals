@@ -24,7 +24,7 @@ export default function() {
       },
       {
         type: 'rentals',
-        "id": 2,
+        id: 2,
         attributes: {
           "title": "Urban Living",
           "owner": "Mike Teavee",
@@ -36,7 +36,7 @@ export default function() {
       },
       {
         type: 'rentals',
-        "id": 3,
+        id: 3,
         attributes: {
           "title": "Downtown Charm",
           "owner": "Violet Beauregarde",
