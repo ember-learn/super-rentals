@@ -22,12 +22,6 @@ test('should redirect to rentals route', function (assert) {
   });
 });
 
-test('should initially list 3 rentals', function (assert) {
-  visit('/');
-  andThen(function () {
-    assert.equal(find('.results .listing').length, 3, 'should display 3 listings');
-  });
-});
 
 test('should link to about page', function (assert) {
   visit('/');
@@ -45,6 +39,13 @@ test('should link to contacts page', function (assert) {
   });
 });
 
+test('should initially list 3 rentals', function (assert) {
+  visit('/');
+  andThen(function () {
+    assert.equal(find('.results .listing').length, 3, 'should display 3 listings');
+  });
+});
+
 test('should list 1 rental when filtering by Seattle', function (assert) {
   visit('/');
   fillIn('.list-filter input', 'seattle');
@@ -55,10 +56,12 @@ test('should list 1 rental when filtering by Seattle', function (assert) {
   });
 });
 
-test('should link to each rental show routes', function (assert) {
+test('should show details for a specific rental', function (assert) {
   visit('/rentals');
   click('a:contains("Grand Old Mansion")');
   andThen(function() {
     assert.equal(currentURL(), '/rentals/grand-old-mansion', "should navigate to show route");
+    assert.equal(find('.rental-detail h2').text(), "Grand Old Mansion", 'should list rental title');
+    assert.equal(find('.description').length, 1, 'should list a description of the property');
   });
 });
