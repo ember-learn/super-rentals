@@ -4,7 +4,7 @@ Super-rentals is meant to be a working repository of the Ember tutorial: https:/
 
 This repo is currently *under development*.
 
-[![Nitrous Quickstart](https://nitrous-image-icons.s3.amazonaws.com/quickstart.svg)](https://www.nitrous.io/quickstart)
+[![Nitrous Quickstart](https://nitrous-image-icons.s3.amazonaws.com/quickstart.svg)](https://www.nitrous.io/quickstart?repo=https://github.com/emberjs/super-rentals/tree/locks-patch-1)
 
 ## Prerequisites
 
