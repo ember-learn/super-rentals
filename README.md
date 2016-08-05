@@ -1,6 +1,6 @@
 # Super-rentals
 
-Super-rentals is meant to be a working repository of the Ember tutorial: https://guides.emberjs.com/v2.3.0/tutorial/ember-cli/
+Super-rentals is meant to be a working repository of the Ember tutorial: https://guides.emberjs.com/v2.7.0/tutorial/ember-cli/
 
 This repo is currently *under development*.
 
