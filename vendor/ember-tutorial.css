@@ -151,7 +151,6 @@ p {
 .results li {
   list-style: none;
   padding: 10px 15px;
-  cursor: pointer;
 }
 
 .menu .results li:hover {
@@ -224,6 +223,7 @@ p {
 .listing .wide img {
   height: initial;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .listing .wide small {
@@ -233,6 +233,7 @@ p {
 .listing a.image {
   max-width: 150px;
   display: block;
+  cursor: pointer;
 }
 
 .listing small {
@@ -252,7 +253,7 @@ p {
 
 .listing .map {
   position: absolute;
-  top: 13px;
+  bottom: 13px;
   right: 50px;
   height: 120px;
   width: 120px;

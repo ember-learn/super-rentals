@@ -3,7 +3,8 @@ import startMirage from '../../../helpers/setup-mirage-for-unit-test';
 import Ember from 'ember';
 
 moduleFor('route:rentals/show', 'Unit | Route | rentals/show', {
-  needs: ['model:rental'],
+  needs: ['model:rental',
+         'adapter:application'],
   beforeEach() {
     startMirage(this.container);
   },
