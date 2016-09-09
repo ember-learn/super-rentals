@@ -1,3 +1,3 @@
-import Rentals from '../rentals';
+import RentalsController from '../rentals';
 
-export default Rentals;
+export default RentalsController;
