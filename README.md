@@ -4,6 +4,8 @@ Super-rentals is meant to be a working repository of the Ember tutorial: https:/
 
 This repo is currently *under development*.
 
+[![Nitrous Quickstart](https://nitrous-image-icons.s3.amazonaws.com/quickstart.svg)](https://www.nitrous.io/quickstart)
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
