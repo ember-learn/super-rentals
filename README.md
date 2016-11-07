@@ -1,10 +1,6 @@
 # Super-rentals
 
-Super-rentals is meant to be a working repository of the Ember tutorial: https://guides.emberjs.com/v2.8.0/tutorial/ember-cli/
-
-This repo is currently *under development*.
-
-[![Nitrous Quickstart](https://nitrous-image-icons.s3.amazonaws.com/quickstart.svg)](https://www.nitrous.io/quickstart)
+Super Rentals is the working repository of the Ember tutorial: https://guides.emberjs.com/v2.9.0/tutorial/ember-cli/
 
 ## Prerequisites
 

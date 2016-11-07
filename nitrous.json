@@ -1,7 +1,0 @@
-{
-  "template": "nodejs", 
-  "ports": [4200],
-  "name": "Ember.js: Super Rentals",
-  "scripts": {
-  }
-}
