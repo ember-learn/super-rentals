@@ -1,6 +1,6 @@
+import Ember from 'ember';
 import { moduleFor, test } from 'ember-qunit';
 import startMirage from '../../../helpers/setup-mirage-for-unit-test';
-import Ember from 'ember';
 
 moduleFor('route:rentals/show', 'Unit | Route | rentals/show', {
   needs: ['model:rental',
@@ -15,10 +15,7 @@ moduleFor('route:rentals/show', 'Unit | Route | rentals/show', {
 
 test('should load rental by id', function(assert) {
   let route = this.subject();
-  Ember.run(() => {
-    route.model({ rental_id: 'grand-old-mansion'}).then((result) => {
-      assert.equal(result.get('title'), "Grand Old Mansion");
-    });
-  });
-
+  return Ember.run(() => route.model({ rental_id: 'grand-old-mansion'}).then((result) => {
+    assert.equal(result.get('title'), "Grand Old Mansion");
+  }));
 });
