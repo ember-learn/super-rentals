@@ -15,8 +15,10 @@ moduleFor('route:rentals/index', 'Unit | Route | rentals/index', {
 
 test('should load all rentals', function(assert) {
   let route = this.subject();
-  return Ember.run(() => route.model().then((results) => {
-    assert.equal(results.get('length'), 3);
-  }));
+  return Ember.run(() => {
+    return route.model().then((results) => {
+      assert.equal(results.get('length'), 3);
+    });
+  });
 
 });

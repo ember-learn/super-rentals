@@ -15,7 +15,9 @@ moduleFor('route:rentals/show', 'Unit | Route | rentals/show', {
 
 test('should load rental by id', function(assert) {
   let route = this.subject();
-  return Ember.run(() => route.model({ rental_id: 'grand-old-mansion'}).then((result) => {
-    assert.equal(result.get('title'), "Grand Old Mansion");
-  }));
+  return Ember.run(() => {
+    return route.model({ rental_id: 'grand-old-mansion'}).then((result) => {
+      assert.equal(result.get('title'), "Grand Old Mansion");
+    });
+  });
 });
