@@ -88,10 +88,14 @@ p {
     left: -12px;
 }
 
+.menu a, .menu .links {
+  display: inline-block;
+}
+
 .menu a {
     text-decoration: none;
     line-height: 1;
-    padding: 15px;
+    padding: 0 15px;
     color: #f9f9f9;
     opacity: 0.85;
 }
@@ -102,7 +106,12 @@ p {
 }
 
 .menu .links {
-    padding: 21px;
+    padding: 0 21px;
+}
+
+.menu .links a {
+  position: relative;
+  bottom: 5px;
 }
 
 .list-filter input {
