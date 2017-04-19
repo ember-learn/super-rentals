@@ -6,14 +6,18 @@ export default Ember.Component.extend({
 
   init() {
     this._super(...arguments);
-    this.get('filter')('').then((allResults) => this.set('results', allResults));
+    this.get('filter')('').then((allResults) => this.set('results', allResults.results));
   },
 
   actions: {
     handleFilterEntry() {
       let filterInputValue = this.get('value');
       let filterAction = this.get('filter');
-      filterAction(filterInputValue).then((filteredResults) => this.set('results', filteredResults));
+      filterAction(filterInputValue).then((resultsObj) => {
+        if (resultsObj.query === this.get('value')) {
+          this.set('results', resultsObj.results);
+        }
+      });
     }
   }
 

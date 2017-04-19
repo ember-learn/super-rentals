@@ -14,7 +14,7 @@ test('should initially load all listings', function (assert) {
   assert.expect(3);
   this.on('filterByCity', (val) => {
     assert.equal(val, '');
-    return RSVP.resolve(ITEMS);
+    return RSVP.resolve({ results: ITEMS });
   });
 
   this.render(hbs`
@@ -38,9 +38,13 @@ test('should initially load all listings', function (assert) {
 test('should update with matching listings', function (assert) {
   this.on('filterByCity', (val) => {
     if (val === '') {
-      return RSVP.resolve(ITEMS);
+      return RSVP.resolve({
+        query: val,
+        results: ITEMS });
     } else {
-      return RSVP.resolve(FILTERED_ITEMS);
+      return RSVP.resolve({
+        query: val,
+        results: FILTERED_ITEMS });
     }
   });
 
