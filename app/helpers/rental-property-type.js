@@ -7,7 +7,7 @@ const communityPropertyTypes = [
 ];
 
 export function rentalPropertyType([type]) {
-  if (communityPropertyTypes.contains(type)) {
+  if (communityPropertyTypes.includes(type)) {
     return 'Community';
   }
   return 'Standalone';
