@@ -1,0 +1,11 @@
+{
+  "name": "Super Rentals",
+  "description": "Super Rentals is the working repository of the Ember tutorial",
+  "repository": "https://github.com/ember-learn/super-rentals",
+  "keywords": ["ember", "ember.js"],
+  "buildpacks": [
+    {
+      "url": "https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/emberjs.tgz"
+    }
+  ]
+}
