@@ -7,5 +7,10 @@
     {
       "url": "https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/emberjs.tgz"
     }
-  ]
+  ],
+  "env": {
+    "GOOGLE_API_KEY": {
+      "description": "Google API KEY for Google Maps, https://developers.google.com/maps/documentation/javascript/get-api-key"
+    }
+  }
 }
