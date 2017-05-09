@@ -1,5 +1,7 @@
 # Super-rentals
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 Super Rentals is the working repository of the Ember tutorial: https://guides.emberjs.com/v2.9.0/tutorial/ember-cli/
 
 ## Prerequisites
