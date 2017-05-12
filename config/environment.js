@@ -1,4 +1,4 @@
-/* jshint node: true */
+/* eslint-env node */
 
 module.exports = function(environment) {
   var ENV = {
@@ -12,7 +12,7 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       },
       EXTEND_PROTOTYPES: {
-        // Prevent Ember Data from overriding Date.parse
+        // Prevent Ember Data from overriding Date.parse.
         Date: false
       }
     },
@@ -43,7 +43,11 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    // use mirage in production too since the app will break
+    // if there is no API for Ember Data
+    ENV['ember-cli-mirage'] = {
+      enabled: true
+    }
   }
 
   return ENV;
