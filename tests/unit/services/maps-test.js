@@ -29,7 +29,8 @@ test('should use existing map if one is cached for location', function (assert) 
   let stubCachedMaps = Ember.Object.create({
     sanFrancisco: DUMMY_ELEMENT
   });
-  let mapService = this.subject({ cachedMaps: stubCachedMaps });
+  let stubMapUtil = MapUtilStub.create({ assert });
+  let mapService = this.subject({ mapUtil: stubMapUtil, cachedMaps: stubCachedMaps });
   let element = mapService.getMapElement('San Francisco');
   assert.equal(element, DUMMY_ELEMENT, 'element fetched from cache');
 });
