@@ -2,8 +2,20 @@ import { moduleForComponent, test } from 'ember-qunit';
 import hbs from 'htmlbars-inline-precompile';
 import Ember from 'ember';
 
+let StubMapsService = Ember.Service.extend({
+
+  getMapElement(location) {
+    this.set('calledWithLocation', location);
+    return document.createElement('div');
+  }
+});
+
 moduleForComponent('rental-listing', 'Integration | Component | rental listing', {
-  integration: true
+  integration: true,
+  beforeEach() {
+    this.register('service:maps', StubMapsService);
+    this.inject.service('maps', { as: 'mapsService' });
+  }
 });
 
 test('should toggle wide class on click', function(assert) {
