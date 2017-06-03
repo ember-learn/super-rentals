@@ -2,7 +2,8 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-This is working repository for the Super Rentals tutorial which you can check out at https://guides.emberjs.com/current/tutorial/.
+This is the working repository for the Super Rentals tutorial,
+which you can check out at https://guides.emberjs.com/current/tutorial/.
 
 ## Prerequisites
 
