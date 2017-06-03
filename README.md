@@ -3,7 +3,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 This is the working repository for the Super Rentals tutorial,
-which you can check out at https://guides.emberjs.com/v2.13.0/tutorial/ember-cli/.
+which you can check out at https://guides.emberjs.com/current/tutorial/ember-cli/.
 
 ## Prerequisites
 
