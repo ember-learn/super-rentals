@@ -8,7 +8,7 @@ export default function() {
     Note: these only affect routes defined *after* them!
    */
 
-  this.namespace = '/api';
+  this.namespace = '/';
   let rentals = [
     {
       type: 'rentals',
