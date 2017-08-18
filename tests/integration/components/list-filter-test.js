@@ -11,7 +11,7 @@ const ITEMS = [{city: 'San Francisco'}, {city: 'Portland'}, {city: 'Seattle'}];
 const FILTERED_ITEMS = [{city: 'San Francisco'}];
 
 test('should initially load all listings', function (assert) {
-  assert.expect(3);
+  assert.expect(2);
   this.on('filterByCity', () => {
     return RSVP.resolve({ results: ITEMS });
   });
