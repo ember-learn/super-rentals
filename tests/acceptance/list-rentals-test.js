@@ -39,10 +39,10 @@ test('should link to contacts page', function (assert) {
   });
 });
 
-test('should initially list 3 rentals', function (assert) {
+test('should initially list 4 rentals', function (assert) {
   visit('/');
   andThen(function () {
-    assert.equal(find('.results .listing').length, 3, 'should display 3 listings');
+    assert.equal(find('.results .listing').length, 4, 'should display 4 listings');
   });
 });
 
