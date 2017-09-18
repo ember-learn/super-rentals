@@ -17,7 +17,7 @@ test('should load all rentals', function(assert) {
   let route = this.subject();
   return Ember.run(() => {
     return route.model().then((results) => {
-      assert.equal(results.get('length'), 4);
+      assert.equal(results.get('length'), 3);
     });
   });
 

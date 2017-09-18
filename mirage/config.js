@@ -12,19 +12,6 @@ export default function() {
   let rentals = [
     {
       type: 'rentals',
-      id: 'boston-lofts',
-      attributes: {
-        title: "New England Charm",
-        owner: "Charlie Bucket",
-        city: "Boston",
-        "property-type": "Loft Apartment",
-        bedrooms: 3,
-        image: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Boston_Financial_District_skyline.jpg",
-        description: "The Boston area's many colleges and universities make it an international center of higher education, including law, medicine, engineering, and business, and the city is considered to be a world leader in innovation and entrepreneurship, with nearly 2,000 start-ups."
-      }
-    },
-    {
-      type: 'rentals',
       id: 'grand-old-mansion',
       attributes: {
         title: "Grand Old Mansion",
