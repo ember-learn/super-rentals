@@ -10,7 +10,8 @@
   ],
   "env": {
     "GOOGLE_MAPS_API_KEY": {
-      "description": "Google API KEY for Google Maps, https://developers.google.com/maps/documentation/javascript/get-api-key"
+      "description": "Google API KEY for Google Maps, https://developers.google.com/maps/documentation/javascript/get-api-key",
+      "required": true
     }
   }
 }
