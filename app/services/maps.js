@@ -1,11 +1,12 @@
-import Ember from 'ember';
+import { camelize } from '@ember/string';
+import EmberObject from '@ember/object';
+import Service from '@ember/service';
 import MapUtil from '../utils/google-maps';
 
-export default Ember.Service.extend({
-
+export default Service.extend({
   init() {
     if (!this.get('cachedMaps')) {
-      this.set('cachedMaps', Ember.Object.create());
+      this.set('cachedMaps', EmberObject.create());
     }
     if (!this.get('mapUtil')) {
       this.set('mapUtil', MapUtil.create());
@@ -13,7 +14,7 @@ export default Ember.Service.extend({
   },
 
   getMapElement(location) {
-    let camelizedLocation = location.camelize();
+    let camelizedLocation = camelize(location);
     let element = this.get(`cachedMaps.${camelizedLocation}`);
     if (!element) {
       element = this.createMapElement();
@@ -27,5 +28,5 @@ export default Ember.Service.extend({
     let element = document.createElement('div');
     element.className = 'map';
     return element;
-  }
+  },
 });

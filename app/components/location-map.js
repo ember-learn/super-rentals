@@ -1,7 +1,8 @@
-import Ember from 'ember';
+import { inject as service } from '@ember/service';
+import Component from '@ember/component';
 
-export default Ember.Component.extend({
-  maps: Ember.inject.service(),
+export default Component.extend({
+  maps: service(),
 
   didInsertElement() {
     this._super(...arguments);

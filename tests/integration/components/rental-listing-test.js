@@ -1,6 +1,6 @@
+import EmberObject from '@ember/object';
 import { moduleForComponent, test } from 'ember-qunit';
 import hbs from 'htmlbars-inline-precompile';
-import Ember from 'ember';
 
 moduleForComponent('rental-listing', 'Integration | Component | rental listing', {
   integration: true
@@ -8,7 +8,7 @@ moduleForComponent('rental-listing', 'Integration | Component | rental listing',
 
 test('should toggle wide class on click', function(assert) {
   assert.expect(3);
-  let stubRental = Ember.Object.create({
+  let stubRental = EmberObject.create({
     image: 'fake.png',
     title: 'test-title',
     owner: 'test-owner',
