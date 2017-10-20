@@ -1,8 +1,8 @@
+import Service from '@ember/service';
 import { test } from 'qunit';
 import moduleForAcceptance from 'super-rentals/tests/helpers/module-for-acceptance';
-import Ember from 'ember';
 
-let StubMapsService = Ember.Service.extend({
+let StubMapsService = Service.extend({
   getMapElement() {
     return document.createElement('div');
   }
