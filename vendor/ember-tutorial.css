@@ -29,7 +29,7 @@ body {
 }
 
 a {
-    color: #2185D0;
+    color: #016aba;
     text-decoration: none;
 }
 
@@ -42,13 +42,14 @@ p {
  */
 
 .button {
-    padding: 12px 30px 13px;
+    padding: 10px 30px 10px;
     text-decoration: none;
     color: #fff;
-    background: #2185D0;
+    background: #016aba;
     border-radius: 5px;
     border: none;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
     opacity: 0.9;
 }
 
@@ -79,7 +80,7 @@ p {
 .menu h1 {
     padding: 7px 0 0 20px;
     color: #f9f9f9;
-    font-size: 2.1em;
+    font-size: 1.8em;
 }
 
 .menu h1 em {
@@ -94,10 +95,10 @@ p {
 
 .menu a {
     text-decoration: none;
-    line-height: 1;
     padding: 0 15px;
-    color: #f9f9f9;
-    opacity: 0.85;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .menu a:hover,
