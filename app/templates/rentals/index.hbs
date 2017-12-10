@@ -1,10 +1,11 @@
+
 {{#list-filter
    filter=(action 'filterByCity')
    as |filteredResults|}}
 
-  <ul id="rental-list" class="results" role="listbox">
+  <ul id="rental-list" class="results">
     {{#each filteredResults as |rentalUnit|}}
-      <li role="option" tabindex="0">{{rental-listing rental=rentalUnit}}</li>
+      <li>{{rental-listing rental=rentalUnit}}</li>
     {{/each}}
   </ul>
 {{/list-filter}}
