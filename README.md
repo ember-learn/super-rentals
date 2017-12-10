@@ -1,28 +1,31 @@
-# Super-rentals
+# Super Rentals
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-Super Rentals is the working repository of the Ember tutorial: https://guides.emberjs.com/v2.9.0/tutorial/ember-cli/
+This is a working repository for the Super Rentals tutorial,
+which you can check out at https://guides.emberjs.com/current/tutorial/ember-cli/.
 
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with npm)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+* [Git](https://git-scm.com/)
+* [Node.js](https://nodejs.org/)
+* [Yarn](https://yarnpkg.com/)
+* [Ember CLI](https://ember-cli.com/)
+* [Google Chrome](https://google.com/chrome/)
 
 ## Installation
 
 * `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
+* `cd super-rentals`
+* `yarn install`
 
 ## Running / Development
 
-* `ember server`
+* `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
+* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
 ### Code Generators
 
@@ -44,8 +47,8 @@ Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
+* [ember.js](https://emberjs.com/)
+* [ember-cli](https://ember-cli.com/)
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
