@@ -1,6 +1,7 @@
 import Service from '@ember/service';
 import { test } from 'qunit';
 import moduleForAcceptance from 'super-rentals/tests/helpers/module-for-acceptance';
+import a11yAudit from 'ember-a11y-testing/test-support/audit';
 
 let StubMapsService = Service.extend({
   getMapElement() {
@@ -64,4 +65,16 @@ test('should show details for a specific rental', function (assert) {
     assert.equal(find('.show-listing h2').text(), "Grand Old Mansion", 'should list rental title');
     assert.equal(find('.description').length, 1, 'should list a description of the property');
   });
+});
+
+test('accessibility check of rentals route', function (assert) {
+  visit('/rentals');
+  a11yAudit();
+  andThen(() => assert.ok(true, 'no a11y errors found!'));
+});
+
+test('accessibility check of rentals/:id route', function (assert) {
+  visit('/rentals/grand-old-mansion');
+  a11yAudit();
+  andThen(() => assert.ok(true, 'no a11y errors found!'));
 });
