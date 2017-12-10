@@ -1,2 +1,4 @@
-{{input value=value key-up=(action 'handleFilterEntry') class="light" placeholder="Filter By City"}}
+<label for="filterByCity" class="screen-reader">Filter By City</label>
+<input type="text" id="filterByCity" value={{value}} onkeyup={{action "handleFilterEntry" value="target.value"}} class="light" placeholder="Filter By City" role="combobox" aria-autocomplete="inline" aria-expanded="true" aria-owns="rental-list">
+
 {{yield results}}

@@ -10,11 +10,11 @@ export default Component.extend({
   },
 
   actions: {
-    handleFilterEntry() {
-      let filterInputValue = this.get('value');
+    handleFilterEntry(filterInputValue) {
+      console.log('FILTERING')
       let filterAction = this.get('filter');
       filterAction(filterInputValue).then((resultsObj) => {
-        if (resultsObj.query === this.get('value')) {
+        if (resultsObj.query === filterInputValue) {
           this.set('results', resultsObj.results);
         }
       });
