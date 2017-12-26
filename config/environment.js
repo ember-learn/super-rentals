@@ -24,6 +24,12 @@ module.exports = function(environment) {
     }
   };
 
+  ENV['ember-a11y-testing'] = {
+    componentOptions: {
+      turnAuditOff: true, // Change to run a11y audit on all dev build and serves
+    }
+  };
+
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
