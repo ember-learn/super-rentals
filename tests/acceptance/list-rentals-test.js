@@ -67,6 +67,12 @@ test('should show details for a specific rental', function (assert) {
   });
 });
 
+/*
+a11yAudit is a special feature of the ember-a11y-testing addon. It helps identify
+accessibility issues in an app and recommends solutions. For more information,
+visit https://github.com/ember-a11y/ember-a11y-testing
+*/
+
 test('accessibility check of rentals route', function (assert) {
   visit('/rentals');
   a11yAudit();
