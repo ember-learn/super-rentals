@@ -1,6 +1,6 @@
-import Service from '@ember/service';
 import { test } from 'qunit';
 import moduleForAcceptance from 'super-rentals/tests/helpers/module-for-acceptance';
+import Service from '@ember/service';
 
 let StubMapsService = Service.extend({
   getMapElement() {
@@ -10,8 +10,7 @@ let StubMapsService = Service.extend({
 
 moduleForAcceptance('Acceptance | list rentals', {
   beforeEach() {
-    this.application.register('service:mockMaps', StubMapsService);
-    this.application.inject('component:location-map', 'maps', 'service:mockMaps');
+    this.application.register('service:maps', StubMapsService);
   }
 });
 
