@@ -1,0 +1,61 @@
+/**
+ * Styling overrides for ember-cli-tutorial-style
+ */
+
+
+/**
+ * Menu
+ */
+
+div.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  div.links a {
+    bottom: 0px;
+  }
+
+  h1 {
+    padding-top: 0;
+  }
+
+}
+
+div.login {
+  button {
+    padding: 12px 30px 13px;
+    text-decoration: none;
+    color: #fff;
+    background: transparent;
+    background-color: #677ae4;
+    background-color: #05526A;
+    background-color: #e46855;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgba(#f9f9f9, 0.4);
+    font-size: 16px;
+    opacity: 0.9;
+
+    &:hover {
+      opacity: 1;
+      background-color: rgba(#fff, 0.1);
+    }
+
+  }
+}
+
+/**
+ * Link Buttons
+ */
+
+a.button {
+  background-color: #0288d1;
+  color: rgba(255, 255, 255, 0.87);
+  opacity: 1;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+
+  &:hover {
+    background-color: #0091ea;
+  }
+}
