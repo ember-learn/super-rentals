@@ -1,3 +1,5 @@
+import Config from 'authmaker-super-rentals/config/environment';
+
 export default function() {
 
   // These comments are here to help you get started. Feel free to delete them.
@@ -65,6 +67,15 @@ export default function() {
   this.get('/rentals/:id', function (db, request) {
     return { data: rentals.find((rental) => request.params.id === rental.id) };
   });
+
+  this.post('/rentals');
+
+  /*
+  * Allow passthrough for all requests to Authmaker (to allow for login functionality with Mirage enabled)
+  */
+  if (Config.authmaker) {
+    this.passthrough(`${Config.authmaker.domainUrl}/**`);
+  }
 
   // this.urlPrefix = '';    // make this `http://localhost:8080`, for example, if your API is on a different server
   // this.timing = 400;      // delay for each request, automatically set to 0 during testing
