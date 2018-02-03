@@ -1,0 +1,83 @@
+{{#if hasError}}
+  <div class="alert alert--error layout-row layout-align-center">
+    <div>{{paper-icon 'warning'}}</div>
+    <div><span><b>Error:</b> {{hasError.message}}</span></div>
+  </div>
+{{/if}}
+
+{{#paper-card as |card|}}
+
+  {{#card.title as |title|}}
+    {{#title.text as |text|}}
+      {{#text.headline}}My Rentals{{/text.headline}}
+    {{/title.text}}
+  {{/card.title}}
+
+  {{#card.content}}
+  {{#paper-list}}
+      {{#each rentals as |rental|}}
+        {{paper-divider}}
+        {{#paper-item class="edit-rental" as |controls|}}
+        <img src={{rental.image}} alt={{rental.title}} class="md-avatar">
+        <div class="edit-rental-listing">
+          <h3>{{rental.title}}</h3>
+          <div class="layout-row rental-details">
+            <p class="rental-detail"><span>Owner: </span> {{rental.owner.displayName}}</p>
+            <p class="rental-detail"><span>Location: </span>{{rental.city}}</p>
+          </div>
+          <div class="layout-row rental-details">
+            <p class="rental-detail"><span>Type: </span> {{rental.category}}</p>
+            <p class="rental-detail"><span>Number of bedrooms: </span>{{rental.bedrooms}}</p>
+          </div>
+        </div>
+        <div class="md-secondary-container">
+          {{#controls.button accent=true raised=true onClick=(action "openEditDialog" rental)}}
+            Edit Rental
+          {{/controls.button}}
+          {{#controls.button accent=true raised=true onClick=(action "confirmDelete" rental)}}
+            Delete
+          {{/controls.button}}
+        </div>
+        {{/paper-item}}
+      {{/each}}
+    {{/paper-list}}
+  {{/card.content}}
+
+{{/paper-card}}
+
+{{#if showEditDialog}}
+  {{#paper-dialog class="edit-rental-dialog" fullscreen=fullscreen onClose=(action "closeEditDialog")}}
+
+    {{#paper-form onSubmit=(action "updateRental" rentalToUpdate) as |form|}}
+    
+      {{#paper-dialog-content}}
+        <h2 class="md-headline prompt-title">Edit Rental</h2>
+          <div class="layout-row">
+            <div class="layout-column flex-50">
+              {{paper-input label="Property Name" value=rentalToUpdate.title onChange=(action (mut rentalToUpdate.title)) required=true}}
+              {{paper-input label="City" value=rentalToUpdate.city onChange=(action (mut rentalToUpdate.city)) required=true}}
+            </div>
+            <div class="layout-column flex-50">
+              {{#form.select label="Property Type" options=categoryOptions selected=rentalToUpdate.category onChange=(action (mut rentalToUpdate.category)) required=true as |category|}}{{category}}{{/form.select}}
+              {{paper-input label="Number of Bedrooms" type="number" min="0" value=rentalToUpdate.bedrooms onChange=(action (mut rentalToUpdate.bedrooms)) required=true}}
+            </div>
+          </div>
+          <div class="layout-row">
+            {{form.input textarea=true class="flex" label="Description" maxlength=250 passThru=(hash rows=1 maxRows=3) value=rentalToUpdate.description onChange=(action (mut rentalToUpdate.description))}}
+          </div>
+      {{/paper-dialog-content}}
+
+      {{#paper-dialog-actions class="layout-row"}}
+        <span class="flex"></span>
+        {{#paper-button raised=true onClick=(action "closeEditDialog")}}Cancel{{/paper-button}}
+        {{#paper-button accent=true raised=true onClick=(action form.onSubmit)}}Submit{{/paper-button}}
+      {{/paper-dialog-actions}}
+
+    {{/paper-form}}
+
+  {{/paper-dialog}}
+{{/if}}
+
+{{#confirm-action-prompt showPromptDialog=showConfirmDialog onConfirm=(action "deleteRental" rentalToDelete) onClose=(action "cancelDelete")}}
+  <p>You are about to delete '{{rentalToDelete.title}}'.</p>
+{{/confirm-action-prompt}}
