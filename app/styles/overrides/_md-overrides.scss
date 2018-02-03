@@ -1,0 +1,25 @@
+/**
+ * Styling overrides for Ember Paper Material Design default styles
+ */
+
+.md-button {
+  border-radius: 5px;
+  padding: 2px 24px;
+  text-transform: none;
+  font-size: 16px;
+}
+
+.md-button.md-default-theme.md-accent.md-raised,
+.md-button.md-accent.md-raised {
+  background-color: color($accent, '700');
+  color: contrastColor($accent, '700');
+}
+
+.md-headline {
+  font-weight: bold;
+}
+
+md-list-item .md-avatar, md-list-item .md-list-item-inner .md-avatar {
+  width: 50px;
+  height: 50px;
+}

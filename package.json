@@ -1,8 +1,8 @@
 {
-  "name": "super-rentals",
+  "name": "authmaker-super-rentals",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for super-rentals goes here",
+  "description": "Small description for authmaker-super-rentals goes here",
   "license": "MIT",
   "author": "",
   "directories": {
@@ -19,7 +19,7 @@
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
-    "ember-cli": "~2.18.0",
+    "ember-cli": "~2.18.1",
     "ember-cli-app-version": "^3.0.0",
     "ember-cli-babel": "^6.6.0",
     "ember-cli-dependency-checker": "^2.0.0",
@@ -29,6 +29,7 @@
     "ember-cli-inject-live-reload": "^1.4.1",
     "ember-cli-mirage": "^0.4.1",
     "ember-cli-qunit": "^4.1.1",
+    "ember-cli-sass": "^7.1.4",
     "ember-cli-shims": "^1.2.0",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-tutorial-style": "^2.0.0",
@@ -37,8 +38,8 @@
     "ember-data": "~2.18.0",
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
+    "ember-paper": "^1.0.0-beta.4",
     "ember-resolver": "^4.0.0",
-    "ember-simple-google-maps": "^1.0.0",
     "ember-source": "~2.18.0",
     "eslint-plugin-ember": "^5.0.0",
     "loader.js": "^4.2.3"

@@ -1,0 +1,36 @@
+{{#paper-card as |card|}}
+
+  {{#card.title as |title|}}
+    {{#title.text as |text|}}
+      {{#text.headline}}Create a New Rental{{/text.headline}}
+    {{/title.text}}
+  {{/card.title}}
+
+  {{#card.content}}
+    {{#paper-form onSubmit=(action "createRental") as |form|}}
+      <div class="layout-row">
+        <div class="layout-column flex-50">
+          {{form.input label="Property Name" value=title onChange=(action (mut title)) required=true}}
+          {{form.input label="City" value=city onChange=(action (mut city)) required=true}}
+        </div>
+        <div class="layout-column flex-50">
+          {{#form.select label="Property Type" options=categoryOptions selected=category onChange=(action (mut category)) required=true as |category|}}{{category}}{{/form.select}}
+          {{form.input label="Number of Bedrooms" type="number" min="0" value=bedrooms onChange=(action (mut bedrooms)) required=true}}
+        </div>
+      </div>
+      <div class="layout-row">
+        {{form.input textarea=true class="flex" label="Description" maxlength=250 passThru=(hash rows=1 maxRows=3) value=description onChange=(action (mut description))}}
+      </div>
+      <div class="layout-row">
+        {{#form.submit-button raised=true accent=true}}Submit{{/form.submit-button}}
+        {{#if hasError}}
+          <div class="alert alert--error layout-row">
+            {{paper-icon 'warning'}}
+            <span><b>Error:</b> {{hasError.message}}</span>
+          </div>
+        {{/if}}
+      </div>
+    {{/paper-form}}
+  {{/card.content}}
+
+{{/paper-card}}

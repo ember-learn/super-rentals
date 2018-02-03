@@ -1,0 +1,80 @@
+/**
+ * Ember Paper color palette
+ */
+$primary: 'deep-orange';
+$accent: 'light-blue';
+$warn: 'amber';
+
+
+@import 'ember-paper';
+
+
+/**
+ * Styling overrides for ember-cli-tutorial-style
+ */
+@import 'overrides/tutorial-css-overrides';
+
+
+/**
+ * Styling overrides for Ember Paper Material Design default styles
+ */
+ @import 'overrides/md-overrides';
+
+
+ /**
+  * App styles
+  */
+.alert {
+    margin: 6px 8px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: color($accent, '100');
+    color: contrastColor($accent, '100');
+    text-align: center;
+
+  &--error {
+    background-color: color($warn, '200');
+    color: contrastColor($warn, '200');
+    text-align: left;
+  }
+
+  md-icon {
+    color: contrastColor($warn, '200');
+    margin-right: 12px;
+  }
+}
+
+.edit-rental {
+  padding: 12px 24px
+}
+
+.edit-rental-listing {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  h3 {
+    color: #2185D0;
+  }
+  .rental-details {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  .rental-detail {
+    margin-bottom: 0;
+    font-style: italic;
+
+    span {
+      font-style: normal;
+      margin-right: 4px;
+    }
+
+  }
+}
+
+.prompt-title {
+  margin-bottom: 15px;
+}
+
+.edit-rental-dialog {
+  width: 100%;
+}

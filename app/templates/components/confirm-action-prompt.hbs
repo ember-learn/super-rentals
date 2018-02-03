@@ -1,0 +1,15 @@
+{{#if showPromptDialog}}
+  {{#paper-dialog fullscreen=fullscreen onClose=(action "closePromptDialog" "cancel")}}
+    {{#paper-dialog-content}}
+      <h2 class="md-headline prompt-title">Are you sure?</h2>
+      {{yield}}
+      <h4>Please confirm to proceed.</h4>
+    {{/paper-dialog-content}}
+
+    {{#paper-dialog-actions class="layout-row" }}
+      <span class="flex"></span>
+      {{#paper-button raised=true onClick=(action "closePromptDialog" "cancel")}}Cancel{{/paper-button}}
+      {{#paper-button accent=true raised=true onClick=(action "closePromptDialog" "ok")}}Confirm{{/paper-button}}
+    {{/paper-dialog-actions}}
+  {{/paper-dialog}}
+{{/if}}
