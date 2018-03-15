@@ -1,18 +1,11 @@
 import { run } from '@ember/runloop';
 import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
-import startMirage from '../../../helpers/setup-mirage-for-unit-test';
+import setupMirage from 'ember-cli-mirage/test-support/setup-mirage';
 
 module('Unit | Route | rentals/index', function(hooks) {
   setupTest(hooks);
-
-  hooks.beforeEach(function() {
-    startMirage(this.container);
-  });
-
-  hooks.afterEach(function() {
-    window.server.shutdown();
-  });
+  setupMirage(hooks);
 
   test('should load all rentals', function(assert) {
     let route = this.owner.lookup('route:rentals/index');

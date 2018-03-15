@@ -1,6 +1,7 @@
 import Service from '@ember/service';
 import { module, test } from 'qunit';
 import { setupApplicationTest } from 'ember-qunit';
+import setupMirage from 'ember-cli-mirage/test-support/setup-mirage';
 import {
   click,
   currentURL,
@@ -17,6 +18,7 @@ let StubMapsService = Service.extend({
 
 module('Acceptance | list rentals', function(hooks) {
   setupApplicationTest(hooks);
+  setupMirage(hooks);
 
   hooks.beforeEach(function() {
     this.owner.register('service:maps', StubMapsService);
