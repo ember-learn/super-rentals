@@ -40,7 +40,7 @@
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-resolver": "^4.0.0",
     "ember-simple-google-maps": "^1.0.0",
-    "ember-source": "~3.0.0",
+    "ember-source": "~3.1.0-beta",
     "eslint-plugin-ember": "^5.0.0",
     "loader.js": "^4.2.3"
   },
