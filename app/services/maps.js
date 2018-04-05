@@ -5,6 +5,7 @@ import MapUtil from '../utils/google-maps';
 
 export default Service.extend({
   init() {
+    this._super(...arguments);
     if (!this.get('cachedMaps')) {
       this.set('cachedMaps', EmberObject.create());
     }
