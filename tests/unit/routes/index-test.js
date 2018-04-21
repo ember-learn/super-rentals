@@ -1,12 +1,15 @@
-import { moduleFor, test } from 'ember-qunit';
+import { module, test } from 'qunit';
+import { setupTest } from 'ember-qunit';
 
-moduleFor('route:index', 'Unit | Route | index');
+module('Unit | Route | index', function(hooks) {
+  setupTest(hooks);
 
-test('should transition to rentals route', function(assert) {
-  let route = this.subject({
-    replaceWith(routeName) {
-      assert.equal(routeName, 'rentals', 'transition to route name rentals');
-    }
+  test('should transition to rentals route', function(assert) {
+    let route = this.owner.factoryFor('route:index').create({
+      replaceWith(routeName) {
+        assert.equal(routeName, 'rentals', 'transition to route name rentals');
+      }
+    });
+    route.beforeModel();
   });
-  route.beforeModel();
 });

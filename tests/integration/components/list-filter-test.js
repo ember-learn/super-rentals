@@ -1,68 +1,72 @@
-import { moduleForComponent, test } from 'ember-qunit';
+import { module, test } from 'qunit';
+import { setupRenderingTest } from 'ember-qunit';
+import { render, settled, triggerKeyEvent } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
-import RSVP from 'rsvp';
-import wait from 'ember-test-helpers/wait';
+import { resolve } from 'rsvp';
 
-moduleForComponent('list-filter', 'Integration | Component | list filter', {
-  integration: true
-});
+module('Integration | Component | list filter', function(hooks) {
+  setupRenderingTest(hooks);
 
-const ITEMS = [{city: 'San Francisco'}, {city: 'Portland'}, {city: 'Seattle'}];
-const FILTERED_ITEMS = [{city: 'San Francisco'}];
-
-test('should initially load all listings', function (assert) {
-  assert.expect(2);
-  this.on('filterByCity', () => {
-    return RSVP.resolve({ results: ITEMS });
+  hooks.beforeEach(function() {
+    this.actions = {};
+    this.send = (actionName, ...args) => this.actions[actionName].apply(this, args);
   });
 
-  this.render(hbs`
-    {{#list-filter filter=(action 'filterByCity') as |rentals|}}
-      <ul>
-      {{#each rentals as |item|}}
-        <li class="city">
-          {{item.city}}
-        </li>
-      {{/each}}
-      </ul>
-    {{/list-filter}}
-  `);
+  const ITEMS = [{city: 'San Francisco'}, {city: 'Portland'}, {city: 'Seattle'}];
+  const FILTERED_ITEMS = [{city: 'San Francisco'}];
 
-  return wait().then(() => {
-    assert.equal(this.$('.city').length, 3);
-    assert.equal(this.$('.city').first().text().trim(), 'San Francisco');
-  });
-});
+  test('should initially load all listings', async function(assert) {
+    assert.expect(2);
+    this.set('filterByCity', () => resolve({ results: ITEMS }));
 
-test('should update with matching listings', function (assert) {
-  this.on('filterByCity', (val) => {
-    if (val === '') {
-      return RSVP.resolve({
-        query: val,
-        results: ITEMS });
-    } else {
-      return RSVP.resolve({
-        query: val,
-        results: FILTERED_ITEMS });
-    }
+    await render(hbs`
+      {{#list-filter filter=(action filterByCity) as |rentals|}}
+        <ul>
+        {{#each rentals as |item|}}
+          <li class="city">
+            {{item.city}}
+          </li>
+        {{/each}}
+        </ul>
+      {{/list-filter}}
+    `);
+
+    return settled().then(() => {
+      assert.equal(this.element.querySelectorAll('.city').length, 3);
+      assert.equal(this.element.querySelector('.city').textContent.trim(), 'San Francisco');
+    });
   });
 
-  this.render(hbs`
-    {{#list-filter filter=(action 'filterByCity') as |rentals|}}
-      <ul>
-      {{#each rentals as |item|}}
-        <li class="city">
-          {{item.city}}
-        </li>
-      {{/each}}
-      </ul>
-    {{/list-filter}}
-  `);
+  test('should update with matching listings', async function(assert) {
+    this.set('filterByCity', (val) => {
+      if (val === '') {
+        return resolve({
+          query: val,
+          results: ITEMS });
+      } else {
+        return resolve({
+          query: val,
+          results: FILTERED_ITEMS });
+      }
+    });
+    await render(hbs`
+      {{#list-filter filter=(action filterByCity) as |rentals|}}
+        <ul>
+        {{#each rentals as |item|}}
+          <li class="city">
+            {{item.city}}
+          </li>
+        {{/each}}
+        </ul>
+      {{/list-filter}}
+    `);
 
-  this.$('.list-filter input').val('San').keyup();
 
-  return wait().then(() => {
-    assert.equal(this.$('.city').length, 1);
-    assert.equal(this.$('.city').text().trim(), 'San Francisco');
+    await triggerKeyEvent(this.element.querySelector('.list-filter input'), "keyup", 83);
+
+    return settled().then(() => {
+      assert.ok(this.element.querySelector('.city'), 'one result found');
+      assert.equal(this.element.querySelector('.city').textContent.trim(), 'San Francisco');
+    });
   });
 });
