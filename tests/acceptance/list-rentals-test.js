@@ -29,14 +29,13 @@ module('Acceptance | list rentals', function(hooks) {
     assert.equal(currentURL(), '/rentals', 'should redirect automatically');
   });
 
-
-  test('should link to about page', async function(assert) {
+  test('should link to information about the company', async function(assert) {
     await visit('/');
     await click(".menu-about");
     assert.equal(currentURL(), '/about', 'should navigate to about');
   });
 
-  test('should link to contacts page', async function(assert) {
+  test('should link to contact information', async function(assert) {
     await visit('/');
     await click(".menu-contact");
     assert.equal(currentURL(), '/contact', 'should navigate to contact');
@@ -51,7 +50,7 @@ module('Acceptance | list rentals', function(hooks) {
     await visit('/');
     await fillIn('.list-filter input', 'seattle');
     await triggerKeyEvent('.list-filter input', 'keyup', 69);
-    assert.ok(this.element.querySelector('.results .listing'), 'should display 1 listing');
+      assert.ok(this.element.querySelectorAll('.results .listing').length, 1, 'should display 1 listing');
     assert.ok(this.element.querySelector('.listing .location').textContent.includes('Seattle'), 'should contain 1 listing with location Seattle');
   });
 
