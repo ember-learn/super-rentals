@@ -9,6 +9,7 @@ import {
   fillIn,
   triggerKeyEvent
 } from '@ember/test-helpers'
+import { percySnapshot } from 'ember-percy';
 
 let StubMapsService = Service.extend({
   getMapElement() {
@@ -27,23 +28,27 @@ module('Acceptance | list rentals', function(hooks) {
   test('should redirect to rentals route', async function(assert) {
     await visit('/');
     assert.equal(currentURL(), '/rentals', 'should redirect automatically');
+    percySnapshot('Application header menu', { scope: '.menu' });
   });
 
   test('should link to information about the company', async function(assert) {
     await visit('/');
     await click(".menu-about");
     assert.equal(currentURL(), '/about', 'should navigate to about');
+    percySnapshot(assert);
   });
 
   test('should link to contact information', async function(assert) {
     await visit('/');
     await click(".menu-contact");
     assert.equal(currentURL(), '/contact', 'should navigate to contact');
+    percySnapshot(assert);
   });
 
   test('should list available rentals', async function(assert) {
     await visit('/');
     assert.equal(this.element.querySelectorAll('.results .listing').length, 3, 'should display 3 listings');
+    percySnapshot(assert);
   });
 
   test('should filter the list of rentals by city', async function(assert) {
@@ -52,6 +57,7 @@ module('Acceptance | list rentals', function(hooks) {
     await triggerKeyEvent('.list-filter input', 'keyup', 69);
       assert.ok(this.element.querySelectorAll('.results .listing').length, 1, 'should display 1 listing');
     assert.ok(this.element.querySelector('.listing .location').textContent.includes('Seattle'), 'should contain 1 listing with location Seattle');
+    percySnapshot(assert);
   });
 
   test('should show details for a specific rental', async function(assert) {
@@ -60,5 +66,6 @@ module('Acceptance | list rentals', function(hooks) {
     assert.equal(currentURL(), '/rentals/grand-old-mansion', "should navigate to show route");
     assert.ok(this.element.querySelector('.show-listing h2').textContent.includes("Grand Old Mansion"), 'should list rental title');
     assert.ok(this.element.querySelector('.show-listing .description'), 'should list a description of the property');
+    percySnapshot(assert);
   });
 });
