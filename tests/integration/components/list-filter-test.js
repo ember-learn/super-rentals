@@ -4,7 +4,7 @@ import { render, settled, triggerKeyEvent } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
 import { resolve } from 'rsvp';
 
-module('Integration | Component | list filter', function(hooks) {
+module('Integration | Component | list-filter', function(hooks) {
   setupRenderingTest(hooks);
 
   hooks.beforeEach(function() {
