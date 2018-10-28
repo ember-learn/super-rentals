@@ -33,7 +33,7 @@ module('Integration | Component | list-filter', function(hooks) {
 
     return settled().then(() => {
       assert.equal(this.element.querySelectorAll('.city').length, 3);
-      assert.equal(this.element.querySelector('.city').textContent.trim(), 'San Francisco');
+      assert.dom(this.element.querySelector('.city')).hasText('San Francisco');
     });
   });
 
@@ -66,7 +66,7 @@ module('Integration | Component | list-filter', function(hooks) {
 
     return settled().then(() => {
       assert.ok(this.element.querySelector('.city'), 'one result found');
-      assert.equal(this.element.querySelector('.city').textContent.trim(), 'San Francisco');
+      assert.dom(this.element.querySelector('.city')).hasText('San Francisco');
     });
   });
 });
