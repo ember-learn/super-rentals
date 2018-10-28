@@ -6,15 +6,15 @@ export default Component.extend({
 
   init() {
     this._super(...arguments);
-    this.get('filter')('').then((allResults) => this.set('results', allResults.results));
+    this.filter('').then((allResults) => this.set('results', allResults.results));
   },
 
   actions: {
     handleFilterEntry() {
-      let filterInputValue = this.get('value');
-      let filterAction = this.get('filter');
+      let filterInputValue = this.value;
+      let filterAction = this.filter;
       filterAction(filterInputValue).then((resultsObj) => {
-        if (resultsObj.query === this.get('value')) {
+        if (resultsObj.query === this.value) {
           this.set('results', resultsObj.results);
         }
       });
