@@ -42,7 +42,7 @@
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-qunit": "^3.4.1",
     "ember-resolver": "^5.0.1",
-    "ember-simple-leaflet-maps": "*",
+    "ember-simple-leaflet-maps": "^0.0.1",
     "ember-source": "~3.5.0",
     "eslint-plugin-ember": "^5.2.0",
     "loader.js": "^4.7.0",
