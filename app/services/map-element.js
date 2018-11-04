@@ -1,5 +1,5 @@
 import { camelize } from '@ember/string';
-import EmberObject, { get, set } from '@ember/object';
+import { get, set } from '@ember/object';
 import Service from '@ember/service';
 import { inject as service } from '@ember/service';
 
@@ -9,8 +9,10 @@ export default Service.extend({
   map: service(),
 
   init() {
+    if (!this.cachedMaps) {
+      set(this, 'cachedMaps', {});
+    }
     this._super(...arguments);
-    set(this, 'cachedMaps', EmberObject.create());
   },
 
   async getMapElement(location) {
