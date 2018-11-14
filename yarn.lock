@@ -3128,11 +3128,11 @@ ember-router-generator@^1.2.3:
   dependencies:
     recast "^0.11.3"
 
-ember-simple-google-maps@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/ember-simple-google-maps/-/ember-simple-google-maps-1.0.0.tgz#a4e216de12c5d04fca8f2953a8477a7c25887db8"
+ember-simple-leaflet-maps@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/ember-simple-leaflet-maps/-/ember-simple-leaflet-maps-0.0.2.tgz#25355d721c9e10e43486e088f28dc6c4adec26f8"
   dependencies:
-    ember-cli-babel "^6.0.0"
+    ember-cli-babel "^6.16.0"
 
 ember-source@~3.5.0:
   version "3.5.0"
