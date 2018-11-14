@@ -2,6 +2,7 @@ import Service from '@ember/service';
 import { module, test } from 'qunit';
 import { setupApplicationTest } from 'ember-qunit';
 import setupMirage from 'ember-cli-mirage/test-support/setup-mirage';
+import { resolve } from 'rsvp';
 import {
   click,
   currentURL,
@@ -12,7 +13,7 @@ import {
 
 let StubMapsService = Service.extend({
   getMapElement() {
-    return document.createElement('div');
+    return resolve(document.createElement('div'));
   }
 });
 
@@ -21,7 +22,7 @@ module('Acceptance | list rentals', function(hooks) {
   setupMirage(hooks);
 
   hooks.beforeEach(function() {
-    this.owner.register('service:maps', StubMapsService);
+    this.owner.register('service:map-element', StubMapsService);
   });
 
   test('should redirect to rentals route', async function(assert) {
