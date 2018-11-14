@@ -1,5 +1,5 @@
 import { camelize } from '@ember/string';
-import { get, set } from '@ember/object';
+import { set } from '@ember/object';
 import Service from '@ember/service';
 import { inject as service } from '@ember/service';
 
@@ -17,12 +17,12 @@ export default Service.extend({
 
   async getMapElement(location) {
     let camelizedLocation = camelize(location);
-    let element = get(this, `cachedMaps.${camelizedLocation}`);
+    let element = this.cachedMaps[camelizedLocation];
     if (!element) {
       element = this._createMapElement();
       let geocodedLocation = await this.geocode.fetchCoordinates(location);
       this.map.createMap(element, geocodedLocation);
-      set(this, `cachedMaps.${camelizedLocation}`, element);
+      this.cachedMaps[camelizedLocation] = element;
     }
     return element;
   },
