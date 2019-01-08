@@ -1,24 +1,28 @@
 <div class="jumbo show-listing">
-  <h2 class="title">{{model.title}}</h2>
+  <h2 class="title">{{this.model.title}}</h2>
   <div class="content">
     <div>
-      <img src={{model.image}} class="rental-pic" alt="Picture of {{model.title}}">
+      <img
+        src={{this.model.image}}
+        class="rental-pic"
+        alt="Picture of {{this.model.title}}"
+      >
     </div>
     <div class="detail-section">
       <div class="detail owner">
-        <strong>Owner:</strong> {{model.owner}}
+        <strong>Owner:</strong> {{this.model.owner}}
       </div>
       <div class="detail">
-        <strong>Type:</strong> {{rental-property-type model.category}} - {{model.category}}
+        <strong>Type:</strong> {{rental-property-type this.model.category}} - {{this.model.category}}
       </div>
       <div class="detail">
-        <strong>Location:</strong> {{model.city}}
+        <strong>Location:</strong> {{this.model.city}}
       </div>
       <div class="detail">
-        <strong>Number of bedrooms:</strong> {{model.bedrooms}}
+        <strong>Number of bedrooms:</strong> {{this.model.bedrooms}}
       </div>
       <div class="description">
-        <p>{{model.description}}</p>
+        <p>{{this.model.description}}</p>
       </div>
     </div>
   </div>
