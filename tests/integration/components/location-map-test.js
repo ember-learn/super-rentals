@@ -25,7 +25,7 @@ module('Integration | Component | location map', function(hooks) {
 
   test('should append map element to container element', async function(assert) {
     this.set('myLocation', 'New York');
-    await render(hbs`{{location-map location=myLocation}}`);
+    await render(hbs`<LocationMap @location={{myLocation}} />`);
     assert.ok(this.element.querySelector('.map-container > .map'), 'container should have map child');
     assert.equal(this.get('mapsService.calledWithLocation'), 'New York', 'should call service with New York');
   });

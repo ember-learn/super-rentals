@@ -27,14 +27,14 @@ module('Integration | Component | rental listing', function(hooks) {
   });
 
   test('should display rental details', async function(assert) {
-    await render(hbs`{{rental-listing rental=rental}}`);
+    await render(hbs`<RentalListing @rental={{rental}} />`);
     assert.dom(this.element.querySelector('.listing h3')).hasText('test-title', 'Title: test-title');
     assert.dom(this.element.querySelector('.listing .owner')).hasText('Owner: test-owner', 'Owner: test-owner');
   });
 
   test('should toggle wide class on click', async function(assert) {
     assert.expect(3);
-    await render(hbs`{{rental-listing rental=rental}}`);
+    await render(hbs `<RentalListing @rental={{rental}} />`);
     assert.notOk(this.element.querySelector('.image.wide'), 'initially rendered small');
     await click('.image');
     assert.ok(this.element.querySelector('.image.wide'), 'rendered wide after click');

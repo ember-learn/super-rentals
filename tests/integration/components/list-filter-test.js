@@ -20,15 +20,15 @@ module('Integration | Component | list-filter', function(hooks) {
     this.set('filterByCity', () => resolve({ results: ITEMS }));
 
     await render(hbs`
-      {{#list-filter filter=(action filterByCity) as |rentals|}}
+      <ListFilter @filter={{action filterByCity}} as |results|>
         <ul>
-        {{#each rentals as |item|}}
+        {{#each results as |item|}}
           <li class="city">
             {{item.city}}
           </li>
         {{/each}}
         </ul>
-      {{/list-filter}}
+      </ListFilter>
     `);
 
     return settled().then(() => {
@@ -50,15 +50,15 @@ module('Integration | Component | list-filter', function(hooks) {
       }
     });
     await render(hbs`
-      {{#list-filter filter=(action filterByCity) as |rentals|}}
+      <ListFilter @filter={{action filterByCity}} as |results|>
         <ul>
-        {{#each rentals as |item|}}
+        {{#each results as |item|}}
           <li class="city">
             {{item.city}}
           </li>
         {{/each}}
         </ul>
-      {{/list-filter}}
+      </ListFilter>
     `);
 
 
