@@ -22,5 +22,5 @@
       <span>Number of bedrooms:</span> {{this.rental.bedrooms}}
     </div>
   </div>
-  {{location-map location=this.rental.city}}
+  <LocationMap @location={{this.rental.city}}/>
 </article>
