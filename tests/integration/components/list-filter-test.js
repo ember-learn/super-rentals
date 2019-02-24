@@ -31,10 +31,10 @@ module('Integration | Component | list-filter', function(hooks) {
       </ListFilter>
     `);
 
-    return settled().then(() => {
-      assert.equal(this.element.querySelectorAll('.city').length, 3);
-      assert.dom(this.element.querySelector('.city')).hasText('San Francisco');
-    });
+    await settled();
+
+    assert.equal(this.element.querySelectorAll('.city').length, 3);
+    assert.dom(this.element.querySelector('.city')).hasText('San Francisco');
   });
 
   test('should update with matching listings', async function(assert) {
@@ -63,10 +63,9 @@ module('Integration | Component | list-filter', function(hooks) {
 
 
     await triggerKeyEvent(this.element.querySelector('.list-filter input'), "keyup", 83);
+    await settled();
 
-    return settled().then(() => {
-      assert.ok(this.element.querySelector('.city'), 'one result found');
-      assert.dom(this.element.querySelector('.city')).hasText('San Francisco');
-    });
+    assert.equal(this.element.querySelectorAll('.city').length, 1, 'One result returned');
+    assert.dom(this.element.querySelector('.city')).hasText('San Francisco');
   });
 });
