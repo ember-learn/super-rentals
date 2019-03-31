@@ -1,5 +1,8 @@
 <label for="filterByCity" class="screen-reader">Filter By City</label>
-{{input type="text" id="filterByCity" value=value key-up=(action 'handleFilterEntry') class="light" placeholder="Filter By City"}}
-
-
-{{yield results}}
+{{input
+  value=this.value
+  key-up=(action "handleFilterEntry")
+  class="light"
+  placeholder="Filter By City"
+}}
+{{yield this.results}}
