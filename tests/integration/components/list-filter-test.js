@@ -1,6 +1,6 @@
 import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
-import { render, settled, triggerKeyEvent } from '@ember/test-helpers';
+import { render, triggerKeyEvent, fillIn } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
 import { resolve } from 'rsvp';
 
@@ -31,10 +31,8 @@ module('Integration | Component | list-filter', function(hooks) {
       </ListFilter>
     `);
 
-    return settled().then(() => {
-      assert.equal(this.element.querySelectorAll('.city').length, 3);
-      assert.dom(this.element.querySelector('.city')).hasText('San Francisco');
-    });
+    assert.equal(this.element.querySelectorAll('.city').length, 3);
+    assert.dom(this.element.querySelector('.city')).hasText('San Francisco');
   });
 
   test('should update with matching listings', async function(assert) {
@@ -61,12 +59,10 @@ module('Integration | Component | list-filter', function(hooks) {
       </ListFilter>
     `);
 
-
+    await fillIn(this.element.querySelector('.list-filter input'),'s');
     await triggerKeyEvent(this.element.querySelector('.list-filter input'), "keyup", 83);
 
-    return settled().then(() => {
-      assert.ok(this.element.querySelector('.city'), 'one result found');
-      assert.dom(this.element.querySelector('.city')).hasText('San Francisco');
-    });
+    assert.equal(this.element.querySelectorAll('.city').length, 1, 'One result returned');
+    assert.dom(this.element.querySelector('.city')).hasText('San Francisco');
   });
 });
