@@ -63,22 +63,24 @@ module('Acceptance | list rentals', function(hooks) {
     assert.ok(this.element.querySelector('.show-listing h2').textContent.includes("Grand Old Mansion"), 'should list rental title');
     assert.ok(this.element.querySelector('.show-listing .description'), 'should list a description of the property');
   });
+
+
+  /*
+    a11yAudit is a special feature of the ember-a11y-testing addon. It helps identify
+    accessibility issues in an app and recommends solutions. For more information,
+    visit https://github.com/ember-a11y/ember-a11y-testing
+  */
+
+  test('accessibility check of rentals route', async function (assert) {
+  await visit('/rentals');
+  await a11yAudit();
+  assert.ok(true, 'no a11y errors found!');
 });
 
-/*
-a11yAudit is a special feature of the ember-a11y-testing addon. It helps identify
-accessibility issues in an app and recommends solutions. For more information,
-visit https://github.com/ember-a11y/ember-a11y-testing
-*/
-
-test('accessibility check of rentals route', function (assert) {
-  visit('/rentals');
-  a11yAudit();
-  andThen(() => assert.ok(true, 'no a11y errors found!'));
+test('accessibility check of rentals/:id route', async function (assert) {
+  await visit('/rentals/grand-old-mansion');
+  await a11yAudit();
+  assert.ok(true, 'no a11y errors found!');
 });
 
-test('accessibility check of rentals/:id route', function (assert) {
-  visit('/rentals/grand-old-mansion');
-  a11yAudit();
-  andThen(() => assert.ok(true, 'no a11y errors found!'));
 });

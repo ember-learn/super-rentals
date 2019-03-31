@@ -28,8 +28,8 @@ body {
 }
 
 a {
-    color: #016aba;
-    text-decoration: none;
+  color: #016aba;
+  text-decoration: none;
 }
 
 p {
@@ -41,15 +41,16 @@ p {
  */
 
 .button {
-    padding: 10px 30px 10px;
-    text-decoration: none;
-    color: #fff;
-    background: #016aba;
-    border-radius: 5px;
-    border: none;
-    font-size: 20px;
-    font-weight: bold;
-    opacity: 0.9;
+  padding: 10px 30px 10px;
+  text-decoration: none;
+  color: #fff;
+  background: #016aba;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0.9;
+  display: inline-block;
 }
 
 .button:hover {
@@ -77,9 +78,9 @@ p {
 }
 
 .menu h1 {
-    padding: 7px 0 0 20px;
-    color: #f9f9f9;
-    font-size: 1.8em;
+  padding: 7px 0 0 20px;
+  color: #f9f9f9;
+  font-size: 1.8em;
 }
 
 .menu h1 em {
@@ -93,11 +94,11 @@ p {
 }
 
 .menu a {
-    text-decoration: none;
-    padding: 0 15px;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
+  text-decoration: none;
+  padding: 0 15px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .menu a:hover,
@@ -190,7 +191,8 @@ p {
   margin-top: -25px;
 }
 
-.jumbo p {
+.jumbo p,
+.jumbo address {
   margin-bottom: 25px;
 }
 
@@ -200,6 +202,7 @@ p {
   top: -25px;
   right: -20px;
 }
+
 /**
  * Individual Listings
  */
