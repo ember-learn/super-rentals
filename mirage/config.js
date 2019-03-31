@@ -7,7 +7,7 @@ export default function() {
 
     Note: these only affect routes defined *after* them!
    */
-
+  this.passthrough('https://api.mapbox.com/**');
   this.namespace = '/api';
   let rentals = [
     {

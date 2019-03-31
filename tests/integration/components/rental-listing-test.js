@@ -1,26 +1,44 @@
-import EmberObject from '@ember/object';
-import { moduleForComponent, test } from 'ember-qunit';
+import { module, test } from 'qunit';
+import { setupRenderingTest } from 'ember-qunit';
+import { render, click } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
+import Service from '@ember/service';
+import { resolve } from 'rsvp';
 
-moduleForComponent('rental-listing', 'Integration | Component | rental listing', {
-  integration: true
+let StubMapsService = Service.extend({
+  getMapElement() {
+    return resolve(document.createElement('div'));
+  }
 });
 
-test('should toggle wide class on click', function(assert) {
-  assert.expect(3);
-  let stubRental = EmberObject.create({
-    image: 'fake.png',
-    title: 'test-title',
-    owner: 'test-owner',
-    type: 'test-type',
-    city: 'test-city',
-    bedrooms: 3
+module('Integration | Component | rental listing', function(hooks) {
+  setupRenderingTest(hooks);
+
+  hooks.beforeEach(function () {
+    this.owner.register('service:map-element', StubMapsService);
+    this.rental = {
+      image: 'fake.png',
+      title: 'test-title',
+      owner: 'test-owner',
+      type: 'test-type',
+      city: 'test-city',
+      bedrooms: 3
+    };
   });
-  this.set('rentalObj', stubRental);
-  this.render(hbs`{{rental-listing rental=rentalObj}}`);
-  assert.equal(this.$('.image.wide').length, 0, 'initially rendered small');
-  this.$('.image').click();
-  assert.equal(this.$('.image.wide').length, 1, 'rendered wide after click');
-  this.$('.image').click();
-  assert.equal(this.$('.image.wide').length, 0, 'rendered small after second click');
+
+  test('should display rental details', async function(assert) {
+    await render(hbs`<RentalListing @rental={{rental}} />`);
+    assert.dom(this.element.querySelector('.listing h3')).hasText('test-title', 'Title: test-title');
+    assert.dom(this.element.querySelector('.listing .owner')).hasText('Owner: test-owner', 'Owner: test-owner');
+  });
+
+  test('should toggle wide class on click', async function(assert) {
+    assert.expect(3);
+    await render(hbs `<RentalListing @rental={{rental}} />`);
+    assert.notOk(this.element.querySelector('.image.wide'), 'initially rendered small');
+    await click('.image');
+    assert.ok(this.element.querySelector('.image.wide'), 'rendered wide after click');
+    await click('.image');
+    assert.notOk(this.element.querySelector('.image.wide'), 'rendered small after second click');
+  });
 });
