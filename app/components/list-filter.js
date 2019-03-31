@@ -11,9 +11,7 @@ export default Component.extend({
 
   actions: {
     handleFilterEntry() {
-      let filterInputValue = this.value;
-      let filterAction = this.filter;
-      filterAction(filterInputValue).then((resultsObj) => {
+      this.filter(this.value).then((resultsObj) => {
         if (resultsObj.query === this.value) {
           this.set('results', resultsObj.results);
         }
