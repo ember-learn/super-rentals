@@ -3,6 +3,10 @@ import Component from '@ember/component';
 
 export default Component.extend({
   classNames: ['map-container'],
+  attributeBindings: ['aria-hidden:ariaHidden', 'tabindex'],
+  ariaHidden: 'true',
+  tabindex: '-1',
+
   mapElement: service(),
 
   didInsertElement() {
