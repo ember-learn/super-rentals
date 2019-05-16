@@ -1,10 +1,12 @@
 <div class="container">
-  <div class="menu">
-    {{#link-to "index"}}
-      <h1>
-        <em>SuperRentals</em>
-      </h1>
-    {{/link-to}}
+  <div class="menu" role="navigation">
+    <h1 style="display:inline-block;">
+      <em>
+        {{#link-to "index"}}
+          SuperRentals
+        {{/link-to}}
+      </em>
+    </h1>
     <div class="links">
       {{#link-to "about" class="menu-about"}}
         About
@@ -14,7 +16,7 @@
       {{/link-to}}
     </div>
   </div>
-  <div class="body">
+  <div class="body" role="main">
     {{outlet}}
   </div>
 </div>
