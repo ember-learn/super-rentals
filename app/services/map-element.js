@@ -29,7 +29,7 @@ export default Service.extend({
 
   _createMapElement() {
     let element = document.createElement('div');
-    element.className = 'map';
+    element.className = 'map-img';
     return element;
   },
 });

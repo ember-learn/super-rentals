@@ -1,5 +1,4 @@
-<ListFilter role="search" @filter={{action "filterByCity"}} as |filteredResults|>
-  <span class="screen-reader" role="status">{{filteredResults.length}} results found</span>
+<ListFilter @filter={{action "filterByCity"}} as |filteredResults|>
   <ul class="results">
     {{#each filteredResults as |rentalUnit|}}
       <li><RentalListing @rental={{rentalUnit}} /></li>

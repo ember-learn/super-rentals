@@ -1,14 +1,22 @@
 <article class="listing">
-  <a
-    onclick={{action "toggleImageSize"}}
-    class="image {{if this.isWide "wide"}}"
-    role="button"
-  >
-    <img src={{this.rental.image}}  alt={{this.rental.title}}>
-    <small>View Larger</small>
-  </a>
-  <div class="details">
-    <h3>{{link-to this.rental.title "rentals.show" this.rental class=this.rental.id}}</h3>
+  <header>
+    <h3>
+      {{link-to this.rental.title "rentals.show" this.rental class=this.rental.id}}
+    </h3>
+  </header>
+  <section class="picture {{if this.isWide "wide"}}">
+    <a onclick={{action "toggleImageSize"}} class="image" role="button">
+      <img src={{this.rental.image}} alt="Photograph of {{this.rental.title}}">
+      <small>
+        {{#if this.isWide}}
+          Show Smaller Image
+        {{else}}
+          Show Larger Image
+        {{/if}}
+      </small>
+    </a>
+  </section>
+  <section class="details">
     <div class="detail owner">
       <span>Owner:</span> {{this.rental.owner}}
     </div>
@@ -21,11 +29,14 @@
     <div class="detail bedrooms">
       <span>Number of bedrooms:</span> {{this.rental.bedrooms}}
     </div>
-  </div>
-  <LocationMap @location={{this.rental.city}}
-    class="map-container"
-    aria-hidden="true"
-    tabindex="-1"
-    role="presentation"
-  />
+  </section>
+  <section class="map">
+    <LocationMap
+      @location={{this.rental.city}}
+      class="map-container"
+      aria-hidden="true"
+      tabindex="-1"
+      role="presentation"
+    />
+  </section>
 </article>

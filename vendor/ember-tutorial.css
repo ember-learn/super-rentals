@@ -80,12 +80,16 @@ p {
 .menu h1 {
   padding: 7px 0 0 20px;
   color: #f9f9f9;
-  font-size: 1.8em;
+  display: inline-block;
 }
 
 .menu h1 em {
   position: relative;
   left: -12px;
+}
+
+.menu h1 em a {
+  font-size: 1.1em;
 }
 
 .menu a,
@@ -97,7 +101,7 @@ p {
   text-decoration: none;
   padding: 0 15px;
   color: #fff;
-  font-size: 20px;
+  font-size: 1.2em;
   font-weight: bold;
 }
 
@@ -122,6 +126,11 @@ p {
   margin: 50px auto;
   background-color: rgba(255, 255, 255, 0.75);
   border: solid 1px lightgray;
+  display: block;
+}
+
+.list-filter .result-status {
+  text-align: center;
   display: block;
 }
 
@@ -210,7 +219,7 @@ p {
 .listing {
   margin-top: 15px;
   background-color: #f6f6f6;
-  padding: 15px 50px;
+  padding: 15px 10px;
   min-height: 200px;
   display: flex;
   justify-content: space-between;
@@ -221,35 +230,47 @@ p {
   background-color: #f3f3f3;
 }
 
-.listing img {
-  height: 100px;
-  float: left;
-  padding-right: 45px;
-  border-radius: 5px;
+.listing header {
+  flex: 100%;
+  flex-grow: 4;
 }
 
-.listing a.image.wide {
+.listing .picture {
+  float: left;
+  padding-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.listing .picture img {
+  height: 100px;
+}
+
+.listing .picture.wide {
   flex: 100%;
-  flex-grow: 3;
+  flex-grow: 4;
   max-width: 100%;
   position: relative;
-  z-index: 999;
+  z-index: 4;
+  padding: 10px 10px 0 10px;
 }
 
-.listing .wide img {
+.listing .picture.wide img {
   height: initial;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
-.listing .wide small {
-  display: none;
+.listing .picture small {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.listing a.image {
+.listing .picture a.image {
   cursor: pointer;
   margin: auto;
-  flex: 25%;
+  flex: 20%;
   flex-grow:1;
 }
 
@@ -262,26 +283,23 @@ p {
 
 .listing h3 {
   flex: 100%;
-  flex-grow: 2;
-}
-
-.listing h3 a {
-  display: inline;
-}
-
-.listing .map-container {
-  flex-grow:1;
-  flex: 25%;
+  flex-grow: 4;
+  padding: 10px 0 0 244px;
 }
 
 .listing .map {
+  flex-grow:1;
+  flex: 20%;
+}
+
+.listing .map-img {
   height: 180px;
   width: 200px;
 }
 
 .listing .details {
   flex-grow: 2;
-  flex: 50%;
+  flex: 40%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

@@ -5,5 +5,7 @@
   key-up=(action "handleFilterEntry")
   class="light"
   placeholder="Filter By City"
+  role="search"
 }}
+<span class="result-status" role="status">{{this.results.length}} results found {{if this.value (concat "for \"" this.value "\"")}}</span>
 {{yield this.results}}
