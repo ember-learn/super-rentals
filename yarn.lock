@@ -4127,9 +4127,10 @@ ember-router-generator@^1.2.3:
   dependencies:
     recast "^0.11.3"
 
-ember-simple-leaflet-maps@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/ember-simple-leaflet-maps/-/ember-simple-leaflet-maps-0.0.2.tgz#25355d721c9e10e43486e088f28dc6c4adec26f8"
+ember-simple-leaflet-maps@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/ember-simple-leaflet-maps/-/ember-simple-leaflet-maps-0.0.3.tgz#9fe78ae2e7f572bd35fb2824d902d022826ca482"
+  integrity sha512-/PJ/m28oBq4NtV4lCu33VxXiKTWrH+My1ByI5ulosLRbEyjONBYAe+hlSes7DpVg5ENWO3nZnbAAi9ACjEsmBA==
   dependencies:
     ember-cli-babel "^6.16.0"
 
