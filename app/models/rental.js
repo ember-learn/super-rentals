@@ -1,6 +1,7 @@
 import DS from 'ember-data';
+const { Model } = DS;
 
-export default DS.Model.extend({
+export default Model.extend({
   title: DS.attr(),
   owner: DS.attr(),
   city: DS.attr(),
