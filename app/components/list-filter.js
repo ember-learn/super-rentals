@@ -1,22 +1,29 @@
-import Component from '@ember/component';
+import Component from '@glimmer/component';
+import { tracked } from '@glimmer/tracking';
+import { action } from '@ember/object';
 
-export default Component.extend({
-  classNames: ['list-filter'],
-  value: '',
+export default class ListFilterComponent extends Component {
+  @tracked results;
 
-  init() {
-    this._super(...arguments);
-    this.filter('').then((allResults) => this.set('results', allResults.results));
-  },
+  constructor(...args) {
+    super(...args);
 
-  actions: {
-    handleFilterEntry() {
-      this.filter(this.value).then((resultsObj) => {
-        if (resultsObj.query === this.value) {
-          this.set('results', resultsObj.results);
-        }
-      });
-    }
+    this.filter();
   }
 
-});
+  @action
+  handleFilterEntry(event) {
+    this.filter(event.target.value);
+  }
+
+  async filter(value) {
+    let filterAction = this.args.filter;
+
+    this.queriedValue = value;
+    let { query, results } = await filterAction(value);
+
+    if (query === this.queriedValue) {
+      this.results = results;
+    }
+  }
+}

@@ -1,17 +1,17 @@
 <div class="container">
   <div class="menu">
-    {{#link-to "index"}}
+    <LinkTo @route="index">
       <h1>
         <em>SuperRentals</em>
       </h1>
-    {{/link-to}}
+    </LinkTo>
     <div class="links">
-      {{#link-to "about" class="menu-about"}}
+      <LinkTo @route="about" class="menu-about">
         About
-      {{/link-to}}
-      {{#link-to "contact" class="menu-contact"}}
+      </LinkTo>
+      <LinkTo @route="contact" class="menu-contact">
         Contact
-      {{/link-to}}
+      </LinkTo>
     </div>
   </div>
   <div class="body">
