@@ -8,6 +8,7 @@ module.exports = function(environment) {
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
+        EMBER_METAL_TRACKED_PROPERTIES: true
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
       },
