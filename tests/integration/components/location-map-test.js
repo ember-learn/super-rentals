@@ -3,19 +3,17 @@ import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
 import { render } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
-import { resolve } from 'rsvp';
 
 let StubMapsService = Service.extend({
-
   getMapElement(location) {
     this.set('calledWithLocation', location);
     let element = document.createElement('div');
     element.className = 'map';
-    return resolve(element);
+    return Promise.resolve(element);
   }
 });
 
-module('Integration | Component | location map', function(hooks) {
+module('Integration | Component | location-map', function(hooks) {
   setupRenderingTest(hooks);
 
   hooks.beforeEach(function() {

@@ -1,40 +1,40 @@
+import Service from '@ember/service';
 import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
 import { render, click } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
-import Service from '@ember/service';
-import { resolve } from 'rsvp';
+import EmberObject from '@ember/object';
+
 
 let StubMapsService = Service.extend({
   getMapElement() {
-    return resolve(document.createElement('div'));
+    return Promise.resolve(document.createElement('div'));
   }
 });
 
-module('Integration | Component | rental listing', function(hooks) {
+module('Integration | Component | rental-listing', function(hooks) {
   setupRenderingTest(hooks);
 
-  hooks.beforeEach(function () {
+  hooks.beforeEach(function() {
     this.owner.register('service:map-element', StubMapsService);
-    this.rental = {
+    this.rental = EmberObject.create({
       image: 'fake.png',
       title: 'test-title',
       owner: 'test-owner',
       type: 'test-type',
       city: 'test-city',
       bedrooms: 3
-    };
+    });
   });
 
   test('should display rental details', async function(assert) {
-    await render(hbs`<RentalListing @rental={{rental}} />`);
-    assert.dom(this.element.querySelector('.listing h3')).hasText('test-title', 'Title: test-title');
-    assert.dom(this.element.querySelector('.listing .owner')).hasText('Owner: test-owner', 'Owner: test-owner');
+    await render(hbs`<RentalListing @rental={{this.rental}} />`);
+    assert.equal(this.element.querySelector('.listing h3').textContent.trim(), 'test-title', 'Title: test-title');
+    assert.equal(this.element.querySelector('.listing .owner').textContent.trim(), 'Owner: test-owner', 'Owner: test-owner');
   });
 
   test('should toggle wide class on click', async function(assert) {
-    assert.expect(3);
-    await render(hbs `<RentalListing @rental={{rental}} />`);
+    await render(hbs`<RentalListing @rental={{this.rental}} />`);
     assert.notOk(this.element.querySelector('.image.wide'), 'initially rendered small');
     await click('.image');
     assert.ok(this.element.querySelector('.image.wide'), 'rendered wide after click');
