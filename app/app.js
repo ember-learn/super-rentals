@@ -12,3 +12,4 @@ const App = Application.extend({
 loadInitializers(App, config.modulePrefix);
 
 export default App;
+

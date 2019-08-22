@@ -8,9 +8,9 @@ module.exports = function(environment) {
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
-        EMBER_METAL_TRACKED_PROPERTIES: true
         // Here you can enable experimental features on an ember canary build
-        // e.g. 'with-controller': true
+        // e.g. EMBER_MODULE_UNIFICATION: true
+        EMBER_METAL_TRACKED_PROPERTIES: true
       },
       EXTEND_PROTOTYPES: {
         // Prevent Ember Data from overriding Date.parse.
@@ -25,10 +25,6 @@ module.exports = function(environment) {
   };
 
   if (environment === 'development') {
-    ENV['ember-cli-mirage'] = {
-      enabled: true,
-      autostart: true
-    };
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
@@ -49,11 +45,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    // use mirage in production too since the app will break
-    // if there is no API for Ember Data
-    ENV['ember-cli-mirage'] = {
-      enabled: true
-    }
+    // here you can enable a production-specific feature
   }
 
   return ENV;

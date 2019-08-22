@@ -3,14 +3,15 @@ language: node_js
 node_js:
   - "8"
 
-sudo: required
+sudo: false
 dist: trusty
 
 addons:
   chrome: stable
 
 cache:
-  yarn: true
+  directories:
+    - $HOME/.npm
 
 env:
   global:
