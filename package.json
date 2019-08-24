@@ -23,7 +23,7 @@
     "babel-eslint": "^10.0.2",
     "broccoli-asset-rev": "^3.0.0",
     "ember-auto-import": "^1.2.20",
-    "ember-cli": "github:ember-cli/ember-cli#0de30f833ee76198a5261b4797bb3bc7feca7ba2",
+    "ember-cli": "github:ember-cli/ember-cli#417f4693d5a686cc110fd9563098b2fc1bd53e33",
     "ember-cli-app-version": "^3.2.0",
     "ember-cli-babel": "^7.8.0",
     "ember-cli-dependency-checker": "^3.1.0",
