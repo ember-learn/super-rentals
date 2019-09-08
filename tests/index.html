@@ -26,6 +26,35 @@
     <script src="{{rootURL}}assets/test-support.js"></script>
     <script src="{{rootURL}}assets/super-rentals.js"></script>
     <script src="{{rootURL}}assets/tests.js"></script>
+    <script>
+      if (QUnit.urlParams.deterministic) {
+        let totalRuntime = 0;
+
+        // https://stackoverflow.com/a/19303725
+        let seed = 41937;
+
+        let seededRandomish = () => {
+          let x = Math.sin(seed++) * 10000;
+          return x - Math.floor(x);
+        };
+
+        let randomishRuntime = () => {
+          let runtime = Math.round(10 + seededRandomish() * 150);
+          totalRuntime += runtime;
+          return runtime;
+        };
+
+        // HAX: ensure our callbacks runs before the reporter UI
+
+        QUnit.config.callbacks.testDone.unshift(details => {
+          details.runtime = randomishRuntime();
+        });
+
+        QUnit.config.callbacks.done.unshift(details => {
+          details.runtime = totalRuntime;
+        });
+      }
+    </script>
 
     {{content-for "body-footer"}}
     {{content-for "test-body-footer"}}
