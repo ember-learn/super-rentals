@@ -28,26 +28,66 @@
     <script src="{{rootURL}}assets/tests.js"></script>
     <script>
       if (QUnit.urlParams.deterministic) {
+        // Not Very Good Pseudo Random-ish Number Generator
+        // Based on https://stackoverflow.com/a/19303725
+        class SeededRandomish {
+          constructor(seed) {
+            this.seed = seed;
+          }
+
+          next() {
+            let x = Math.sin(this.seed++) * 10000;
+            return x - Math.floor(x);
+          }
+        }
+
+        class RandomishMonotonicClock {
+          constructor(seed) {
+            this.prng = new SeededRandomish(seed);
+            this.ms = 1;
+          }
+
+          tick() {
+            // Heavily biased towards 0
+            let biased = this.prng.next() * this.prng.next() * this.prng.next();
+
+            // Tick up to 25ms but likely much smaller
+            this.ms += biased * 25;
+
+            return this.current;
+          }
+
+          get current() {
+            return Math.floor(this.ms);
+          }
+        }
+
+        let seeds = new SeededRandomish(41937);
         let totalRuntime = 0;
-
-        // https://stackoverflow.com/a/19303725
-        let seed = 41937;
-
-        let seededRandomish = () => {
-          let x = Math.sin(seed++) * 10000;
-          return x - Math.floor(x);
-        };
-
-        let randomishRuntime = () => {
-          let runtime = Math.round(10 + seededRandomish() * 150);
-          totalRuntime += runtime;
-          return runtime;
-        };
+        let clock;
 
         // HAX: ensure our callbacks runs before the reporter UI
 
+        QUnit.config.callbacks.testStart.unshift(details => {
+          let seed = Math.floor(seeds.next() * 100000);
+          clock = new RandomishMonotonicClock(seed);
+          for(let i=0; i<20; i++) {
+            clock.tick();
+          }
+        });
+
+        QUnit.config.callbacks.log.unshift(details => {
+          details.runtime = clock.tick();
+        });
+
         QUnit.config.callbacks.testDone.unshift(details => {
-          details.runtime = randomishRuntime();
+          let current;
+          for(let i=0; i<10; i++) {
+            current = clock.tick();
+          }
+          clock = undefined;
+          totalRuntime += current;
+          details.runtime = current;
         });
 
         QUnit.config.callbacks.done.unshift(details => {
