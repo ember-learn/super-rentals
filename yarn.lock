@@ -4077,7 +4077,7 @@ ember-cli-htmlbars@^3.0.1:
     json-stable-stringify "^1.0.1"
     strip-bom "^3.0.0"
 
-"ember-cli-htmlbars@github:ember-cli/ember-cli-htmlbars#24e8ad6fda2512c87d3fac9dfdc813059a27e7ce":
+"ember-cli-htmlbars@github:ember-cli/ember-cli-htmlbars#24e8ad6":
   version "3.2.0-alpha.0"
   resolved "https://codeload.github.com/ember-cli/ember-cli-htmlbars/tar.gz/24e8ad6fda2512c87d3fac9dfdc813059a27e7ce"
   dependencies:
