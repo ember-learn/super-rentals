@@ -27,7 +27,7 @@
     "ember-cli-app-version": "^3.2.0",
     "ember-cli-babel": "^7.8.0",
     "ember-cli-dependency-checker": "^3.1.0",
-    "ember-cli-htmlbars": "github:ember-cli/ember-cli-htmlbars#24e8ad6fda2512c87d3fac9dfdc813059a27e7ce",
+    "ember-cli-htmlbars": "github:ember-cli/ember-cli-htmlbars#791bde491de84987e1b1f6c24931ca6a13a0632b",
     "ember-cli-htmlbars-inline-precompile": "^2.1.0",
     "ember-cli-inject-live-reload": "^2.0.1",
     "ember-cli-sri": "^2.1.1",
