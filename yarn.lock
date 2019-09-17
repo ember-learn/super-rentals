@@ -4409,9 +4409,9 @@ ember-source-channel-url@^2.0.1:
   dependencies:
     got "^8.0.1"
 
-"ember-source@https://s3.amazonaws.com/builds.emberjs.com/beta/shas/3259160193c79926ed504f43cba871d5cef4fa07.tgz":
+"ember-source@https://s3.amazonaws.com/builds.emberjs.com/beta/shas/dd27b42c5bc3b9cb75d649d95db4e0b649b04e33.tgz":
   version "3.13.0-beta.5.beta"
-  resolved "https://s3.amazonaws.com/builds.emberjs.com/beta/shas/3259160193c79926ed504f43cba871d5cef4fa07.tgz#8b6bfc97e16ca239bfced1c2260b64fed938105c"
+  resolved "https://s3.amazonaws.com/builds.emberjs.com/beta/shas/dd27b42c5bc3b9cb75d649d95db4e0b649b04e33.tgz#5633d40f898ddf610ab265fc49f4fe8856a3f2e2"
   dependencies:
     "@babel/helper-module-imports" "^7.0.0"
     "@babel/plugin-transform-block-scoping" "^7.4.4"
