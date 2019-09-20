@@ -27,11 +27,11 @@ module('Integration | Component | rental', function(hooks) {
     await render(hbs`<Rental @rental={{this.rental}} />`);
 
     assert.dom('article').hasClass('rental');
-    assert.dom('article h3').containsText('Grand Old Mansion');
-    assert.dom('article .detail.owner').containsText('Veruca Salt');
-    assert.dom('article .detail.type').containsText('Standalone');
-    assert.dom('article .detail.location').containsText('San Francisco');
-    assert.dom('article .detail.bedrooms').containsText('15');
+    assert.dom('article h3').hasText('Grand Old Mansion');
+    assert.dom('article .detail.owner').includesText('Veruca Salt');
+    assert.dom('article .detail.type').includesText('Standalone');
+    assert.dom('article .detail.location').includesText('San Francisco');
+    assert.dom('article .detail.bedrooms').includesText('15');
     assert.dom('article .image').exists();
     assert.dom('article .map').exists();
   });
