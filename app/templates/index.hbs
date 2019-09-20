@@ -6,7 +6,7 @@
 
 <div class="rentals">
   <ul class="results">
-    {{#each this.model as |rental|}}
+    {{#each @model as |rental|}}
       <li><Rental @rental={{rental}} /></li>
     {{/each}}
   </ul>
