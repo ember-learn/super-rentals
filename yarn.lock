@@ -3913,9 +3913,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.247, electron-to-chromium@^1.3.47:
-  version "1.3.263"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.263.tgz#089957556c0a3e2a3726217449796914e5fe9609"
-  integrity sha512-VfPi+sE/1nEKOV7DWDqWSUGP7ztJG5FeqHbMEj6dBb/arKnxpOCnRXOSC6HBV6qTfK5v8CX7xWCqzN36UqG1oA==
+  version "1.3.264"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.264.tgz#ed837f44524d0601a7b2b7b6efd86e35753d0e27"
+  integrity sha512-z8E7WkrrquCuGYv+kKyybuZIbdms+4PeHp7Zm2uIgEhAigP0bOwqXILItwj0YO73o+QyHY/7XtEfP5DsHOWQgQ==
 
 elliptic@^6.0.0:
   version "6.5.1"
@@ -4409,9 +4409,9 @@ ember-source-channel-url@^2.0.1:
   dependencies:
     got "^8.0.1"
 
-"ember-source@https://s3.amazonaws.com/builds.emberjs.com/beta/shas/5acd25b377085ef13e5ed823dec4b2649be670f0.tgz":
+"ember-source@https://s3.amazonaws.com/builds.emberjs.com/beta/shas/96e569c6a3dca9e68b34d04c4cbbb5215aaf9270.tgz":
   version "3.14.0-beta.1.beta"
-  resolved "https://s3.amazonaws.com/builds.emberjs.com/beta/shas/5acd25b377085ef13e5ed823dec4b2649be670f0.tgz#0a290ffeac50ca135a9312af15a97759af35f752"
+  resolved "https://s3.amazonaws.com/builds.emberjs.com/beta/shas/96e569c6a3dca9e68b34d04c4cbbb5215aaf9270.tgz#2ef8ca76445d10aa99a41839b4e52c08bef7cf14"
   dependencies:
     "@babel/helper-module-imports" "^7.0.0"
     "@babel/plugin-transform-block-scoping" "^7.6.0"
