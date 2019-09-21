@@ -39,7 +39,7 @@
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-qunit": "^4.4.1",
     "ember-resolver": "^5.1.3",
-    "ember-source": "https://s3.amazonaws.com/builds.emberjs.com/beta/shas/f5aeb524c417966606f7cfbde8237cec2c06b702.tgz",
+    "ember-source": "https://s3.amazonaws.com/builds.emberjs.com/beta/shas/5acd25b377085ef13e5ed823dec4b2649be670f0.tgz",
     "ember-template-lint": "^1.5.0",
     "ember-welcome-page": "^4.0.0",
     "eslint": "^6.1.0",
