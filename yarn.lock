@@ -6979,9 +6979,9 @@ minimist@~0.0.1:
   integrity sha1-3j+YVD2/lggr5IrRoMfNqDYwHc8=
 
 minipass@^2.2.0, minipass@^2.2.1, minipass@^2.6.0, minipass@^2.6.4:
-  version "2.6.5"
-  resolved "https://registry.yarnpkg.com/minipass/-/minipass-2.6.5.tgz#1c245f9f2897f70fd4a219066261ce6c29f80b18"
-  integrity sha512-ewSKOPFH9blOLXx0YSE+mbrNMBFPS+11a2b03QZ+P4LVrUHW/GAlqeYC7DBknDyMWkHzrzTpDhUvy7MUxqyrPA==
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/minipass/-/minipass-2.8.1.tgz#a73bdc84cad62e8e6c8d56eba1302a5fe04c5910"
+  integrity sha512-QCG523ParRcE2+9A6wYh9UI3uy2FFLw4DQaVYQrY5HPfszc5M6VDD+j0QCwHm19LI2imes4RB+NBD8cOJccyCg==
   dependencies:
     safe-buffer "^5.1.2"
     yallist "^3.0.0"
