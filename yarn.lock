@@ -1088,7 +1088,7 @@
   resolved "https://registry.yarnpkg.com/@types/broccoli-plugin/-/broccoli-plugin-1.3.0.tgz#38f8462fecaebc4e09a32e4d4ed1b9808f75bbca"
   integrity sha512-SLk4/hFc2kGvgwNFrpn2O1juxFOllcHAywvlo7VwxfExLzoz1GGJ0oIZCwj5fwSpvHw4AWpZjJ1fUvb62PDayQ==
 
-"@types/estree@0.0.39":
+"@types/estree@*":
   version "0.0.39"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
@@ -1112,7 +1112,7 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
-"@types/node@*", "@types/node@^12.7.5":
+"@types/node@*":
   version "12.7.8"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.8.tgz#cb1bf6800238898bc2ff6ffa5702c3cadd350708"
   integrity sha512-FMdVn84tJJdV+xe+53sYiZS4R5yn1mAIxfj+DVoNiQjTYz1+OYmjwEZr1ev9nU0axXwda0QDbYl06QHanRVH3A==
@@ -1328,7 +1328,7 @@ acorn@^6.0.1, acorn@^6.0.2:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.3.0.tgz#0087509119ffa4fc0a0041d1e93a417e68cb856e"
   integrity sha512-/czfa8BwS88b9gWQVhc8eknunSA2DoJpJyTQkhheIf5E48u1N0R4q/YxxsAeqRrmK9TQ/uYfgLDfZo91UlANIA==
 
-acorn@^7.0.0:
+acorn@^7.0.0, acorn@^7.1.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.0.tgz#949d36f2c292535da602283586c2477c57eb2d6c"
   integrity sha512-kL5CuoXA/dgxlBbVrflsflzQ3PAas7RYZB52NOm/6839iVYJgKMJ3cQJD+t2i5+qFa8h3MDpEOJiS64E8JLnSQ==
@@ -1881,10 +1881,10 @@ babel-plugin-htmlbars-inline-precompile@^1.0.0:
   resolved "https://registry.yarnpkg.com/babel-plugin-htmlbars-inline-precompile/-/babel-plugin-htmlbars-inline-precompile-1.0.0.tgz#a9d2f6eaad8a3f3d361602de593a8cbef8179c22"
   integrity sha512-4jvKEHR1bAX03hBDZ94IXsYCj3bwk9vYsn6ux6JZNL2U5pvzCWjqyrGahfsGNrhERyxw8IqcirOi9Q6WCo3dkQ==
 
-babel-plugin-htmlbars-inline-precompile@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-htmlbars-inline-precompile/-/babel-plugin-htmlbars-inline-precompile-2.1.0.tgz#92b0b23efc462c8df4d54c04a591b5d4111fd9c2"
-  integrity sha512-yoaNhhSO1bM5qgzwmK5y8EteCq6rOsrTjbgVFQoZcVuADAlDPYNcvin4120BR9UPG2qWD3mYwYPfY39kWq3WGA==
+babel-plugin-htmlbars-inline-precompile@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-htmlbars-inline-precompile/-/babel-plugin-htmlbars-inline-precompile-2.1.1.tgz#59edd4eab28d27fbafa26d51bc19795278d103a9"
+  integrity sha512-obo5//IFrEZNAQovcXxOXLn5nwkQ0Y+xhR7AMg1sYR6W7KxQLZI9/XzbIytVhjwwY+Bd2e0+qyHEplJbHyZ1Og==
 
 babel-plugin-module-resolver@^3.1.1, babel-plugin-module-resolver@^3.2.0:
   version "3.2.0"
@@ -3917,9 +3917,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.247, electron-to-chromium@^1.3.47:
-  version "1.3.267"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.267.tgz#7745ff9d447fd2a9802e1c6dfa518631e0cf5357"
-  integrity sha512-9Q2ixAJC+oHjWNtJV0MQ4vJMCWSowIrC6V6vcr+bwPddTDHj2ddv9xxXCzf4jT/fy6HP7maPoW0gifXkRxCttQ==
+  version "1.3.268"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.268.tgz#d18f10b064dd0fce39098704896309a8249cb62f"
+  integrity sha512-QkPEya233zGh+1erw/N/GNgLjs+t65wkGX4Yw0X/ZuO75r+4Ropk7toXSUqP3TQ7EIwBDotTks3rbNZ1Kwz8hA==
 
 elliptic@^6.0.0:
   version "6.5.1"
@@ -4084,12 +4084,12 @@ ember-cli-htmlbars@^3.0.1:
     strip-bom "^3.0.0"
 
 ember-cli-htmlbars@^4.0.0:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-4.0.1.tgz#c6b32def2a70c64c6494d32b75982c4bd6be330a"
-  integrity sha512-jQNw+rMUlFp4muxM6mjIM9GBhC5a4rtShEoeLW6ey1zv/Iaz/t0ZUnOEXozaGu/Z9DBOw0Edb+qGe6TZlR3epw==
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-4.0.2.tgz#a3173ce5314ac2e574faa0abde09193bfad77753"
+  integrity sha512-6IfthKFT3uBvM9WiMS9cHInmERVgAZUi+AejJuFcWaJ5vaH7FA+Iuf/GYFP3TR5ez+XmxVTokbeY69kBqFXvRg==
   dependencies:
     "@ember/edition-utils" "^1.1.1"
-    babel-plugin-htmlbars-inline-precompile "^2.1.0"
+    babel-plugin-htmlbars-inline-precompile "^2.1.1"
     broccoli-debug "^0.6.5"
     broccoli-persistent-filter "^2.3.1"
     broccoli-plugin "^2.0.0"
@@ -4671,9 +4671,9 @@ eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
   integrity sha512-8y9YjtM1JBJU/A9Kc+SbaOV4y29sSWckBwMHa+FGtVj5gN/sbnKDf6xJUl+8g7FAij9LVaP8C24DUiH/f/2Z9A==
 
 eslint@^6.1.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.4.0.tgz#5aa9227c3fbe921982b2eda94ba0d7fae858611a"
-  integrity sha512-WTVEzK3lSFoXUovDHEbkJqCVPEPwbhCq4trDktNI6ygs7aO41d4cDT0JFAT5MivzZeVLWlg7vHL+bgrQv/t3vA==
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.5.0.tgz#304623eec903969dd5c9f2d61c6ce3d6ecec8750"
+  integrity sha512-IIbSW+vKOqMatPmS9ayyku4tvWxHY2iricSRtOz6+ZA5IPRlgXzEL0u/j6dr4eha0ugmhMwDTqxtmNu3kj9O4w==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
@@ -5524,9 +5524,9 @@ growly@^1.3.0:
   integrity sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE=
 
 handlebars@^4.0.11, handlebars@^4.0.13, handlebars@^4.0.4:
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.3.4.tgz#aab065294c27ad16ff4e711240a7288d2753306d"
-  integrity sha512-vvpo6mpK4ScNC1DbGRZ2d5BznS6ht0r1hi20RivsibMc6jNvFAeZQ6qk5VNspo6SOwVOJQbjHyBCpuS7BzA1pw==
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.4.0.tgz#22e1a897c5d83023d39801f35f6b65cf97ed8b25"
+  integrity sha512-xkRtOt3/3DzTKMOt3xahj2M/EqNhY988T+imYSlMgs5fVhLN2fmKVVj0LtEGmb+3UUYV5Qmm1052Mm3dIQxOvw==
   dependencies:
     neo-async "^2.6.0"
     optimist "^0.6.1"
@@ -8303,13 +8303,13 @@ rollup-pluginutils@^2.8.1:
     estree-walker "^0.6.1"
 
 rollup@^1.12.0:
-  version "1.21.4"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.21.4.tgz#00a41a30f90095db890301b226cbe2918e4cf54d"
-  integrity sha512-Pl512XVCmVzgcBz5h/3Li4oTaoDcmpuFZ+kdhS/wLreALz//WuDAMfomD3QEYl84NkDu6Z6wV9twlcREb4qQsw==
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.22.0.tgz#a5b2672c0eebe9f2b6454220f785dbc09b64b4bc"
+  integrity sha512-x4l4ZrV/Mr/x/jvFTmwROdEAhbZjx16yDRTVSKWh/i4oJDuW2dVEbECT853mybYCz7BAitU8ElGlhx7dNjw3qQ==
   dependencies:
-    "@types/estree" "0.0.39"
-    "@types/node" "^12.7.5"
-    acorn "^7.0.0"
+    "@types/estree" "*"
+    "@types/node" "*"
+    acorn "^7.1.0"
 
 rsvp@^3.0.14, rsvp@^3.0.17, rsvp@^3.0.18, rsvp@^3.0.21, rsvp@^3.0.6, rsvp@^3.1.0:
   version "3.6.2"
