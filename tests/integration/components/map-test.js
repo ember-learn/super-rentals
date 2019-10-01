@@ -18,7 +18,7 @@ module('Integration | Component | map', function(hooks) {
 
     assert.dom('.map').exists();
     assert.dom('.map img').hasAttribute('alt', 'Map image at coordinates 37.7797,-122.4184');
-    assert.dom('.map img').hasAttribute('src', /^https:\/\/api\.mapbox\.com/);
+    assert.dom('.map img').hasAttribute('src', /^https:\/\/api\.mapbox\.com/, 'the src starts with "https://api.mapbox.com"');
     assert.dom('.map img').hasAttribute('width', '150');
     assert.dom('.map img').hasAttribute('height', '120');
 
@@ -70,7 +70,7 @@ module('Integration | Component | map', function(hooks) {
     assert.ok(img.src.includes('300x200@2x'), 'the src should include the width,height and @2x parameter');
   });
 
-  test('the default alt attribute can be overriden', async function(assert) {
+  test('the default alt attribute can be overridden', async function(assert) {
     await render(hbs`<Map
       @lat="37.7797"
       @lng="-122.4184"
@@ -83,7 +83,7 @@ module('Integration | Component | map', function(hooks) {
     assert.dom('.map img').hasAttribute('alt', 'A map of San Francisco');
   });
 
-  test('the src, width and height attributes cannot be overriden', async function(assert) {
+  test('the src, width and height attributes cannot be overridden', async function(assert) {
     await render(hbs`<Map
       @lat="37.7797"
       @lng="-122.4184"
@@ -95,7 +95,7 @@ module('Integration | Component | map', function(hooks) {
       height="300"
     />`);
 
-    assert.dom('.map img').hasAttribute('src', /^https:\/\/api\.mapbox\.com/);
+    assert.dom('.map img').hasAttribute('src', /^https:\/\/api\.mapbox\.com/, 'the src starts with "https://api.mapbox.com"');
     assert.dom('.map img').hasAttribute('width', '150');
     assert.dom('.map img').hasAttribute('height', '120');
   });
