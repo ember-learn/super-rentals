@@ -3928,9 +3928,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.247, electron-to-chromium@^1.3.47:
-  version "1.3.273"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.273.tgz#94872d6823219f2812f2e35a2ce2a7d03c1eaa3f"
-  integrity sha512-0kUppiHQvHEENHh+nTtvTt4eXMwcPyWmMaj73GPrSEm3ldKhmmHuOH6IjrmuW6YmyS/fpXcLvMQLNVpqRhpNWw==
+  version "1.3.274"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.274.tgz#0fb4624c63eeaabe5aa079da5c2a966f5c916de3"
+  integrity sha512-9bWkiXxGylowqMXoF1ec7k6akmsL2nOa1kzZ4CKzBuwK9WVz0VauE1w/RVyYraE1LpJM7+8fNCsW9b7ZSoxWIg==
 
 elliptic@^6.0.0:
   version "6.5.1"
@@ -4095,9 +4095,9 @@ ember-cli-htmlbars@^3.0.1:
     strip-bom "^3.0.0"
 
 ember-cli-htmlbars@^4.0.0:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-4.0.4.tgz#a4516143319b587922d52c89bf3ae1350992055a"
-  integrity sha512-hBcD3buJ3I8kxzT6bQVArnFZLXwV5Lo63Xv+2aoDVDKbYwpcL1wv+idmefFT00W/6nKKpFZTFrUjo1F1v+iwjg==
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-4.0.5.tgz#0ad521831c2d740502ffd9b0bd28d2d799752f63"
+  integrity sha512-/zJKzP7RVNnnlYwtliyLsr174wBLcFMJUIOvy0mGnb+optwDJpgCdMzSYEjy/myoXDWgS/6cpLVLneFZ4tYm9Q==
   dependencies:
     "@ember/edition-utils" "^1.1.1"
     babel-plugin-htmlbars-inline-precompile "^3.0.0"
@@ -4425,9 +4425,9 @@ ember-source-channel-url@^2.0.1:
   dependencies:
     got "^8.0.1"
 
-"ember-source@https://s3.amazonaws.com/builds.emberjs.com/beta/shas/e1892deca50104d9b85225b8f3d30f7b34d2b007.tgz":
+"ember-source@https://s3.amazonaws.com/builds.emberjs.com/beta/shas/b9524e10985e90c8bd384dfc97abccf2aea1f21d.tgz":
   version "3.14.0-beta.3.beta"
-  resolved "https://s3.amazonaws.com/builds.emberjs.com/beta/shas/e1892deca50104d9b85225b8f3d30f7b34d2b007.tgz#8a8c403aa12794ce3cee755c5a50ee4f7d5c5ca4"
+  resolved "https://s3.amazonaws.com/builds.emberjs.com/beta/shas/b9524e10985e90c8bd384dfc97abccf2aea1f21d.tgz#ab5d59259327e8b7bd43fbb8ba991c7984282361"
   dependencies:
     "@babel/helper-module-imports" "^7.0.0"
     "@babel/plugin-transform-block-scoping" "^7.6.0"
@@ -9080,9 +9080,9 @@ terser@^3.17.0:
     source-map-support "~0.5.10"
 
 terser@^4.1.2:
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-4.3.4.tgz#ad91bade95619e3434685d69efa621a5af5f877d"
-  integrity sha512-Kcrn3RiW8NtHBP0ssOAzwa2MsIRQ8lJWiBG/K7JgqPlomA3mtb2DEmp4/hrUA+Jujx+WZ02zqd7GYD+QRBB/2Q==
+  version "4.3.6"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.3.6.tgz#3a36ae197d4470e11069557b4a4bd712f84f998d"
+  integrity sha512-QQXGTgXT7zET9IbGSdRvExcL+rFZGiOxMDbPg1W0tc5gqbX6m7J6Eu0W3fQ2bK5Dks1WSvC2xAKOH+mzAuMLcg==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
