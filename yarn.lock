@@ -3928,9 +3928,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.247, electron-to-chromium@^1.3.47:
-  version "1.3.276"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.276.tgz#1cca47c31b6e852ce43ab62ae4f31608db8b95d4"
-  integrity sha512-J7bVRAW2fHJVOGZqxSvmMcbBAWPiueHsKwSq+TjaNq1wQ71Za0uBExC1ECuMmAAQioDA2//auhI/glFINnUGPw==
+  version "1.3.277"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.277.tgz#38b7b297f9b3f67ea900a965c1b11a555de526ec"
+  integrity sha512-Czmsrgng89DOgJlIknnw9bn5431QdtnUwGp5YYiPwU1DbZQUxCLF+rc1ZC09VNAdalOPcvH6AE8BaA0H5HjI/w==
 
 elliptic@^6.0.0:
   version "6.5.1"
@@ -4425,9 +4425,9 @@ ember-source-channel-url@^2.0.1:
   dependencies:
     got "^8.0.1"
 
-"ember-source@https://s3.amazonaws.com/builds.emberjs.com/beta/shas/b9524e10985e90c8bd384dfc97abccf2aea1f21d.tgz":
-  version "3.14.0-beta.3.beta"
-  resolved "https://s3.amazonaws.com/builds.emberjs.com/beta/shas/b9524e10985e90c8bd384dfc97abccf2aea1f21d.tgz#ab5d59259327e8b7bd43fbb8ba991c7984282361"
+"ember-source@https://s3.amazonaws.com/builds.emberjs.com/beta/shas/e88c0df54aea9ce341704e74f45b5eae6bc7d492.tgz":
+  version "3.14.0-beta.4.beta"
+  resolved "https://s3.amazonaws.com/builds.emberjs.com/beta/shas/e88c0df54aea9ce341704e74f45b5eae6bc7d492.tgz#5f6cce2912f246eedab24ba3aca2fc9e6990804d"
   dependencies:
     "@babel/helper-module-imports" "^7.0.0"
     "@babel/plugin-transform-block-scoping" "^7.6.0"
@@ -5748,9 +5748,9 @@ homedir-polyfill@^1.0.1:
     parse-passwd "^1.0.0"
 
 hosted-git-info@^2.7.1:
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.4.tgz#44119abaf4bc64692a16ace34700fed9c03e2546"
-  integrity sha512-pzXIvANXEFrc5oFFXRMkbLPQ2rXRoDERwDLyrcUxGhaZhgP54BBSl9Oheh7Vv0T090cszWBxPjkQQ5Sq1PbBRQ==
+  version "2.8.5"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.5.tgz#759cfcf2c4d156ade59b0b2dfabddc42a6b9c70c"
+  integrity sha512-kssjab8CvdXfcXMXVcvsXum4Hwdq9XGtRD3TteMEvEbq0LXyiNQr6AprqKqfeaDXze7SxWvRxdpwE6ku7ikLkg==
 
 html-encoding-sniffer@^1.0.2:
   version "1.0.2"
