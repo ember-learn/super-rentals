@@ -80,7 +80,9 @@
           details.runtime = clock.tick();
 
           if (details.source) {
-            details.source = details.source.replace(/.js((:[0-9]+):[0-9]+)/g, '.js');
+            Object.defineProperty(details, 'source', {
+              value: details.source.replace(/\.js((:[0-9]+)?:[0-9]+)/g, '.js')
+            });
           }
         });
 
@@ -96,7 +98,9 @@
           details.runtime = current;
 
           if (details.source) {
-            details.source = details.source.replace(/.js((:[0-9]+):[0-9]+)/g, '.js');
+            Object.defineProperty(details, 'source', {
+              value: details.source.replace(/\.js((:[0-9]+)?:[0-9]+)/g, '.js')
+            });
           }
         });
 
