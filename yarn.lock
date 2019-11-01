@@ -3912,9 +3912,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.295, electron-to-chromium@^1.3.47:
-  version "1.3.298"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.298.tgz#6f2b09c9b4ffca6a6745d80272dad987bcf5689c"
-  integrity sha512-IcgwlR5x4qtsVr1X+GDnbDEp0bAAqRA9EHP+bvIn3g5KF59Eiqjm59p27tg8b4YmgmpjfKWgec3trDRTWiVJgg==
+  version "1.3.299"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.299.tgz#9113b733247c68b87e07cb7c940a22913fb74d38"
+  integrity sha512-aH3lKMQFPuNk4w7W3hQDqnjfYKJQLzbp5Adn6xgTz5547kKSGOmAU7cQWxH953L4ntZL4HsZ8XWqfcMTvTcEMw==
 
 elliptic@^6.0.0:
   version "6.5.1"
