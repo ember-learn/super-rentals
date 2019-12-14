@@ -28,7 +28,7 @@ module('Integration | Component | share-button', function(hooks) {
 
     assert.dom('a').exists();
     assert.dom('a').hasAttribute('target', '_blank');
-    assert.dom('a').hasAttribute('rel', 'external,nofollow,noopener,noreferrer');
+    assert.dom('a').hasAttribute('rel', 'external nofollow noopener noreferrer');
     assert.dom('a').hasAttribute('href', /^https:\/\/twitter\.com\/intent\/tweet/);
     assert.dom('a').hasClass('share');
     assert.dom('a').hasClass('button');
@@ -68,7 +68,7 @@ module('Integration | Component | share-button', function(hooks) {
     await render(hbs`<ShareButton targe="_self" rel="" href="/">Not a Tweet!</ShareButton>`);
 
     assert.dom('a').hasAttribute('target', '_blank');
-    assert.dom('a').hasAttribute('rel', 'external,nofollow,noopener,noreferrer');
+    assert.dom('a').hasAttribute('rel', 'external nofollow noopener noreferrer');
     assert.dom('a').hasAttribute('href', /^https:\/\/twitter\.com\/intent\/tweet/);
   });
 });
