@@ -10417,9 +10417,9 @@ workerpool@^3.1.1:
     rsvp "^4.8.4"
 
 workerpool@^5.0.1:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/workerpool/-/workerpool-5.0.3.tgz#3f301eb1933de46a2096e049755ef85929541191"
-  integrity sha512-MjpH/ftD/Wk61cgpV9+j86qOlVRwfVPOg/C0+XtdfhBMdKmCnSPCGZAaYg2iGNMXbpp5weJjbFJtm5KP884dsQ==
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/workerpool/-/workerpool-5.0.4.tgz#4f67cb70ff7550a27ab94de25b0b843cd92059a2"
+  integrity sha512-Sywova24Ow2NQ24JPB68bI89EdqMDjUXo4OpofK/QMD7C2ZVMloYBgQ5J3PChcBJHj2vspsmGx1/3nBKXtUkXQ==
 
 wrappy@1:
   version "1.0.2"
