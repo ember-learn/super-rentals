@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SuperRentals Tests</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{content-for "head"}}
+    {{content-for "test-head"}}
+
+    <link rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+    <link rel="stylesheet" href="{{rootURL}}assets/super-rentals.css">
+    <link rel="stylesheet" href="{{rootURL}}assets/test-support.css">
+
+    {{content-for "head-footer"}}
+    {{content-for "test-head-footer"}}
+  </head>
+  <body>
+    {{content-for "body"}}
+    {{content-for "test-body"}}
+
+    <script src="/testem.js" integrity=""></script>
+    <script src="{{rootURL}}assets/vendor.js"></script>
+    <script src="{{rootURL}}assets/test-support.js"></script>
+    <script src="{{rootURL}}assets/super-rentals.js"></script>
+    <script src="{{rootURL}}assets/tests.js"></script>
+    <script>
+      if (QUnit.urlParams.deterministic) {
+        // Not Very Good Pseudo Random-ish Number Generator
+        // Based on https://stackoverflow.com/a/19303725
+        class SeededRandomish {
+          constructor(seed) {
+            this.seed = seed;
+          }
+
+          next() {
+            let x = Math.sin(this.seed++) * 10000;
+            return x - Math.floor(x);
+          }
+        }
+
+        class RandomishMonotonicClock {
+          constructor(seed) {
+            this.prng = new SeededRandomish(seed);
+            this.ms = 1;
+          }
+
+          tick() {
+            // Heavily biased towards 0
+            let biased = this.prng.next() * this.prng.next() * this.prng.next();
+
+            // Tick up to 25ms but likely much smaller
+            this.ms += biased * 25;
+
+            return this.current;
+          }
+
+          get current() {
+            return Math.floor(this.ms);
+          }
+        }
+
+        let seeds = new SeededRandomish(41937);
+        let totalRuntime = 0;
+        let clock;
+
+        // HAX: ensure our callbacks runs before the reporter UI
+
+        QUnit.config.callbacks.testStart.unshift(details => {
+          let seed = Math.floor(seeds.next() * 100000);
+          clock = new RandomishMonotonicClock(seed);
+          for(let i=0; i<20; i++) {
+            clock.tick();
+          }
+        });
+
+        QUnit.config.callbacks.log.unshift(details => {
+          details.runtime = clock.tick();
+
+          if (details.source) {
+            Object.defineProperty(details, 'source', {
+              value: details.source.replace(/\.js((:[0-9]+)?:[0-9]+)/g, '.js')
+            });
+          }
+        });
+
+        QUnit.config.callbacks.testDone.unshift(details => {
+          let current;
+
+          for(let i=0; i<10; i++) {
+            current = clock.tick();
+          }
+
+          clock = undefined;
+          totalRuntime += current;
+          details.runtime = current;
+
+          if (details.source) {
+            Object.defineProperty(details, 'source', {
+              value: details.source.replace(/\.js((:[0-9]+)?:[0-9]+)/g, '.js')
+            });
+          }
+        });
+
+        QUnit.config.callbacks.done.unshift(details => {
+          details.runtime = totalRuntime;
+        });
+
+        QUnit.begin(function( details ) {
+          let ua = document.getElementById('qunit-userAgent');
+          ua.innerText = ua.innerText.replace(/QUnit [0-9\.]+/g, 'QUnit');
+          ua.innerText = ua.innerText.replace(/(WebKit|Chrome|Safari)\/[0-9\.]+/g, '$1');
+        });
+      }
+    </script>
+
+    {{content-for "body-footer"}}
+    {{content-for "test-body-footer"}}
+  </body>
+</html>
