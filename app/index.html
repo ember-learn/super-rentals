@@ -12,6 +12,21 @@
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/super-rentals.css">
 
+    <script>
+      if (window.location.search.indexOf('deterministic') >= 0) {
+        let style = document.createElement('style');
+
+        style.appendChild(document.createTextNode(`
+          *, *::before, *::after {
+            transition-delay: 0s !important;
+            transition-duration: 0s !important;
+          }
+        `));
+
+        document.head.appendChild(style);
+      }
+    </script>
+
     {{content-for "head-footer"}}
   </head>
   <body>

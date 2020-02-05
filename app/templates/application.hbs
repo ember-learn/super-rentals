@@ -1,19 +1,5 @@
 <div class="container">
-  <div class="menu">
-    {{#link-to "index"}}
-      <h1>
-        <em>SuperRentals</em>
-      </h1>
-    {{/link-to}}
-    <div class="links">
-      {{#link-to "about" class="menu-about"}}
-        About
-      {{/link-to}}
-      {{#link-to "contact" class="menu-contact"}}
-        Contact
-      {{/link-to}}
-    </div>
-  </div>
+  <NavBar />
   <div class="body">
     {{outlet}}
   </div>

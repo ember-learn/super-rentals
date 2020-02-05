@@ -3,7 +3,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 This is a working repository for the Super Rentals tutorial,
-which you can check out at https://guides.emberjs.com/current/tutorial/ember-cli/.
+which you can check out at https://guides.emberjs.com/release/tutorial/.
 
 ## Prerequisites
 
@@ -14,6 +14,7 @@ You will need the following things properly installed on your computer.
 * [Yarn](https://yarnpkg.com/)
 * [Ember CLI](https://ember-cli.com/)
 * [Google Chrome](https://google.com/chrome/)
+* A [Mapbox API token](https://account.mapbox.com/access-tokens/) (with the "styles:tiles" scope)
 
 ## Installation
 
@@ -23,7 +24,7 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-* `ember serve`
+* `MAPBOX_ACCESS_TOKEN=YOUR_TOKEN ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
@@ -38,14 +39,14 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Linting
 
-* `npm run lint:hbs`
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
+* `yarn lint:hbs`
+* `yarn lint:js`
+* `yarn lint:js --fix`
 
 ### Building
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+* `MAPBOX_ACCESS_TOKEN=YOUR_TOKEN ember build` (development)
+* `MAPBOX_ACCESS_TOKEN=YOUR_TOKEN ember build --environment production` (production)
 
 ### Deploying
 

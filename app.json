@@ -9,8 +9,8 @@
     }
   ],
   "env": {
-    "GOOGLE_MAPS_API_KEY": {
-      "description": "Google API KEY for Google Maps, https://developers.google.com/maps/documentation/javascript/get-api-key",
+    "MAPBOX_ACCESS_TOKEN": {
+      "description": "API KEY for Mapbox with \"styles:tiles\" scope, https://account.mapbox.com/access-tokens/",
       "required": true
     }
   }
