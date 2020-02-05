@@ -9,7 +9,7 @@ module.exports = function(environment) {
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
-        // e.g. 'with-controller': true
+        // e.g. EMBER_NATIVE_DECORATOR_SUPPORT: true
       },
       EXTEND_PROTOTYPES: {
         // Prevent Ember Data from overriding Date.parse.
@@ -44,12 +44,10 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    // use mirage in production too since the app will break
-    // if there is no API for Ember Data
-    ENV['ember-cli-mirage'] = {
-      enabled: true
-    }
+    // here you can enable a production-specific feature
   }
+
+  ENV.MAPBOX_ACCESS_TOKEN = process.env.MAPBOX_ACCESS_TOKEN;
 
   return ENV;
 };
