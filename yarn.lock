@@ -1233,7 +1233,12 @@
   dependencies:
     "@types/node" "*"
 
-"@types/estree@*", "@types/estree@0.0.44":
+"@types/estree@*":
+  version "0.0.45"
+  resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.45.tgz#e9387572998e5ecdac221950dab3e8c3b16af884"
+  integrity sha512-jnqIUKDUqJbDIUxm0Uj7bnlMnRm1T/eZ9N+AVMqhPgzrba2GhGG5o/jCTwmdPK709nEZsGoMzXEDUjcXHa3W0g==
+
+"@types/estree@0.0.44":
   version "0.0.44"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.44.tgz#980cc5a29a3ef3bea6ff1f7d021047d7ea575e21"
   integrity sha512-iaIVzr+w2ZJ5HkidlZ3EJM8VTZb2MJLCjw3V+505yVts0gRC4UMvjw0d1HPtGqI/HQC/KdsYtayfzl+AXY2R8g==
@@ -2739,9 +2744,9 @@ broccoli-babel-transpiler@^6.5.0:
     workerpool "^2.3.0"
 
 broccoli-babel-transpiler@^7.4.0, broccoli-babel-transpiler@^7.5.0:
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/broccoli-babel-transpiler/-/broccoli-babel-transpiler-7.5.0.tgz#6137e2c9324eebe1d83b6a01c7b445bfc5612d49"
-  integrity sha512-CrLrI8HX7mDqVR+/r8WiTZuQQh6hGMGwal9jyKk+kpk7t/4hqL6oQ06FRt81kazbHm4bil4WJ+kGB+aOfAx+XA==
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/broccoli-babel-transpiler/-/broccoli-babel-transpiler-7.6.0.tgz#819e6d228b8aa3b4f3b6dfc4b546c13dd304b462"
+  integrity sha512-VjqIl4qe3zEkGjsPA2jgw/jakjfLjw2IpQ62d4f1kArZyMW/cQ6o54VD0Cd6cai4J08nb4WPLu4cr4Z62vr5uw==
   dependencies:
     "@babel/core" "^7.10.2"
     "@babel/polyfill" "^7.10.1"
@@ -2750,6 +2755,7 @@ broccoli-babel-transpiler@^7.4.0, broccoli-babel-transpiler@^7.5.0:
     broccoli-persistent-filter "^2.2.1"
     clone "^2.1.2"
     hash-for-dep "^1.4.7"
+    heimdalljs "^0.2.1"
     heimdalljs-logger "^0.1.9"
     json-stable-stringify "^1.0.1"
     rsvp "^4.8.4"
@@ -3488,9 +3494,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001043:
-  version "1.0.30001085"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001085.tgz#bed28bd51ff7425d33ee23e730c7f3b703711db6"
-  integrity sha512-x0YRFRE0pmOD90z+9Xk7jwO58p4feVNXP+U8kWV+Uo/HADyrgESlepzIkUqPgaXkpyceZU6siM1gsK7sHgplqA==
+  version "1.0.30001087"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001087.tgz#4a0bdc5998a114fcf8b7954e7ba6c2c29831c54a"
+  integrity sha512-KAQRGtt+eGCQBSp2iZTQibdCf9oe6cNTi5lmpsW38NnxP4WMYzfU6HCRmh4kJyh6LrTM9/uyElK4xcO93kafpg==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -4353,9 +4359,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.413, electron-to-chromium@^1.3.47:
-  version "1.3.480"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.480.tgz#190ae45074578349a4c4f336fba29e76b20e9ef5"
-  integrity sha512-wnuUfQCBMAdzu5Xe+F4FjaRK+6ToG6WvwG72s8k/3E6b+hoGVYGiQE7JD1NhiCMcqF3+wV+c2vAnaLGRSSWVqA==
+  version "1.3.481"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.481.tgz#0d59e72a0aaeb876b43fb1d6e84bf0dfc99617e8"
+  integrity sha512-q2PeCP2PQXSYadDo9uNY+uHXjdB9PcsUpCVoGlY8TZOPHGlXdevlqW9PkKeqCxn2QBkGB8b6AcMO++gh8X82bA==
 
 elliptic@^6.0.0, elliptic@^6.5.2:
   version "6.5.3"
@@ -5220,9 +5226,9 @@ eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0, eslint-visitor-keys@^1.2
   integrity sha512-6J72N8UNa462wa/KFODt/PJ3IU60SDpC3QXC1Hjc1BXXpfL2C9R5+AU7jhe0F6GREqVMh4Juu+NY7xn+6dipUQ==
 
 eslint@^7.1.0:
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.3.0.tgz#f9f1fc3dc1227985d0db88769f2bbac7b4b875d7"
-  integrity sha512-dJMVXwfU5PT1cj2Nv2VPPrKahKTGdX+5Dh0Q3YuKt+Y2UhdL2YbzsVaBMyG9HC0tBismlv/r1+eZqs6SMIV38Q==
+  version "7.3.1"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.3.1.tgz#76392bd7e44468d046149ba128d1566c59acbe19"
+  integrity sha512-cQC/xj9bhWUcyi/RuMbRtC3I0eW8MH0jhRELSvpKYkWep3C6YZ2OkvcvJVUeO6gcunABmzptbXBuDoXsjHmfTA==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
@@ -7845,7 +7851,7 @@ mixin-deep@^1.2.0:
     for-in "^1.0.2"
     is-extendable "^1.0.1"
 
-mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@~0.5.0:
+mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@^0.5.5, mkdirp@~0.5.0:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.5.tgz#d91cefd62d1436ca0f41620e251288d420099def"
   integrity sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
@@ -10365,13 +10371,13 @@ tree-sync@^1.2.2:
     walk-sync "^0.3.3"
 
 tree-sync@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/tree-sync/-/tree-sync-2.0.0.tgz#e51456731d5ac93b92f9a1d58dd383f76f0f2f39"
-  integrity sha512-AzeJnbmJjGVfWMTJ0T152fv8NDTbQc9ERY4nEs7Lmxd94Xah2bUS56+CcoTh6FB8qn2KjBMjC0mLNc731aVBqw==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tree-sync/-/tree-sync-2.1.0.tgz#31cbbd41f2936f5390b61e8c9d7cb27e75a212fe"
+  integrity sha512-OLWW+Nd99NOM53aZ8ilT/YpEiOo6mXD3F4/wLbARqybSZ3Jb8IxHK5UGVbZaae0wtXAyQshVV+SeqVBik+Fbmw==
   dependencies:
-    debug "^2.2.0"
-    fs-tree-diff "^0.5.6"
-    mkdirp "^0.5.1"
+    debug "^4.1.1"
+    fs-tree-diff "^2.0.1"
+    mkdirp "^0.5.5"
     quick-temp "^0.1.5"
     walk-sync "^0.3.3"
 
