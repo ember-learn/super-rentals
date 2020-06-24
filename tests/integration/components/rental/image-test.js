@@ -22,7 +22,7 @@ module('Integration | Component | rental/image', function(hooks) {
   test('clicking on the component toggles its size', async function(assert) {
     await render(hbs`
       <Rental::Image
-        src="/assets/teaching-tomster.png"
+        src="/assets/images/teaching-tomster.png"
         alt="Teaching Tomster"
       />
     `);
