@@ -3518,9 +3518,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001093:
-  version "1.0.30001100"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001100.tgz#2a58615e0c01cf716ab349b20ca4d86ef944aa4e"
-  integrity sha512-0eYdp1+wFCnMlCj2oudciuQn2B9xAFq3WpgpcBIZTxk/1HNA/O2YA7rpeYhnOqsqAJq1AHUgx6i1jtafg7m2zA==
+  version "1.0.30001102"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001102.tgz#3275e7a8d09548f955f665e532df88de0b63741a"
+  integrity sha512-fOjqRmHjRXv1H1YD6QVLb96iKqnu17TjcLSaX64TwhGYed0P1E1CCWZ9OujbbK4Z/7zax7zAzvQidzdtjx8RcA==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -4396,9 +4396,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.47, electron-to-chromium@^1.3.488:
-  version "1.3.498"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.498.tgz#fd7188c8a49d6d0b5df1df55a1f1a4bf2c177457"
-  integrity sha512-W1hGwaQEU8j9su2jeAr3aabkPuuXw+j8t73eajGAkEJWbfWiwbxBwQN/8Qmv2qCy3uCDm2rOAaZneYQM8VGC4w==
+  version "1.3.499"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.499.tgz#06949f19877dafa42915e57dfeb4c1cfb86a8649"
+  integrity sha512-y7FwtQm/8xuLMnYQfBQDYzCpNn+VkSnf4c3Km5TWMNXg7JA5RQBuxmcLaKdDVcIK0K5xGIa7TlxpRt4BdNxNoA==
 
 elliptic@^6.0.0, elliptic@^6.5.2:
   version "6.5.3"
@@ -4414,11 +4414,11 @@ elliptic@^6.0.0, elliptic@^6.5.2:
     minimalistic-crypto-utils "^1.0.0"
 
 ember-assign-polyfill@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/ember-assign-polyfill/-/ember-assign-polyfill-2.6.0.tgz#07847e3357ee35b33f886a0b5fbec6873f6860eb"
-  integrity sha512-Y8NzOmHI/g4PuJ+xC14eTYiQbigNYddyHB8FY2kuQMxThTEIDE7SJtgttJrYYcPciOu0Tnb5ff36iO46LeiXkw==
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/ember-assign-polyfill/-/ember-assign-polyfill-2.7.0.tgz#21aeef798e61904362e469a8ba2abc8d45f505ae"
+  integrity sha512-UoDgex7RXmZXAD1JOD8fKTlsibqPBx3Y027iZOB3xBCsgS+s+eibacrd6GV3DEXJGgPuDWYIffDL/67gBCqHBw==
   dependencies:
-    ember-cli-babel "^6.16.0"
+    ember-cli-babel "^7.20.5"
     ember-cli-version-checker "^2.0.0"
 
 ember-auto-import@^1.5.3:
@@ -8348,9 +8348,9 @@ ora@^3.4.0:
     wcwidth "^1.0.1"
 
 ora@^4.0.4:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/ora/-/ora-4.0.4.tgz#e8da697cc5b6a47266655bf68e0fb588d29a545d"
-  integrity sha512-77iGeVU1cIdRhgFzCK8aw1fbtT1B/iZAvWjS+l/o1x0RShMgxHUZaD2yDpWsNCPwXg9z1ZA78Kbdvr8kBmG/Ww==
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/ora/-/ora-4.0.5.tgz#7410b5cc2d99fa637fd5099bbb9f02bfbb5a361e"
+  integrity sha512-jCDgm9DqvRcNIAEv2wZPrh7E5PcQiDUnbnWbAfu4NGAE2ZNqPFbDixmWldy1YG2QfLeQhuiu6/h5VRrk6cG50w==
   dependencies:
     chalk "^3.0.0"
     cli-cursor "^3.1.0"
