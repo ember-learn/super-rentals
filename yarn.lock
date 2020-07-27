@@ -1112,20 +1112,20 @@
   resolved "https://registry.yarnpkg.com/@glimmer/env/-/env-0.1.7.tgz#fd2d2b55a9029c6b37a6c935e8c8871ae70dfa07"
   integrity sha1-/S0rVakCnGs3psk16MiHGucN+gc=
 
-"@glimmer/interfaces@^0.54.1":
-  version "0.54.1"
-  resolved "https://registry.yarnpkg.com/@glimmer/interfaces/-/interfaces-0.54.1.tgz#b8d2cfc59ed5dd5eefd8dd109657b580a34ef377"
-  integrity sha512-G8PdpZH2lugcsxt2N/R/WNKGCOXukCDKMCukda4a3DnYEXQLccTyhNVtJFWKHh1C6pxYLXD5sNA0b90GJUrCww==
+"@glimmer/interfaces@^0.54.2":
+  version "0.54.2"
+  resolved "https://registry.yarnpkg.com/@glimmer/interfaces/-/interfaces-0.54.2.tgz#d7735869050ca7e1731424aa64ae37b1cb853091"
+  integrity sha512-Gqvr6Eh4Xy7lF14GZi6RbnVeA7gDj2pXMJtdh68TFL2u/VqfhTXy4+IFRvUh4bpJj+1YayNFupuJSn0oVrEDGQ==
   dependencies:
     "@simple-dom/interface" "^1.4.0"
 
 "@glimmer/syntax@^0.54.1":
-  version "0.54.1"
-  resolved "https://registry.yarnpkg.com/@glimmer/syntax/-/syntax-0.54.1.tgz#e3a1e1bfa72719ea2357a7f147ff595d0790a95f"
-  integrity sha512-bNRSXVOKBaZyE+kPjFy5BkoUK0VnVkQ3ph//YSwnVY4xM9AF9E5nKVgDBPxQlioCK3ODBWzhMdfTHZ/RHkLS3Q==
+  version "0.54.2"
+  resolved "https://registry.yarnpkg.com/@glimmer/syntax/-/syntax-0.54.2.tgz#60d08458002c106791d4c5b648227ec0f29a1b2a"
+  integrity sha512-EpQGbbzfvBmeztc15SsriyAgD0aKgsxMOARVtW5buvCPw3dGYYNdSeyUJ3vInbrFGxkZLV390ht8VCbsDbqtlA==
   dependencies:
-    "@glimmer/interfaces" "^0.54.1"
-    "@glimmer/util" "^0.54.1"
+    "@glimmer/interfaces" "^0.54.2"
+    "@glimmer/util" "^0.54.2"
     handlebars "^4.7.4"
     simple-html-tokenizer "^0.5.9"
 
@@ -1142,13 +1142,13 @@
   resolved "https://registry.yarnpkg.com/@glimmer/util/-/util-0.44.0.tgz#45df98d73812440206ae7bda87cfe04aaae21ed9"
   integrity sha512-duAsm30uVK9jSysElCbLyU6QQYO2X9iLDLBIBUcCqck9qN1o3tK2qWiHbGK5d6g8E2AJ4H88UrfElkyaJlGrwg==
 
-"@glimmer/util@^0.54.1":
-  version "0.54.1"
-  resolved "https://registry.yarnpkg.com/@glimmer/util/-/util-0.54.1.tgz#9995b08dc7fd0cc8fb5c3522574d680ccc8f5511"
-  integrity sha512-WrpTueecsmzVALrG7U0LBLDWtsGvj3eRZ/z72BKi4+usK2DYt+346LS+VCgozC8XdCIS9BawI37qogIXCyZrjw==
+"@glimmer/util@^0.54.2":
+  version "0.54.2"
+  resolved "https://registry.yarnpkg.com/@glimmer/util/-/util-0.54.2.tgz#211b027982006b6bcd393312cf474c7ee17922a0"
+  integrity sha512-ggJY3qayAxjiMuoToxxtwai+AI2KXrJSbOEvbvBV9K+IMykmdjhWGRWWEONnd9xJzQDlus5D9ROMypOEvsbS9w==
   dependencies:
     "@glimmer/env" "0.1.7"
-    "@glimmer/interfaces" "^0.54.1"
+    "@glimmer/interfaces" "^0.54.2"
     "@simple-dom/interface" "^1.4.0"
 
 "@glimmer/validator@^0.44.0":
@@ -3518,9 +3518,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001093:
-  version "1.0.30001106"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001106.tgz#7e2132711295ef30ffe5ee45b71936354d105d8c"
-  integrity sha512-XqSQKt9Fd3Z9BoN0cpSaITcTInKhMNGkaWtQ4rDnyQU1BJzzWDWCUi3cJflaPWk2kbrkYkfMrMrjIFzb3kd6NQ==
+  version "1.0.30001107"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001107.tgz#809360df7a5b3458f627aa46b0f6ed6d5239da9a"
+  integrity sha512-86rCH+G8onCmdN4VZzJet5uPELII59cUzDphko3thQFgAQG1RNa+sVLDoALIhRYmflo5iSIzWY3vu1XTWtNMQQ==
 
 capture-exit@^2.0.0:
   version "2.0.0"
