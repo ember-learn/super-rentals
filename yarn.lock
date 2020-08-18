@@ -1069,9 +1069,9 @@
     ember-compatibility-helpers "^1.1.1"
 
 "@ember/test-helpers@^1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@ember/test-helpers/-/test-helpers-1.7.1.tgz#cc22a954b3b46856518f034bd492a74e0482389f"
-  integrity sha512-+ioumnanSRJzZ0ZH30FIkB0r41UhVyuWQ9R9Yp1phDWJQDLumxg+25WDr40relwcH6z0Cn6LIEzeTVujO/0Rww==
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@ember/test-helpers/-/test-helpers-1.7.2.tgz#5b128dc5f6524c3850abf52668e6bd4fda401194"
+  integrity sha512-FEJBpbFNIaWAsCSnataiNwYFvmcpoymL/B7fXLruuJ/46BnJjzLaRPtpUIZ91w4GNTK6knxbHWXW76aVb3Aezg==
   dependencies:
     broccoli-debug "^0.6.5"
     broccoli-funnel "^2.0.2"
@@ -1337,9 +1337,9 @@
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
 "@types/node@*":
-  version "14.0.27"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.27.tgz#a151873af5a5e851b51b3b065c9e63390a9e0eb1"
-  integrity sha512-kVrqXhbclHNHGu9ztnAwSncIgJv/FaxmzXJvGXNdcCpV1b8u1/Mi6z6m0vwy0LzKeXFTPLH0NzwmoJ3fNCIq0g==
+  version "14.6.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.6.0.tgz#7d4411bf5157339337d7cff864d9ff45f177b499"
+  integrity sha512-mikldZQitV94akrc4sCcSjtJfsTKt4p+e/s0AGscVA6XArQ9kFclP+ZiYUMnq987rc6QlYxXv/EivqlfSLxpKA==
 
 "@types/node@^9.6.0":
   version "9.6.57"
