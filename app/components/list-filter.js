@@ -12,7 +12,7 @@ export default Component.extend({
   actions: {
     handleFilterEntry() {
       this.filter(this.value).then((resultsObj) => {
-        if (resultsObj.query === this.value) {
+        if (resultsObj.query.toLowerCase() === this.value.toLowerCase()) {
           this.set('results', resultsObj.results);
         }
       });
