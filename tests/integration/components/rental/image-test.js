@@ -34,7 +34,7 @@ module('Integration | Component | rental/image', function(hooks) {
 
     await click('button.image');
 
-    assert.dom('.image').hasClass('large')
+    assert.dom('.image').hasClass('large');
     assert.dom('.image small').hasText('View Smaller');
 
     await click('button.image');

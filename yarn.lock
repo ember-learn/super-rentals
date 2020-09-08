@@ -1582,9 +1582,9 @@ acorn-globals@^4.3.0:
     acorn-walk "^6.0.1"
 
 acorn-jsx@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.2.0.tgz#4c66069173d6fdd68ed85239fc256226182b2ebe"
-  integrity sha512-HiUX/+K2YpkpJ+SzBffkM/AQ2YE03S0U1kjTLVpoJdhZMOWy8qvXVN9JdLqv2QsaQ6MPYQIuNmwD8zOiYUofLQ==
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.1.tgz#fc8661e11b7ac1539c47dbfea2e72b3af34d267b"
+  integrity sha512-K0Ptm/47OKfQRpNQ2J/oIN/3QYiK6FwW+eJbILhsdxh2WTLdl+30o8aGdTbm5JbffpFFAg/g+zi1E+jvJha5ng==
 
 acorn-walk@^6.0.1:
   version "6.2.0"
@@ -5264,9 +5264,9 @@ escodegen@^1.11.0:
     source-map "~0.6.1"
 
 eslint-plugin-ember@^8.13.0:
-  version "8.13.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-8.13.0.tgz#7178e059ecfb37df46644966fbacd02abb98ac13"
-  integrity sha512-CD7K8m2pTpDKInpzivpku81N5EbvEdhqy/lS1InEp0pZD+G6zi/yK1/jUxz5bAURnoFtF5r6xZZLF56zCC32+w==
+  version "8.14.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-8.14.0.tgz#fc4c5119b5a1c87604a7bf920ca397783b96b7be"
+  integrity sha512-PQhR58omMAZzcJOB8GLWzL6l/vjRZ2Uo1eohxOmgPUyeBkHfZAMlvK+OSeneMLIr4azLQ4GISkklwv6lxb8qnw==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     ember-rfc176-data "^0.3.15"
@@ -6971,9 +6971,9 @@ is-interactive@^1.0.0:
   integrity sha512-2HvIEKRoqS62guEC+qBjpvRubdX910WCMuJTZ+I9yvqKU2/12eSL549HMwtabb4oupdj2sMP50k+XJfB/8JE6w==
 
 is-language-code@^1.0.7:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/is-language-code/-/is-language-code-1.0.9.tgz#0c8b0fde3d24b5dccfa4b32e4c4816a080b01cfc"
-  integrity sha512-DfBm82Z5bhelTERts0vFLZ+2bIiYR+5+pvBbIifzkqMymqiY0A1c1DYM7hCKXoK6ZKVjoom0BcZT+C8sV2yAqA==
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/is-language-code/-/is-language-code-1.0.10.tgz#19bacf9f0f97368853a3544cdba53c9075d55522"
+  integrity sha512-kp9PYib4sMAZCo56ViCWtjtYWz4ePZQ/QFzMvdxYEm2uSJaGjaEgOt3AkIR8SBxXffcV7ZYYkEGZpWa+No2Xiw==
 
 is-number@^3.0.0:
   version "3.0.0"
@@ -11028,9 +11028,9 @@ whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.5:
     iconv-lite "0.4.24"
 
 whatwg-fetch@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.4.0.tgz#e11de14f4878f773fbebcde8871b2c0699af8b30"
-  integrity sha512-rsum2ulz2iuZH08mJkT0Yi6JnKhwdw4oeyMjokgxd+mmqYSd9cPpOQf01TIWgjxG/U4+QR+AwKq6lSbXVxkyoQ==
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.4.1.tgz#e5f871572d6879663fa5674c8f833f15a8425ab3"
+  integrity sha512-sofZVzE1wKwO+EYPbWfiwzaKovWiZXf4coEzjGP9b2GBVgQRLQUZ2QcuPpQExGDAW5GItpEm6Tl4OU5mywnAoQ==
 
 whatwg-mimetype@^2.2.0:
   version "2.3.0"
