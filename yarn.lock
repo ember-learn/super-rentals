@@ -1169,21 +1169,21 @@
   resolved "https://registry.yarnpkg.com/@glimmer/env/-/env-0.1.7.tgz#fd2d2b55a9029c6b37a6c935e8c8871ae70dfa07"
   integrity sha1-/S0rVakCnGs3psk16MiHGucN+gc=
 
-"@glimmer/interfaces@^0.59.1":
-  version "0.59.1"
-  resolved "https://registry.yarnpkg.com/@glimmer/interfaces/-/interfaces-0.59.1.tgz#d7904a482d7c3113ea1c555372299f99585567b8"
-  integrity sha512-KPOUludcDdPPXm+78YmLR8hW7uSE1AjedVHdZ70OzSdQa27ZeLBdBGfN3pWBjQP/QSmL4k+wcfedAzO675jcxQ==
+"@glimmer/interfaces@0.62.1":
+  version "0.62.1"
+  resolved "https://registry.yarnpkg.com/@glimmer/interfaces/-/interfaces-0.62.1.tgz#42e4021569a00ca60d469ef06cc0c719883d109e"
+  integrity sha512-Ui4u/0G0zOYeDuz497DQ/isOgd43r6zNO0JdsDeVw1D/tYQQHR1Xk/1YRKC9jK2n5oicMYKVyEeT62Ec2rL/Jg==
   dependencies:
     "@simple-dom/interface" "^1.4.0"
 
-"@glimmer/syntax@^0.59.0":
-  version "0.59.1"
-  resolved "https://registry.yarnpkg.com/@glimmer/syntax/-/syntax-0.59.1.tgz#a1b97bb0b51d80fef04506efd2e549224a287e5a"
-  integrity sha512-0ENuadW5uLaIN06jLMD3QkbW20L68dwooCULOKCx5GGXx3cq6DRb0O0u8+6ABKMnxP7BGphmY7OysSk9myKmIA==
+"@glimmer/syntax@^0.62.1":
+  version "0.62.1"
+  resolved "https://registry.yarnpkg.com/@glimmer/syntax/-/syntax-0.62.1.tgz#60f0b14c8503f059b9b73065a2d86f9ca6c6e3f3"
+  integrity sha512-pjnPouu3tVJ5sDcpYCv9hyodJW6T07LvOjsGQ+QT5TdMqN4hoc4iK3dkdrRh+dkNcUsBxFQhxOtAbwOVSgtVtg==
   dependencies:
-    "@glimmer/interfaces" "^0.59.1"
-    "@glimmer/util" "^0.59.1"
-    handlebars "^4.7.4"
+    "@glimmer/interfaces" "0.62.1"
+    "@glimmer/util" "0.62.1"
+    "@handlebars/parser" "^1.1.0"
     simple-html-tokenizer "^0.5.9"
 
 "@glimmer/tracking@^1.0.1":
@@ -1194,24 +1194,29 @@
     "@glimmer/env" "^0.1.7"
     "@glimmer/validator" "^0.44.0"
 
+"@glimmer/util@0.62.1":
+  version "0.62.1"
+  resolved "https://registry.yarnpkg.com/@glimmer/util/-/util-0.62.1.tgz#44221aca6a8bb06791b0057db9b1d72330c08094"
+  integrity sha512-e6YTDAgEh8fqarhyN+0ncXOixLn5Wt12/IWdwKmtGIhdALOc/lWbJfrxlmKD+kkFTTjUVJUKm1Y6pxUyXOo4Ww==
+  dependencies:
+    "@glimmer/env" "0.1.7"
+    "@glimmer/interfaces" "0.62.1"
+    "@simple-dom/interface" "^1.4.0"
+
 "@glimmer/util@^0.44.0":
   version "0.44.0"
   resolved "https://registry.yarnpkg.com/@glimmer/util/-/util-0.44.0.tgz#45df98d73812440206ae7bda87cfe04aaae21ed9"
   integrity sha512-duAsm30uVK9jSysElCbLyU6QQYO2X9iLDLBIBUcCqck9qN1o3tK2qWiHbGK5d6g8E2AJ4H88UrfElkyaJlGrwg==
 
-"@glimmer/util@^0.59.1":
-  version "0.59.1"
-  resolved "https://registry.yarnpkg.com/@glimmer/util/-/util-0.59.1.tgz#7b673293f7b49771308d9ef521811300989bc287"
-  integrity sha512-jDtAGpsGTVp3Gd6cyEM4/SM/qF8f5t3OEm7dLwAoLK2gDvXcGUmQa/v8CZNbpmwAVlmkQTCtvYf9QjbD1D9I5Q==
-  dependencies:
-    "@glimmer/env" "0.1.7"
-    "@glimmer/interfaces" "^0.59.1"
-    "@simple-dom/interface" "^1.4.0"
-
 "@glimmer/validator@^0.44.0":
   version "0.44.0"
   resolved "https://registry.yarnpkg.com/@glimmer/validator/-/validator-0.44.0.tgz#03d127097dc9cb23052cdb7fcae59d0a9dca53e1"
   integrity sha512-i01plR0EgFVz69GDrEuFgq1NheIjZcyTy3c7q+w7d096ddPVeVcRzU3LKaqCfovvLJ+6lJx40j45ecycASUUyw==
+
+"@handlebars/parser@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@handlebars/parser/-/parser-1.1.0.tgz#d6dbc7574774b238114582410e8fee0dc3532bdf"
+  integrity sha512-rR7tJoSwJ2eooOpYGxGGW95sLq6GXUaS1UtWvN7pei6n2/okYvCGld9vsUTvkl2migxbkszsycwtMf/GEc1k1A==
 
 "@nodelib/fs.scandir@2.1.3":
   version "2.1.3"
@@ -2178,11 +2183,11 @@ babel-plugin-ember-modules-api-polyfill@^2.6.0:
     ember-rfc176-data "^0.3.13"
 
 babel-plugin-ember-modules-api-polyfill@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-ember-modules-api-polyfill/-/babel-plugin-ember-modules-api-polyfill-3.1.1.tgz#c6e9ede43b64c4e36512f260e42e829b071d9b4f"
-  integrity sha512-hRTnr59fJ6cIiSiSgQLM9QRiVv/RrBAYRYggCPQDj4dvYhOWZeoX6e+1jFY1qC3tJnSDuMWu3OrDciSIi1MJ0A==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-ember-modules-api-polyfill/-/babel-plugin-ember-modules-api-polyfill-3.2.0.tgz#302cb58a3c0fa33d93ab5115f1e91d76c6ec766b"
+  integrity sha512-k5gyC1kUDyZDcdD8LMGTI7KA+cHdKainuWpmc7d5yv42WgZFO75njPi3hZchEGsFFXtSqm9jiahgvLBUV8E8mA==
   dependencies:
-    ember-rfc176-data "^0.3.15"
+    ember-rfc176-data "^0.3.16"
 
 babel-plugin-filter-imports@^4.0.0:
   version "4.0.0"
@@ -3568,9 +3573,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001135:
-  version "1.0.30001141"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001141.tgz#214a196d81aa938b268fb0cb6d8fab23fdf14378"
-  integrity sha512-EHfInJHoQTmlMdVZrEc5gmwPc0zyN/hVufmGHPbVNQwlk7tJfCmQ2ysRZMY2MeleBivALUTyyxXnQjK18XrVpA==
+  version "1.0.30001142"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001142.tgz#a8518fdb5fee03ad95ac9f32a9a1e5999469c250"
+  integrity sha512-pDPpn9ankEpBFZXyCv2I4lh1v/ju+bqb78QfKf+w9XgDAFWBwSYPswXqprRdrgQWK0wQnpIbfwRjNHO1HWqvoQ==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -4988,7 +4993,7 @@ ember-resolver@^8.0.2:
     ember-cli-version-checker "^5.1.1"
     resolve "^1.17.0"
 
-ember-rfc176-data@^0.3.13, ember-rfc176-data@^0.3.15:
+ember-rfc176-data@^0.3.13, ember-rfc176-data@^0.3.15, ember-rfc176-data@^0.3.16:
   version "0.3.16"
   resolved "https://registry.yarnpkg.com/ember-rfc176-data/-/ember-rfc176-data-0.3.16.tgz#2ace0ac9cf9016d493a74a1d931643a308679803"
   integrity sha512-IYAzffS90r2ybAcx8c2qprYfkxa70G+/UPkxMN1hw55DU5S2aLOX6v3umKDZItoRhrvZMCnzwsdfKSrKdC9Wbg==
@@ -5056,11 +5061,11 @@ ember-template-lint@^2.11.0:
     yargs "^15.4.1"
 
 ember-template-recast@^4.1.5:
-  version "4.1.6"
-  resolved "https://registry.yarnpkg.com/ember-template-recast/-/ember-template-recast-4.1.6.tgz#34a0fdc423085c8d505a9e23e44e5ed4d93706f4"
-  integrity sha512-5r8Ur5grP8ylbuCPYvUCnYP31oe9WiFbWELlYi/uCp4WhmlsoyDD6IeG9Zs5Iy4CUEffEy/yFmZv/veNYMw6jA==
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/ember-template-recast/-/ember-template-recast-4.2.0.tgz#58325ae3216c0a91b5ddb1a1075106e4d7f39e9d"
+  integrity sha512-c1v5rXKBbCi8z9BEiLzEiI35/zwJJkuy/QdqQnZtZtHbb1ZMJb/2bwGi8JH8nWbvoTADIGhvGmkwPuaAKKcf2A==
   dependencies:
-    "@glimmer/syntax" "^0.59.0"
+    "@glimmer/syntax" "^0.62.1"
     async-promise-queue "^1.0.5"
     colors "^1.4.0"
     commander "^6.1.0"
@@ -5068,7 +5073,7 @@ ember-template-recast@^4.1.5:
     ora "^5.1.0"
     slash "^3.0.0"
     tmp "^0.2.1"
-    workerpool "^6.0.0"
+    workerpool "^6.0.1"
 
 ember-test-waiters@^1.1.1:
   version "1.2.0"
@@ -6399,7 +6404,7 @@ growly@^1.3.0:
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
   integrity sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE=
 
-handlebars@^4.0.11, handlebars@^4.0.4, handlebars@^4.3.1, handlebars@^4.7.3, handlebars@^4.7.4:
+handlebars@^4.0.11, handlebars@^4.0.4, handlebars@^4.3.1, handlebars@^4.7.3:
   version "4.7.6"
   resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.6.tgz#d4c05c1baf90e9945f77aa68a7a219aa4a7df74e"
   integrity sha512-1f2BACcBfiwAfStCKZNrUCgqNZkGsAT7UM3kkYtXuLo0KnaVfjKOyf7PRzB6++aK9STyT1Pd2ZCPe3EGOXleXA==
@@ -10397,9 +10402,9 @@ terser@^4.1.2:
     source-map-support "~0.5.12"
 
 terser@^5.3.0:
-  version "5.3.3"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-5.3.3.tgz#2592a1cf079df55101fe2b2cb2330f951863860b"
-  integrity sha512-vRQDIlD+2Pg8YMwVK9kMM3yGylG95EIwzBai1Bw7Ot4OBfn3VP1TZn3EWx4ep2jERN/AmnVaTiGuelZSN7ds/A==
+  version "5.3.4"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.3.4.tgz#e510e05f86e0bd87f01835c3238839193f77a60c"
+  integrity sha512-dxuB8KQo8Gt6OVOeLg/rxfcxdNZI/V1G6ze1czFUzPeCFWZRtvZMgSzlZZ5OYBZ4HoG607F6pFPNLekJyV+yVw==
   dependencies:
     commander "^2.20.0"
     source-map "~0.7.2"
@@ -11171,7 +11176,7 @@ workerpool@^3.1.1:
     object-assign "4.1.1"
     rsvp "^4.8.4"
 
-workerpool@^6.0.0:
+workerpool@^6.0.0, workerpool@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/workerpool/-/workerpool-6.0.1.tgz#9e661102e074138125cb12197a7867547f2558d4"
   integrity sha512-4I1YJngJuIAsJHOOJNPHQUjoA/Kr1QNtdRoPX8w92BtNy2pIo7zr6hQHDqm3d0CWnxmfcWsqxcFWN1Ni3w4C+g==
