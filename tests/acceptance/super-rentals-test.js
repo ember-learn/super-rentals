@@ -70,7 +70,7 @@ module('Acceptance | super rentals', function(hooks) {
     assert.dom('h1').hasText('SuperRentals');
     assert.dom('h2').hasText('Contact Us');
 
-    assert.dom('.jumbo a.button').hasText('About');
+    assert.dom('a.button').hasText('About');
     await click('.jumbo a.button');
 
     assert.equal(currentURL(), '/about');
