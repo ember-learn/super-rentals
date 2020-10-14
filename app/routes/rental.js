@@ -5,6 +5,6 @@ export default class RentalRoute extends Route {
   @service store;
 
   async model(params) {
-    return this.store.find('rental', params.rental_id);
+    return this.store.findRecord('rental', params.rental_id);
   }
 }
