@@ -1,3 +1,5 @@
+[![This project uses GitHub Actions for continuous integration.](https://github.com/ember-learn/super-rentals/workflows/CI/badge.svg)](https://github.com/ember-learn/super-rentals/actions?query=workflow%3ACI)
+
 # Super Rentals
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
