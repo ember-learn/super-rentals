@@ -3409,9 +3409,9 @@ broccoli-terser-sourcemap@^4.1.0:
     workerpool "^6.0.0"
 
 broccoli@^3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/broccoli/-/broccoli-3.4.2.tgz#a0c2605bea285c50cac304f482b86670630f4701"
-  integrity sha512-OZ0QEyL2i08xJWwhg9Fe0x5IScjBur986QRWrj5mAyHRZqF1nShEz01BPFoLt6L2tqJT0gyZsf8nfUvm8CcJgA==
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/broccoli/-/broccoli-3.5.0.tgz#bdf96dc32980d1ad9f7ef5e68aaaa19e8d47b602"
+  integrity sha512-qGYirIs6W5NGzDPMTRtoOnveP3UQJKWFjAWdRRZJjCoAJYN872sXuO48cnNfnc/c1nd9fCR8et4knlTPgI+9yQ==
   dependencies:
     "@types/chai" "^4.2.9"
     "@types/chai-as-promised" "^7.1.2"
@@ -4557,9 +4557,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.47, electron-to-chromium@^1.3.612:
-  version "1.3.616"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.616.tgz#de63d1c79bb8eb61168774df0c11c9e1af69f9e8"
-  integrity sha512-CI8L38UN2BEnqXw3/oRIQTmde0LiSeqWSRlPA42ZTYgJQ8fYenzAM2Z3ni+jtILTcrs5aiXZCGJ96Pm+3/yGyQ==
+  version "1.3.617"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.617.tgz#4192fa4db846c6ad51fffe3a06e71727e9699a74"
+  integrity sha512-yHXyI0fHnU0oLxdu21otLYpW3qwkbo8EBTpqeS9w14fwNjFy65SG6unrS3Gg+wX1JKWlAFCcNt13fG0nsCo/1A==
 
 elliptic@^6.5.3:
   version "6.5.3"
@@ -7328,9 +7328,9 @@ js-tokens@^3.0.2:
   integrity sha1-mGbfOVECEw449/mWvOtlRDIJwls=
 
 js-yaml@^3.13.1, js-yaml@^3.2.5, js-yaml@^3.2.7:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.0.tgz#a7a34170f26a21bb162424d8adacb4113a69e482"
-  integrity sha512-/4IbIeHcD9VMHFqDR/gQ7EdZdLimOvW2DdcxFjdyyZ9NsbS+ccrXqVWDtab/lRl5AlUqmpBx8EhPaWR+OtY17A==
+  version "3.14.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.1.tgz#dae812fdb3825fa306609a8717383c50c36a0537"
+  integrity sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
