@@ -1,10 +1,10 @@
 import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
 
-module('Unit | Model | rental', function(hooks) {
+module('Unit | Model | rental', function (hooks) {
   setupTest(hooks);
 
-  test('it has the right type', function(assert) {
+  test('it has the right type', function (assert) {
     let store = this.owner.lookup('service:store');
     let rental = store.createRecord('rental', {
       id: 'grand-old-mansion',
@@ -17,8 +17,10 @@ module('Unit | Model | rental', function(hooks) {
       },
       category: 'Estate',
       bedrooms: 15,
-      image: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg',
-      description: 'This grand old mansion sits on over 100 acres of rolling hills and dense redwood forests.',
+      image:
+        'https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg',
+      description:
+        'This grand old mansion sits on over 100 acres of rolling hills and dense redwood forests.',
     });
 
     assert.equal(rental.type, 'Standalone');

@@ -6,8 +6,8 @@
 
   <ul class="results">
     <Rentals::Filter @rentals={{@rentals}} @query={{this.query}} as |results|>
-      {{#each results as |rental|}}
-        <li><Rental @rental={{rental}} /></li>
+      {{#each results as |property|}}
+        <li><Rental @rental={{property}} /></li>
       {{/each}}
     </Rentals::Filter>
   </ul>
