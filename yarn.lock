@@ -5062,9 +5062,9 @@ ember-maybe-import-regenerator@^0.1.6:
     regenerator-runtime "^0.9.5"
 
 ember-page-title@^6.0.3:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/ember-page-title/-/ember-page-title-6.1.0.tgz#66a9bea3a197c8732d893f19d1075c62b75ba3a1"
-  integrity sha512-AogwY4D7ocpISuSfApT5DpSbCHmSLRCeX/x45ZMt9reI6Nf7Rcwd9I2bikesjBn6MviStrtjwQFmKN8mfMDNkQ==
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/ember-page-title/-/ember-page-title-6.2.0.tgz#d79f7422299ebb8f8ac819399596e8f54f01a0e9"
+  integrity sha512-mgzI59rVH6Q00uG1OnsbrSfic+MxFQbtsjX3BuDWGgU7hWahDhAAgaQrKIFx99aEqWoiL+OiX4tQLPnxyZEceA==
   dependencies:
     ember-cli-babel "^7.22.1"
 
@@ -8496,9 +8496,9 @@ ora@^3.4.0:
     wcwidth "^1.0.1"
 
 ora@^5.1.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/ora/-/ora-5.2.0.tgz#de10bfd2d15514384af45f3fa9d9b1aaf344fda1"
-  integrity sha512-+wG2v8TUU8EgzPHun1k/n45pXquQ9fHnbXVetl9rRgO6kjZszGGbraF3XPTIdgeA+s1lbRjSEftAnyT0w8ZMvQ==
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/ora/-/ora-5.3.0.tgz#fb832899d3a1372fe71c8b2c534bbfe74961bb6f"
+  integrity sha512-zAKMgGXUim0Jyd6CXK9lraBnD3H5yPGBPPOkC23a2BG6hsm4Zu6OQSjQuEtV0BHDf4aKHcUFvJiGRrFuW3MG8g==
   dependencies:
     bl "^4.0.3"
     chalk "^4.1.0"
