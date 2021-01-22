@@ -3680,9 +3680,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001173:
-  version "1.0.30001178"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001178.tgz#3ad813b2b2c7d585b0be0a2440e1e233c6eabdbc"
-  integrity sha512-VtdZLC0vsXykKni8Uztx45xynytOi71Ufx9T8kHptSw9AL4dpqailUJJHavttuzUe1KYuBYtChiWv+BAb7mPmQ==
+  version "1.0.30001179"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001179.tgz#b0803883b4471a6c62066fb1752756f8afc699c8"
+  integrity sha512-blMmO0QQujuUWZKyVrD1msR4WNDAqb/UPO1Sw2WWsQ7deoM5bJiicKnWJ1Y0NS/aGINSnKPIWBMw5luX+NDUCA==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -5147,15 +5147,15 @@ ember-source@~3.24.0:
     silent-error "^1.1.1"
 
 ember-template-lint@^2.15.0:
-  version "2.16.0"
-  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-2.16.0.tgz#a6d725e2c19ab7df43390357e085c66a00a751bb"
-  integrity sha512-RmQCFMHWPG3CDByAu0R4XP/edKhha6dl4oA9vqU6+kIuGt0WyHy3nHIJuXmVvLSosmK8KEHuWKgpWgNr//9ckg==
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-2.17.0.tgz#61206ad42f59c3f629a782d459e29437c0cfae21"
+  integrity sha512-m2X7khUmgJqzC5Bb7wYw08R6N0hwge8/TB8PucEJsFxv2fFrhh2Aec+YdNG7VWsSPFnC0i7O1upBLKcfzO/a6Q==
   dependencies:
     chalk "^4.0.0"
     ember-template-recast "^5.0.1"
     find-up "^5.0.0"
     get-stdin "^8.0.0"
-    globby "^11.0.1"
+    globby "^11.0.2"
     is-glob "^4.0.1"
     micromatch "^4.0.2"
     resolve "^1.19.0"
@@ -6454,7 +6454,7 @@ globby@10.0.0:
     merge2 "^1.2.3"
     slash "^3.0.0"
 
-globby@^11.0.1:
+globby@^11.0.1, globby@^11.0.2:
   version "11.0.2"
   resolved "https://registry.yarnpkg.com/globby/-/globby-11.0.2.tgz#1af538b766a3b540ebfb58a32b2e2d5897321d83"
   integrity sha512-2ZThXDvvV8fYFRVIxnrMQBipZQDr7MxKAmQK1vujaj9/7eF0efG7BPUKJ7jP7G5SLF37xKDXvO4S/KKLj/Z0og==
