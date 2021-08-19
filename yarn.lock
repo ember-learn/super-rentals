@@ -1144,25 +1144,24 @@
     ember-cli-babel "^7.4.0"
 
 "@ember/test-helpers@^2.2.5":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@ember/test-helpers/-/test-helpers-2.4.0.tgz#4680783cfad9c474de8a47dd30cc63f4bf8d70ef"
-  integrity sha512-tNYc7rsgr6vWfwSD7dkGZzCovrbdPdPwdqs1Q3m38rCGry00PUNadFGM4LL8T/4YmJMghAri3FpVv685ZPVBUA==
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@ember/test-helpers/-/test-helpers-2.4.1.tgz#4ec8605ab1243b2cd8028b63f2bf4c0ea51eb779"
+  integrity sha512-CojE+K6agL8MGnoL1c6SWvBW9LOmBiBtms1m5LqHsYZQXmZXbvT2taf1ouOkT3nFh9tLEhKea8DopitD062TEA==
   dependencies:
-    "@ember/test-waiters" "^2.4.5"
+    "@ember/test-waiters" "^3.0.0"
     broccoli-debug "^0.6.5"
     broccoli-funnel "^3.0.8"
     ember-cli-babel "^7.26.6"
     ember-cli-htmlbars "^5.7.1"
     ember-destroyable-polyfill "^2.0.3"
 
-"@ember/test-waiters@^2.4.5":
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/@ember/test-waiters/-/test-waiters-2.4.5.tgz#6e8e34d1bc46a9b0cc22cb11cc5936046e926031"
-  integrity sha512-833JvHtHdEfBfKXgvmw+6oziFOpVfD4NQrc04Ztj59A11K9FPNfZ3P8YydL7LFTtdd7UfJ/cYCLAm+OwUxbotQ==
+"@ember/test-waiters@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@ember/test-waiters/-/test-waiters-3.0.0.tgz#b66a35cd5b78ec3c296a6f5f5fb3852780a5d3c8"
+  integrity sha512-z6+gIlq/rXLKroWv2wxAoiiLtgSOGQFCw6nUufERausV+jLnA7CYbWwzEo5R7XaOejSDpgA5d6haXIBsD5j0oQ==
   dependencies:
     calculate-cache-key-for-tree "^2.0.0"
     ember-cli-babel "^7.26.6"
-    ember-cli-typescript "^4.1.0"
     ember-cli-version-checker "^5.1.2"
     semver "^7.3.5"
 
@@ -1594,9 +1593,9 @@
   integrity sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==
 
 "@types/node@*", "@types/node@>=10.0.0":
-  version "16.6.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.6.1.tgz#aee62c7b966f55fc66c7b6dfa1d58db2a616da61"
-  integrity sha512-Sr7BhXEAer9xyGuCN3Ek9eg9xPviCF2gfu9kTfuU2HkTVAMYSDeX40fvpmo72n5nansg3nsBjuQBrsS28r+NUw==
+  version "16.6.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.6.2.tgz#331b7b9f8621c638284787c5559423822fdffc50"
+  integrity sha512-LSw8TZt12ZudbpHc6EkIyDM3nHVWKYrAvGy6EAJfNfjusbwnThqjqxUKKRwuV3iWYeW/LYMzNgaq3MaLffQ2xA==
 
 "@types/node@^9.6.0":
   version "9.6.61"
@@ -3660,15 +3659,15 @@ browserslist@^3.2.6:
     electron-to-chromium "^1.3.47"
 
 browserslist@^4.0.0, browserslist@^4.16.6, browserslist@^4.16.7:
-  version "4.16.7"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.7.tgz#108b0d1ef33c4af1b587c54f390e7041178e4335"
-  integrity sha512-7I4qVwqZltJ7j37wObBe3SoTz+nS8APaNcrBOlgoirb6/HbEU2XxW/LpUDTCngM6iauwFqmRTuOMfyKnFGY5JA==
+  version "4.16.8"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.8.tgz#cb868b0b554f137ba6e33de0ecff2eda403c4fb0"
+  integrity sha512-sc2m9ohR/49sWEbPj14ZSSZqp+kbi16aLao42Hmn3Z8FpjuMaq2xCA2l4zl9ITfyzvnvyE0hcg62YkIGKxgaNQ==
   dependencies:
-    caniuse-lite "^1.0.30001248"
-    colorette "^1.2.2"
-    electron-to-chromium "^1.3.793"
+    caniuse-lite "^1.0.30001251"
+    colorette "^1.3.0"
+    electron-to-chromium "^1.3.811"
     escalade "^3.1.1"
-    node-releases "^1.1.73"
+    node-releases "^1.1.75"
 
 bser@2.1.1:
   version "2.1.1"
@@ -3802,7 +3801,7 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001248:
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001251:
   version "1.0.30001251"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001251.tgz#6853a606ec50893115db660f82c094d18f096d85"
   integrity sha512-HOe1r+9VkU4TFmnU70z+r7OLmtR+/chB1rdcJUeQlAinjEeb0cKL20tlAtOagNZhbrtLnCvV19B4FmF1rgzl6A==
@@ -4053,7 +4052,7 @@ color-name@~1.1.4:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-colorette@^1.2.2:
+colorette@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.3.0.tgz#ff45d2f0edb244069d3b772adeb04fed38d0a0af"
   integrity sha512-ecORCqbSFP7Wm8Y6lyqMJjexBQqXSF7SSeaTyGGphogUjBlFP9m9o08wy86HL2uB7fMTxtOUzLMk7ogKcxMg1w==
@@ -4640,10 +4639,10 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-electron-to-chromium@^1.3.47, electron-to-chromium@^1.3.793:
-  version "1.3.809"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.809.tgz#86db795c41c97f252ee1c849a2f70d0739710776"
-  integrity sha512-bZoXTEhEe8o10dHX2gNY9KkCSwz1AFk4c0GbmzlTD5WAkUpDb/zY7JjvLvJ/y1wUsURiVmlGdnIeU+gFyTeaXA==
+electron-to-chromium@^1.3.47, electron-to-chromium@^1.3.811:
+  version "1.3.812"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.812.tgz#4c4fb407e0e1335056097f172e9f2c0a09efe77d"
+  integrity sha512-7KiUHsKAWtSrjVoTSzxQ0nPLr/a+qoxNZwkwd9LkylTOgOXSVXkQbpIVT0WAUQcI5gXq3SwOTCrK+WfINHOXQg==
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -6203,9 +6202,9 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.0.0:
-  version "1.14.1"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.1.tgz#d9114ded0a1cfdd334e164e6662ad02bfd91ff43"
-  integrity sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg==
+  version "1.14.2"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.2.tgz#cecb825047c00f5e66b142f90fed4f515dec789b"
+  integrity sha512-yLR6WaE2lbF0x4K2qE2p9PEXKLDjUjnR/xmjS3wHAYxtlsI9MLLBJUZirAHKzUZDGLxje7w/cXR49WOUo4rbsA==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -8409,10 +8408,10 @@ node-notifier@^9.0.1:
     uuid "^8.3.0"
     which "^2.0.2"
 
-node-releases@^1.1.73:
-  version "1.1.74"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.74.tgz#e5866488080ebaa70a93b91144ccde06f3c3463e"
-  integrity sha512-caJBVempXZPepZoZAPCWRTNxYQ+xtG/KAi4ozTA5A+nJ7IU+kLQCbqaUjb5Rwy14M9upBWiQ4NutcmW04LJSRw==
+node-releases@^1.1.75:
+  version "1.1.75"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.75.tgz#6dd8c876b9897a1b8e5a02de26afa79bb54ebbfe"
+  integrity sha512-Qe5OUajvqrqDSy6wrWFmMwfJ0jVgwiw4T3KqmbTcZ62qW0gQkheXYhcFM1+lOVcGUoRxcEcfyvFMAnDgaF1VWw==
 
 node-watch@0.7.1:
   version "0.7.1"
