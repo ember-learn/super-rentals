@@ -4,6 +4,11 @@ import Service from '@ember/service';
 import { find, render } from '@ember/test-helpers';
 import { hbs } from 'ember-cli-htmlbars';
 
+const MOCK_URL = new URL(
+  '/foo/bar?baz=true#some-section',
+  window.location.origin
+);
+
 class MockRouterService extends Service {
   get currentURL() {
     return '/foo/bar?baz=true#some-section';
@@ -35,10 +40,7 @@ module('Integration | Component | share-button', function (hooks) {
       .hasClass('button')
       .containsText('Tweet this!');
 
-    assert.equal(
-      this.tweetParam('url'),
-      new URL('/foo/bar?baz=true#some-section', window.location.origin)
-    );
+    assert.strictEqual(this.tweetParam('url'), MOCK_URL.href);
   });
 
   test('it supports passing @text', async function (assert) {
@@ -46,7 +48,7 @@ module('Integration | Component | share-button', function (hooks) {
       hbs`<ShareButton @text="Hello Twitter!">Tweet this!</ShareButton>`
     );
 
-    assert.equal(this.tweetParam('text'), 'Hello Twitter!');
+    assert.strictEqual(this.tweetParam('text'), 'Hello Twitter!');
   });
 
   test('it supports passing @hashtags', async function (assert) {
@@ -54,12 +56,12 @@ module('Integration | Component | share-button', function (hooks) {
       hbs`<ShareButton @hashtags="foo,bar,baz">Tweet this!</ShareButton>`
     );
 
-    assert.equal(this.tweetParam('hashtags'), 'foo,bar,baz');
+    assert.strictEqual(this.tweetParam('hashtags'), 'foo,bar,baz');
   });
 
   test('it supports passing @via', async function (assert) {
     await render(hbs`<ShareButton @via="emberjs">Tweet this!</ShareButton>`);
-    assert.equal(this.tweetParam('via'), 'emberjs');
+    assert.strictEqual(this.tweetParam('via'), 'emberjs');
   });
 
   test('it supports adding extra classes', async function (assert) {
