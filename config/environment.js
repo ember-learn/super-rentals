@@ -5,7 +5,7 @@ module.exports = function (environment) {
     modulePrefix: 'super-rentals',
     environment,
     rootURL: '/',
-    locationType: 'auto',
+    locationType: 'history',
     EmberENV: {
       RAISE_ON_DEPRECATION: true,
       FEATURES: {
