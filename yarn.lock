@@ -4950,10 +4950,10 @@ enhanced-resolve@^4.0.0, enhanced-resolve@^4.5.0:
     memory-fs "^0.5.0"
     tapable "^1.0.0"
 
-enhanced-resolve@^5.8.3:
-  version "5.9.1"
-  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.9.1.tgz#e898cea44d9199fd92137496cff5691b910fb43e"
-  integrity sha512-jdyZMwCQ5Oj4c5+BTnkxPgDZO/BJzh/ADDmKebayyzNwjVX1AFCeGkOfxNx0mHi2+8BKC5VxUYiw3TIvoT7vhw==
+enhanced-resolve@^5.9.2:
+  version "5.9.2"
+  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.9.2.tgz#0224dcd6a43389ebfb2d55efee517e5466772dd9"
+  integrity sha512-GIm3fQfwLJ8YZx2smuHpBKkXC1yOk+OBEmKckVyL0i/ea8mqDEykK3ld5dgH1QYPNyT/lIllxV2LULnxCHaHkA==
   dependencies:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
@@ -7455,9 +7455,9 @@ magic-string@^0.24.0:
     sourcemap-codec "^1.4.1"
 
 magic-string@^0.25.7:
-  version "0.25.8"
-  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.25.8.tgz#9ee85aabefa5135cf8d80e96adc83b595ae2c5e0"
-  integrity sha512-n9NlSgfkB2rPYjSd/EZDoQcsXzwYAv4CIB/vi3ZSvZ2Tjax5W5Ie1NMy4HG3PVdcL4bBMMR20Ng4UcISMzqRLw==
+  version "0.25.9"
+  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.25.9.tgz#de7f9faf91ef8a1c91d02c2e5314c8277dbcdd1c"
+  integrity sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==
   dependencies:
     sourcemap-codec "^1.4.8"
 
@@ -7691,9 +7691,9 @@ mimic-fn@^2.1.0:
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
 mini-css-extract-plugin@^2.5.2:
-  version "2.5.3"
-  resolved "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-2.5.3.tgz#c5c79f9b22ce9b4f164e9492267358dbe35376d9"
-  integrity sha512-YseMB8cs8U/KCaAGQoqYmfUuhhGW0a9p9XvWXrxVOkE3/IiISTLw4ALNt7JR5B2eYauFM+PQGSbXMDmVbR7Tfw==
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-2.6.0.tgz#578aebc7fc14d32c0ad304c2c34f08af44673f5e"
+  integrity sha512-ndG8nxCEnAemsg4FSgS+yNyHKgkTB4nPKqCOgh65j3/30qqC5RaSQQXMm++Y6sb6E1zRSxPkztj9fqxhS1Eo6w==
   dependencies:
     schema-utils "^4.0.0"
 
@@ -10732,9 +10732,9 @@ webpack@^4.43.0:
     webpack-sources "^1.4.1"
 
 webpack@^5.69.1:
-  version "5.69.1"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.69.1.tgz#8cfd92c192c6a52c99ab00529b5a0d33aa848dc5"
-  integrity sha512-+VyvOSJXZMT2V5vLzOnDuMz5GxEqLk7hKWQ56YxPW/PQRUuKimPqmEIJOx8jHYeyo65pKbapbW464mvsKbaj4A==
+  version "5.70.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.70.0.tgz#3461e6287a72b5e6e2f4872700bc8de0d7500e6d"
+  integrity sha512-ZMWWy8CeuTTjCxbeaQI21xSswseF2oNOwc70QSKNePvmxE7XW36i7vpBMYZFAUHPwQiEbNGCEYIOOlyRbdGmxw==
   dependencies:
     "@types/eslint-scope" "^3.7.3"
     "@types/estree" "^0.0.51"
@@ -10745,7 +10745,7 @@ webpack@^5.69.1:
     acorn-import-assertions "^1.7.6"
     browserslist "^4.14.5"
     chrome-trace-event "^1.0.2"
-    enhanced-resolve "^5.8.3"
+    enhanced-resolve "^5.9.2"
     es-module-lexer "^0.9.0"
     eslint-scope "5.1.1"
     events "^3.2.0"
