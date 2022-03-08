@@ -1175,11 +1175,11 @@
     semver "^7.3.5"
 
 "@embroider/macros@^1.0.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.3.0.tgz#61f552ed5d177c12c55c2e1004db906a4ab5dbad"
-  integrity sha512-UyiP5N/bjWrv5Nf17VaTS9BVSA4MeROzo5kOvyzcNypXEOUu3u468p7542aoRFCUFQ3cpldrQkV51sLHy8duCA==
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.4.0.tgz#f0f7eb08c004236c9ec6cac37cf9457bf4fae6f0"
+  integrity sha512-mCaKOi6yl/WQB9VgrHLEnmkGoBfUUXGUDRdOsQWECGHd1hAnniOrWF+4SnVVY6IBtVk1EwzXd5vA8d4XSoySyg==
   dependencies:
-    "@embroider/shared-internals" "1.3.0"
+    "@embroider/shared-internals" "1.4.0"
     assert-never "^1.2.1"
     babel-import-util "^1.1.0"
     ember-cli-babel "^7.26.6"
@@ -1188,10 +1188,10 @@
     resolve "^1.20.0"
     semver "^7.3.2"
 
-"@embroider/shared-internals@1.3.0", "@embroider/shared-internals@^1.0.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-1.3.0.tgz#53d8d25f4774c66c641965e8db4f321b32669a80"
-  integrity sha512-psByCUBW2Hv5Y+QDWhaFJ8uQoZ0GCd0LpUeehRkBynbOQmgGDdYpd2SrKplt/o1C+z3bKrD7JyiwthU9Yn3yRw==
+"@embroider/shared-internals@1.4.0", "@embroider/shared-internals@^1.0.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-1.4.0.tgz#ed62a1a92b479f37a274487092bc8a69f45e2169"
+  integrity sha512-R5j82Mok6x7LQ995c6yW4mqctxiMpsDEypwG3nD5mS/D4+0v51Det4Whon5WWC1+HI/NGu8JooBP/vPtRzccdw==
   dependencies:
     babel-import-util "^1.1.0"
     ember-rfc176-data "^0.3.17"
@@ -8565,9 +8565,9 @@ postcss-value-parser@^4.1.0:
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
 postcss@^8.2.15:
-  version "8.4.7"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.7.tgz#f99862069ec4541de386bf57f5660a6c7a0875a8"
-  integrity sha512-L9Ye3r6hkkCeOETQX6iOaWZgjp3LL6Lpqm6EtgbKrgqGGteRMNb9vzBfRL96YOSu8o7x3MfIH9Mo5cPJFGrW6A==
+  version "8.4.8"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.8.tgz#dad963a76e82c081a0657d3a2f3602ce10c2e032"
+  integrity sha512-2tXEqGxrjvAO6U+CJzDL2Fk2kPHTv1jQsYkSoMeOis2SsYaXRO2COxTdQp99cYvif9JTXaAk9lYGc3VhJt7JPQ==
   dependencies:
     nanoid "^3.3.1"
     picocolors "^1.0.0"
@@ -9174,9 +9174,9 @@ rollup@^0.57.1:
     sourcemap-codec "^1.4.1"
 
 rollup@^2.50.0:
-  version "2.69.2"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.69.2.tgz#5e0f3b6d07b2a293bc4f4727315dcddb46a96b85"
-  integrity sha512-KghktpWg3Wd+nYCsx3Griidm2/CKIJYG2yyaaKspo0TXSoGdW+0duwzKl4wWIu62oN3mFg3zCDbwVRPwuNPPlA==
+  version "2.70.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.70.0.tgz#17a92e5938e92a251b962352e904c9f558230ec7"
+  integrity sha512-iEzYw+syFxQ0X9RefVwhr8BA2TNJsTaX8L8dhyeyMECDbmiba+8UQzcu+xZdji0+JQ+s7kouQnw+9Oz5M19XKA==
   optionalDependencies:
     fsevents "~2.3.2"
 
