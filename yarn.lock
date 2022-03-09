@@ -1175,11 +1175,11 @@
     semver "^7.3.5"
 
 "@embroider/macros@^1.0.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.4.0.tgz#f0f7eb08c004236c9ec6cac37cf9457bf4fae6f0"
-  integrity sha512-mCaKOi6yl/WQB9VgrHLEnmkGoBfUUXGUDRdOsQWECGHd1hAnniOrWF+4SnVVY6IBtVk1EwzXd5vA8d4XSoySyg==
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.5.0.tgz#8c67666359e7814d91cdeac2fd96c896080473b3"
+  integrity sha512-QqNsWmIJ8LvwWg+YAfB+nfcRZ49hAJNTJAKt2IDpgZDKa/FYj/Mp75UWfJ1BJvB3KUq50OQCOv4TZ3ZcU9h/TQ==
   dependencies:
-    "@embroider/shared-internals" "1.4.0"
+    "@embroider/shared-internals" "1.5.0"
     assert-never "^1.2.1"
     babel-import-util "^1.1.0"
     ember-cli-babel "^7.26.6"
@@ -1188,10 +1188,10 @@
     resolve "^1.20.0"
     semver "^7.3.2"
 
-"@embroider/shared-internals@1.4.0", "@embroider/shared-internals@^1.0.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-1.4.0.tgz#ed62a1a92b479f37a274487092bc8a69f45e2169"
-  integrity sha512-R5j82Mok6x7LQ995c6yW4mqctxiMpsDEypwG3nD5mS/D4+0v51Det4Whon5WWC1+HI/NGu8JooBP/vPtRzccdw==
+"@embroider/shared-internals@1.5.0", "@embroider/shared-internals@^1.0.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-1.5.0.tgz#d3883f13571be36fcdbc59c65c785db7b6d8186e"
+  integrity sha512-kdR7Fh2YdzsNofJO+DJxLfrlMbW4/NNf78aMXgE21z/tg9GO5W2mKlI1DzsO2JlO5yfZdiYfqb9C9vSLJEx14A==
   dependencies:
     babel-import-util "^1.1.0"
     ember-rfc176-data "^0.3.17"
@@ -3417,9 +3417,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001313:
-  version "1.0.30001313"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001313.tgz#a380b079db91621e1b7120895874e2fd62ed2e2f"
-  integrity sha512-rI1UN0koZUiKINjysQDuRi2VeSCce3bYJNmDcj3PIKREiAmjakugBul1QSkg/fPrlULYl6oWfGg3PbgOSY9X4Q==
+  version "1.0.30001314"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001314.tgz#65c7f9fb7e4594fca0a333bec1d8939662377596"
+  integrity sha512-0zaSO+TnCHtHJIbpLroX7nsD+vYuOVjl3uzFbJO1wMVbuveJA0RK2WcQA9ZUIOiO0/ArMiMgHJLxfEZhQiC0kw==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -4221,9 +4221,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.4.76:
-  version "1.4.76"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.76.tgz#a0494baedaf51094b1c172999919becd9975a934"
-  integrity sha512-3Vftv7cenJtQb+k00McEBZ2vVmZ/x+HEF7pcZONZIkOsESqAqVuACmBxMv0JhzX7u0YltU0vSqRqgBSTAhFUjA==
+  version "1.4.77"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.77.tgz#c26e454cb8721d4ebdae3e276c57cd32e51c32ed"
+  integrity sha512-fiDxw8mO9Ph1Z0bjX2sFTPpi0J0QkOiwOJF+5Q0J0baNc/F9lLePAvDPlnoxvbUYYMizqrKPeotRRkJ9LtxAew==
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -4852,9 +4852,9 @@ ember-source@~4.2.0:
     silent-error "^1.1.1"
 
 ember-template-lint@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-4.2.0.tgz#13ce814c414a07c2dfe8185067261ab3b1317317"
-  integrity sha512-zuTo280sMarKwL92748fjMfBYogdN8AikbLPD+/csFbYA99HreG3DzgYj61uEjYaymA7nbyDmVYxfDTH9bHZAg==
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-4.3.0.tgz#4bb6050db57eeeaa8f944151c9fef9cf582e7217"
+  integrity sha512-a+UFZDTGMUStY8wnzFQyD3BmA/UKdegQ4WDikS0TbhVTx9tK6aOnVh5lV33Xr4Fbf3Pee1N1//XdCulWpUajMg==
   dependencies:
     "@lint-todo/utils" "^12.0.1"
     aria-query "^5.0.0"
