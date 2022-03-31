@@ -4208,9 +4208,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.4.84:
-  version "1.4.100"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.100.tgz#da82de8a19a47ea3dcdf141dde85355942fbc4e7"
-  integrity sha512-pNrSE2naf8fizl6/Uxq8UbKb8hU9EiYW4OzCYswosXoLV5NTMOUVKECNzDaHiUubsPq/kAckOzZd7zd8S8CHVw==
+  version "1.4.102"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.102.tgz#fec312f753bcd9b89396136147efdb8bbd55cc82"
+  integrity sha512-MuWg3/gLTk6PSjC7ZrTgT8aAYZmUYd+gRtD95vN77KMBwZXiGdHHa8Y7ppMc/zwNumZtoIBLS0rzZyjEHd7sNw==
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -8541,9 +8541,9 @@ postcss-modules-values@^4.0.0:
     icss-utils "^5.0.0"
 
 postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4:
-  version "6.0.9"
-  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.9.tgz#ee71c3b9ff63d9cd130838876c13a2ec1a992b2f"
-  integrity sha512-UO3SgnZOVTwu4kyLR22UQ1xZh086RyNZppb7lLAKBFK8a32ttG5i87Y/P3+2bRSjZNyJ1B7hfFNo273tKe9YxQ==
+  version "6.0.10"
+  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.10.tgz#79b61e2c0d1bfc2602d549e11d0876256f8df88d"
+  integrity sha512-IQ7TZdoaqbT+LCpShg46jnZVlhWD2w6iQYAcYXfHARZ7X1t/UGhhceQDs5X0cGqKvYlHNOuv7Oa1xmb0oQuA3w==
   dependencies:
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
