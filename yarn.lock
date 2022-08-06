@@ -51,9 +51,9 @@
     semver "^6.3.0"
 
 "@babel/generator@^7.18.10":
-  version "7.18.10"
-  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.18.10.tgz#794f328bfabdcbaf0ebf9bf91b5b57b61fa77a2a"
-  integrity sha512-0+sW7e3HjQbiHbj1NeU/vN8ornohYlacAfZIaXhdoGweQqgcNy69COVciYYqEXJ/v+9OBA7Frxm4CVAuNqKeNA==
+  version "7.18.12"
+  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.18.12.tgz#fa58daa303757bd6f5e4bbca91b342040463d9f4"
+  integrity sha512-dfQ8ebCN98SvyL7IxNMCUtZQSq5R7kxgN+r8qYTGDmmSion1hX2C0zq2yo1bsCDhXixokv1SAWTZUMYbO/V5zg==
   dependencies:
     "@babel/types" "^7.18.10"
     "@jridgewell/gen-mapping" "^0.3.2"
@@ -799,9 +799,9 @@
     "@babel/helper-plugin-utils" "^7.18.9"
 
 "@babel/plugin-transform-typescript@^7.13.0", "@babel/plugin-transform-typescript@^7.16.8":
-  version "7.18.10"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-typescript/-/plugin-transform-typescript-7.18.10.tgz#b23401b32f1f079396bcaed01667a54ebe4f9f85"
-  integrity sha512-j2HQCJuMbi88QftIb5zlRu3c7PU+sXNnscqsrjqegoGiCgXR569pEdben9vly5QHKL2ilYkfnSwu64zsZo/VYQ==
+  version "7.18.12"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-typescript/-/plugin-transform-typescript-7.18.12.tgz#712e9a71b9e00fde9f8c0238e0cceee86ab2f8fd"
+  integrity sha512-2vjjam0cum0miPkenUbQswKowuxs/NjMwIKEq0zwegRxXk12C9YOF9STXnaUptITOtOJHKHpzvvWYOjbm6tc0w==
   dependencies:
     "@babel/helper-create-class-features-plugin" "^7.18.9"
     "@babel/helper-plugin-utils" "^7.18.9"
@@ -4920,9 +4920,9 @@ ember-source@~4.6.0:
     silent-error "^1.1.1"
 
 ember-template-lint@^4.10.1:
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-4.11.0.tgz#3d31be070713acee6f504af1e591f88fb7eb625e"
-  integrity sha512-Zi5yk1XRkul51wLoeoWxS4+GUxqgxrrIGRrkg6ijjbAJmnyPAQCCqIHUIb8+2qL5oOTir8u2nlAg8DihlnULqQ==
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-4.12.0.tgz#0708cf280cbad9419c399e52714d29a72dad2dbf"
+  integrity sha512-udWWclqxMc7bljIWAnR7wr1/U7R6V0wmSAWGnQ/DqKmNshnVWnzC94wixzvbdrubi/kn1SIEGsyf0bebTkS8rQ==
   dependencies:
     "@lint-todo/utils" "^13.0.3"
     aria-query "^5.0.0"
