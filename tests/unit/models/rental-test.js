@@ -1,4 +1,5 @@
 import { module, test } from 'qunit';
+
 import { setupTest } from 'super-rentals/tests/helpers';
 
 module('Unit | Model | rental', function (hooks) {
