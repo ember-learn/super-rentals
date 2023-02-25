@@ -3141,7 +3141,7 @@ chrome-trace-event@^1.0.2:
   resolved "https://registry.yarnpkg.com/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz#1015eced4741e15d06664a957dbbf50d041e26ac"
   integrity sha512-p3KULyQg4S7NIHixdwbGX+nFHkoBiA4YQmyWtjb8XngSKV124nJmRysgAeujbUVb15vh+RvFUfCPqU7rXk+hZg==
 
-ci-info@^3.5.0, ci-info@^3.7.1:
+ci-info@^3.5.0, ci-info@^3.8.0:
   version "3.8.0"
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.8.0.tgz#81408265a5380c929f0bc665d62256628ce9ef91"
   integrity sha512-eXTggHWSooYhq49F2opQhuHWgzucfF2YgODK4e1566GQs5BIfP30B0oenwBJHfWxAs2fyPB1s7Mg949zLf61Yw==
@@ -3746,9 +3746,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.310"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.310.tgz#cb85dc8ceac536e99b20a364d7ab00ea35168f9e"
-  integrity sha512-/xlATgfwkm5uDDwLw5nt/MNEf7c1oazLURMZLy39vOioGYyYzLWIDT8fZMJak6qTiAJ7udFTy7JG7ziyjNutiA==
+  version "1.4.311"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.311.tgz#953bc9a4767f5ce8ec125f9a1ad8e00e8f67e479"
+  integrity sha512-RoDlZufvrtr2Nx3Yx5MB8jX3aHIxm8nRWPJm3yVvyHmyKaRvn90RjzB6hNnt0AkhS3IInJdyRfQb4mWhPvUjVw==
 
 ember-auto-import@^2.4.1, ember-auto-import@^2.4.3, ember-auto-import@^2.5.0:
   version "2.6.1"
@@ -4364,14 +4364,14 @@ ember-template-imports@^3.4.1:
     validate-peer-dependencies "^1.1.0"
 
 ember-template-lint@^5.3.1:
-  version "5.5.1"
-  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-5.5.1.tgz#6a37b2770b1febc567a092013fd8927c5e305d72"
-  integrity sha512-EQgHRBWhSV46REzjaIp7B99tswBpY0IeKh2VNQT+AocL4oEQ9Bt0nqtNhtePA1ZX6xq5S8gBGIfAPN/FzIXkPQ==
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-5.6.0.tgz#ea8a533254d7ccde261ea6be53fd562f2cd5c73f"
+  integrity sha512-UdgTdxout2b5VVQL1dnxOu+0tf//lV0uhwkwDDF9RWMbZjGrVsEHV2ci/vPS9QQiJSjKqH6tRdk3ueA9OYVMaw==
   dependencies:
     "@lint-todo/utils" "^13.0.3"
     aria-query "^5.0.2"
     chalk "^5.2.0"
-    ci-info "^3.7.1"
+    ci-info "^3.8.0"
     date-fns "^2.29.2"
     ember-template-imports "^3.4.1"
     ember-template-recast "^6.1.3"
@@ -4381,11 +4381,11 @@ ember-template-lint@^5.3.1:
     get-stdin "^9.0.0"
     globby "^13.1.3"
     is-glob "^4.0.3"
-    language-tags "^1.0.7"
+    language-tags "^1.0.8"
     micromatch "^4.0.5"
     resolve "^1.22.1"
     v8-compile-cache "^2.3.0"
-    yargs "^17.5.1"
+    yargs "^17.7.0"
 
 ember-template-recast@^6.1.3:
   version "6.1.3"
@@ -6597,7 +6597,7 @@ language-subtag-registry@^0.3.20:
   resolved "https://registry.yarnpkg.com/language-subtag-registry/-/language-subtag-registry-0.3.22.tgz#2e1500861b2e457eba7e7ae86877cbd08fa1fd1d"
   integrity sha512-tN0MCzyWnoz/4nHS6uxdlFWoUZT7ABptwKPQ52Ea7URk6vll88bWBVhodtnlfEuCcKWNGoc+uGbw1cwa9IKh/w==
 
-language-tags@^1.0.7:
+language-tags@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/language-tags/-/language-tags-1.0.8.tgz#042b4bdb0d4e771a9f8cc2fdc9bb26a52a367312"
   integrity sha512-aWAZwgPLS8hJ20lNPm9HNVs4inexz6S2sQa3wx/+ycuutMNE5/IfYxiWYBbi+9UWCQVaXYCOPUl6gFrPR7+jGg==
@@ -9808,9 +9808,9 @@ workerpool@^3.1.1:
     rsvp "^4.8.4"
 
 workerpool@^6.0.0, workerpool@^6.1.5, workerpool@^6.2.1:
-  version "6.3.1"
-  resolved "https://registry.yarnpkg.com/workerpool/-/workerpool-6.3.1.tgz#80a9b76e70556acfb1457a3984f8637717f7cdee"
-  integrity sha512-0x7gJm1rhpn5SPG9NENOxPtbfUZZtK/qOg6gEdSqeDBA3dTeR91RJqSPjccPRCkhNfrnnl/dWxSSj5w9CtdzNA==
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/workerpool/-/workerpool-6.4.0.tgz#f8d5cfb45fde32fa3b7af72ad617c3369567a462"
+  integrity sha512-i3KR1mQMNwY2wx20ozq2EjISGtQWDIfV56We+yGJ5yDs8jTwQiLLaqHlkBHITlCuJnYlVRmXegxFxZg7gqI++A==
 
 wrap-ansi@^7.0.0:
   version "7.0.0"
@@ -9879,7 +9879,7 @@ yargs-parser@^21.1.1:
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-21.1.1.tgz#9096bceebf990d21bb31fa9516e0ede294a77d35"
   integrity sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==
 
-yargs@^17.3.1, yargs@^17.5.1:
+yargs@^17.3.1, yargs@^17.7.0:
   version "17.7.1"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.7.1.tgz#34a77645201d1a8fc5213ace787c220eabbd0967"
   integrity sha512-cwiTb08Xuv5fqF4AovYacTFNxk62th7LKJ6BL9IGUpTJrWoU7/7WdQGTP2SjKf1dUNBGzDd28p/Yfs/GI6JrLw==
