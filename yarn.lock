@@ -3755,9 +3755,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.340"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.340.tgz#3a6d7414c1fc2dbf84b6f7af3ec24270606c85b8"
-  integrity sha512-zx8hqumOqltKsv/MF50yvdAlPF9S/4PXbyfzJS6ZGhbddGkRegdwImmfSVqCkEziYzrIGZ/TlrzBND4FysfkDg==
+  version "1.4.341"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.341.tgz#ab31e9e57ef7758a14c7a7977a1978d599514470"
+  integrity sha512-R4A8VfUBQY9WmAhuqY5tjHRf5fH2AAf6vqitBOE0y6u2PgHgqHSrhZmu78dIX3fVZtjqlwJNX1i2zwC3VpHtQQ==
 
 ember-auto-import@^2.4.3, ember-auto-import@^2.5.0, ember-auto-import@^2.6.0, ember-auto-import@^2.6.1:
   version "2.6.1"
@@ -4366,9 +4366,9 @@ ember-source@~4.11.0:
     silent-error "^1.1.1"
 
 ember-template-imports@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/ember-template-imports/-/ember-template-imports-3.4.1.tgz#bd400ddda2c2cad35ded53b35da1c0972452cde8"
-  integrity sha512-KXnBFTAVxCfXnSCUgd/iuic9ajWbmFkRUBEeorJAMqxvougsPoK22s5ygE9O3GnzYdPpMwn+8v+/NAGy8HRBGA==
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/ember-template-imports/-/ember-template-imports-3.4.2.tgz#6cf7de7d4b8348a0fddf3aaec4947aa1211289e6"
+  integrity sha512-OS8TUVG2kQYYwP3netunLVfeijPoOKIs1SvPQRTNOQX4Pu8xGGBEZmrv0U1YTnQn12Eg+p6w/0UdGbUnITjyzw==
   dependencies:
     babel-import-util "^0.2.0"
     broccoli-stew "^3.0.0"
