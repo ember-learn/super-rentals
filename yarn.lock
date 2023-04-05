@@ -2213,9 +2213,9 @@ babel-plugin-ember-modules-api-polyfill@^3.5.0:
     ember-rfc176-data "^0.3.17"
 
 babel-plugin-ember-template-compilation@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-ember-template-compilation/-/babel-plugin-ember-template-compilation-2.0.0.tgz#41d895874ba6119dd461f61993c16d1154bf8a57"
-  integrity sha512-d+4jaB2ik0rt9TH0K9kOlKJeRBHEb373FgFMcU9ZaJL2zYuVXe19bqy+cWlLpLf1tpOBcBG9QTlFBCoImlOt1g==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-ember-template-compilation/-/babel-plugin-ember-template-compilation-2.0.1.tgz#4481f995ee61e857bca797e21238ff613ebbd5d1"
+  integrity sha512-H3+n4OQ05bLeZnwi15MGB83lcs/Lw4Zqfq2XtC4mW881zBvGftjtvRTAZN/ovNqFWtgLmo1ziSNI5/0gwsnLKw==
   dependencies:
     babel-import-util "^1.3.0"
 
@@ -3055,9 +3055,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001449:
-  version "1.0.30001473"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001473.tgz#3859898b3cab65fc8905bb923df36ad35058153c"
-  integrity sha512-ewDad7+D2vlyy+E4UJuVfiBsU69IL+8oVmTuZnH5Q6CIUbxNfI50uVpRHbUPDD6SUaN2o0Lh4DhTrvLG/Tn1yg==
+  version "1.0.30001474"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001474.tgz#13b6fe301a831fe666cce8ca4ef89352334133d5"
+  integrity sha512-iaIZ8gVrWfemh5DG3T9/YqarVZoYf0r188IjaGwx68j4Pf0SGY6CQkmJUIE+NZHkkecQGohzXmBGEwWDr9aM3Q==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -3729,14 +3729,14 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.349"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.349.tgz#c65a4378cea805accfe6f585730ce2a3afe07f1d"
-  integrity sha512-34LBfVDiL6byWorSmQOPwq4gD5wpN8Mhh5yPGQr67FbcxsfUS0BDJP9y6RykSgeWVUfSkN/2dChywnsrmKVyUg==
+  version "1.4.352"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.352.tgz#be96bd7c2f4b980deebc9338a49a67430a33ed73"
+  integrity sha512-ikFUEyu5/q+wJpMOxWxTaEVk2M1qKqTGKKyfJmod1CPZxKfYnxVS41/GCBQg21ItBpZybyN8sNpRqCUGm+Zc4Q==
 
 ember-auto-import@^2.4.3, ember-auto-import@^2.5.0, ember-auto-import@^2.6.0, ember-auto-import@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-2.6.1.tgz#bd8d434143bd411b99f4a8f32d8b58414d7da4f3"
-  integrity sha512-3bCRi/pXp4QslmuCXGlSz9xwR7DF5oDx3zZO5OXKzNZihtkqAM1xvGuRIdQSl46pvbAXOkp8Odl5fOen1i0dRw==
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-2.6.2.tgz#ea0bfccb79c0601d2857764ebe04a67559a57b48"
+  integrity sha512-h0bdE1atVqEXkE+9OTkEi2wRHBpJilKn6iXlbrOS2nI4HGpWlqmUjWmQk/iMFad+1XEDBvNJnikxgtKb/GFL5A==
   dependencies:
     "@babel/core" "^7.16.7"
     "@babel/plugin-proposal-class-properties" "^7.16.7"
@@ -4605,9 +4605,9 @@ eslint-formatter-kakoune@^1.0.0:
   integrity sha512-Uk/TVLt6Nf6Xoz7C1iYuZjOSdJxe5aaauGRke8JhKeJwD66Y61/pY2FjtLP04Ooq9PwV34bzrkKkU2UZ5FtDRA==
 
 eslint-plugin-ember@^11.4.7:
-  version "11.4.9"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-11.4.9.tgz#f22918e09cdb1d5bb8c280c15a5075127c7a16d8"
-  integrity sha512-1nAgMSwAJrntfvsiyIyHtYY+AvAPZ1wxcoa+gsui/VviQqULCtZLF8+1UAOTAGJ5bEjhe3f8TTcyRGHXRPHzeQ==
+  version "11.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-11.5.0.tgz#93ae84878b587756d6baf39a838eeff6d0a88744"
+  integrity sha512-qcU4HtVeu8kzggvT4+asj3ouOtyPvQdc4o6KZ2MYABf632Z4VFja7aVLtgJreZ39CE6Y9p5Rz/3jGLi4iXIIJw==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     "@glimmer/syntax" "^0.84.2"
