@@ -1,4 +1,4 @@
-/* stylelint-disable no-descending-specificity */
+/* stylelint-disable no-descending-specificity, media-feature-range-notation */
 @import url("https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic");
 
 /**
@@ -476,4 +476,4 @@ p {
   border: 0;
 }
 
-/* stylelint-enable no-descending-specificity */
+/* stylelint-enable no-descending-specificity, media-feature-range-notation */
