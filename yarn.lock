@@ -3126,9 +3126,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001449:
-  version "1.0.30001481"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001481.tgz#f58a717afe92f9e69d0e35ff64df596bfad93912"
-  integrity sha512-KCqHwRnaa1InZBtqXzP98LPg0ajCVujMKjqKDhZEthIpAsJl/YEIa3YvXjGXPVqzZVguccuu7ga9KOE1J9rKPQ==
+  version "1.0.30001482"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001482.tgz#8b3fad73dc35b2674a5c96df2d4f9f1c561435de"
+  integrity sha512-F1ZInsg53cegyjroxLNW9DmrEQ1SuGRTO1QlpA0o2/6OpQ0gFeDRoq1yFmnr8Sakn9qwwt9DmbxHB6w167OSuQ==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -3836,9 +3836,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.377"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.377.tgz#7f326a0b2c1b96eca6bb65907addc505d0d15989"
-  integrity sha512-H3BYG6DW5Z+l0xcfXaicJGxrpA4kMlCxnN71+iNX+dBLkRMOdVJqFJiAmbNZZKA1zISpRg17JR03qGifXNsJtw==
+  version "1.4.378"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.378.tgz#73431ffd5fffebc18b4e897fac2e7d4ae6d559d9"
+  integrity sha512-RfCD26kGStl6+XalfX3DGgt3z2DNwJS5DKRHCpkPq5T/PqpZMPB1moSRXuK9xhkt/sF57LlpzJgNoYl7mO7Z6w==
 
 ember-auto-import@^2.4.3, ember-auto-import@^2.5.0, ember-auto-import@^2.6.0, ember-auto-import@^2.6.3:
   version "2.6.3"
@@ -4539,9 +4539,9 @@ engine.io-parser@~5.0.3:
   integrity sha512-tjuoZDMAdEhVnSFleYPCtdL2GXwVTGtNjoeJd9IhIG3C1xs9uwxqRNEu5WpnDZCaozwVlK/nuQhpodhXSIMaxw==
 
 engine.io@~6.4.1:
-  version "6.4.1"
-  resolved "https://registry.yarnpkg.com/engine.io/-/engine.io-6.4.1.tgz#8056b4526a88e779f9c280d820422d4e3eeaaae5"
-  integrity sha512-JFYQurD/nbsA5BSPmbaOSLa3tSVj8L6o4srSwXXY3NqE+gGUNmmPTbhn8tjzcCtSqhFgIeqef81ngny8JM25hw==
+  version "6.4.2"
+  resolved "https://registry.yarnpkg.com/engine.io/-/engine.io-6.4.2.tgz#ffeaf68f69b1364b0286badddf15ff633476473f"
+  integrity sha512-FKn/3oMiJjrOEOeUub2WCox6JhxBXq/Zn3fZOMCBxKnNYtsdKjxhl7yR3fZhM9PV+rdE75SU5SYMc+2PGzo+Tg==
   dependencies:
     "@types/cookie" "^0.4.1"
     "@types/cors" "^2.8.12"
