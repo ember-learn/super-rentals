@@ -1673,9 +1673,9 @@
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
 "@types/node@*", "@types/node@>=10.0.0":
-  version "20.1.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.1.1.tgz#afc492e8dbe7f672dd3a13674823522b467a45ad"
-  integrity sha512-uKBEevTNb+l6/aCQaKVnUModfEMjAl98lw2Si9P5y4hLu9tm6AlX2ZIoXZX6Wh9lJueYPrGPKk5WMCNHg/u6/A==
+  version "20.1.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.1.2.tgz#8fd63447e3f99aba6c3168fd2ec4580d5b97886f"
+  integrity sha512-CTO/wa8x+rZU626cL2BlbCDzydgnFNgc19h4YvizpTO88MFQxab8wqisxaofQJ/9bLGugRdWIuX/TbIs6VVF6g==
 
 "@types/node@^9.6.0":
   version "9.6.61"
@@ -3836,9 +3836,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.388"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.388.tgz#ec0d1be823d5b14da56d91ec5c57e84b4624ea45"
-  integrity sha512-xZ0y4zjWZgp65okzwwt00f2rYibkFPHUv9qBz+Vzn8cB9UXIo9Zc6Dw81LJYhhNt0G/vR1OJEfStZ49NKl0YxQ==
+  version "1.4.391"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.391.tgz#197994210792e29e39baf3ce807df42f66e9b5f8"
+  integrity sha512-GqydVV1+kUWY5qlEzaw34/hyWTApuQrHiGrcGA2Kk/56nEK44i+YUW45VH43JuZT0Oo7uY8aVtpPhBBZXEWtSA==
 
 ember-auto-import@^2.4.3, ember-auto-import@^2.5.0, ember-auto-import@^2.6.0, ember-auto-import@^2.6.3:
   version "2.6.3"
@@ -4554,7 +4554,7 @@ engine.io@~6.4.1:
     engine.io-parser "~5.0.3"
     ws "~8.11.0"
 
-enhanced-resolve@^5.13.0:
+enhanced-resolve@^5.14.0:
   version "5.14.0"
   resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.14.0.tgz#0b6c676c8a3266c99fa281e4433a706f5c0c61c4"
   integrity sha512-+DCows0XNwLDcUhbFJPdlQEVnT2zXlCv7hPxemTz86/O+B/hCQ+mb7ydkPKiflpVraqLPCAfu7lDy+hBXueojw==
@@ -8978,9 +8978,9 @@ signal-exit@^3.0.0, signal-exit@^3.0.2, signal-exit@^3.0.3, signal-exit@^3.0.7:
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
 signal-exit@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.0.1.tgz#96a61033896120ec9335d96851d902cc98f0ba2a"
-  integrity sha512-uUWsN4aOxJAS8KOuf3QMyFtgm1pkb6I+KRZbRF/ghdf5T7sM+B1lLLzPDxswUjkmHyxQAVzEgG35E3NzDM9GVw==
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.0.2.tgz#ff55bb1d9ff2114c13b400688fa544ac63c36967"
+  integrity sha512-MY2/qGx4enyjprQnFaZsHib3Yadh3IXyV2C321GY0pjGfVBu4un0uDJkwgdxqO+Rdx8JMT8IfJIRwbYVz3Ob3Q==
 
 silent-error@^1.0.0, silent-error@^1.0.1, silent-error@^1.1.1:
   version "1.1.1"
@@ -10171,9 +10171,9 @@ webpack-sources@^3.2.3:
   integrity sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==
 
 webpack@^5.78.0:
-  version "5.82.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.82.0.tgz#3c0d074dec79401db026b4ba0fb23d6333f88e7d"
-  integrity sha512-iGNA2fHhnDcV1bONdUu554eZx+XeldsaeQ8T67H6KKHl2nUSwX8Zm7cmzOA46ox/X1ARxf7Bjv8wQ/HsB5fxBg==
+  version "5.82.1"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.82.1.tgz#8f38c78e53467556e8a89054ebd3ef6e9f67dbab"
+  integrity sha512-C6uiGQJ+Gt4RyHXXYt+v9f+SN1v83x68URwgxNQ98cvH8kxiuywWGP4XeNZ1paOzZ63aY3cTciCEQJNFUljlLw==
   dependencies:
     "@types/eslint-scope" "^3.7.3"
     "@types/estree" "^1.0.0"
@@ -10184,7 +10184,7 @@ webpack@^5.78.0:
     acorn-import-assertions "^1.7.6"
     browserslist "^4.14.5"
     chrome-trace-event "^1.0.2"
-    enhanced-resolve "^5.13.0"
+    enhanced-resolve "^5.14.0"
     es-module-lexer "^1.2.1"
     eslint-scope "5.1.1"
     events "^3.2.0"
