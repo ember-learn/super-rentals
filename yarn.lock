@@ -3897,9 +3897,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.411:
-  version "1.4.422"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.422.tgz#b04d0a209889f46858a4ab05f737fb81b99fec91"
-  integrity sha512-OQMid0IRbJv27BhlPiBK8CfGzjeq4ZCBSmpwNi1abyS8w17/BajOUu7hBI49ptDTBCz9NRFbORhWvt41dF7dwg==
+  version "1.4.425"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.425.tgz#399df13091b836d28283a545c25c8e4d9da86da8"
+  integrity sha512-wv1NufHxu11zfDbY4fglYQApMswleE9FL/DSeyOyauVXDZ+Kco96JK/tPfBUaDqfRarYp2WH2hJ/5UnVywp9Jg==
 
 ember-auto-import@^2.4.3, ember-auto-import@^2.5.0, ember-auto-import@^2.6.0, ember-auto-import@^2.6.3:
   version "2.6.3"
@@ -4516,9 +4516,9 @@ ember-template-imports@^3.4.2:
     validate-peer-dependencies "^1.1.0"
 
 ember-template-lint@^5.7.2:
-  version "5.10.0"
-  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-5.10.0.tgz#8e049e1db18b0de7ced5e6e83b94d518ca193216"
-  integrity sha512-LK+ZBXuqflI8KYXgzS5HcgkxSMAEOqilQVBMrwmWyfY7otDOL17mlPjMeB0OFUMXYKIq/qzz72HbM+J7WsBE6A==
+  version "5.10.1"
+  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-5.10.1.tgz#cce793ac82d72a901ce444da91f6131e245306ab"
+  integrity sha512-WZZypF73Bmei7WQYGMcClARkno3Sdvv1piV3R7jrHEud9Yg589oiFUtwEsCJ28Zbjx7gkcXIt24cRZAqtNvdZQ==
   dependencies:
     "@lint-todo/utils" "^13.0.3"
     aria-query "^5.0.2"
@@ -8888,18 +8888,18 @@ schema-utils@^2.6.5:
     ajv-keywords "^3.5.2"
 
 schema-utils@^3.0.0, schema-utils@^3.1.1, schema-utils@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-3.1.2.tgz#36c10abca6f7577aeae136c804b0c741edeadc99"
-  integrity sha512-pvjEHOgWc9OWA/f/DE3ohBWTD6EleVLf7iFUkoSwAxttdBhB9QUebQgxER2kWueOvRJXPHNnyrvvh9eZINB8Eg==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-3.2.0.tgz#7dff4881064a4f22c09f0c6a1457feb820fd0636"
+  integrity sha512-0zTyLGyDJYd/MBxG1AhJkKa6fpEBds4OQO2ut0w7OYG+ZGhGea09lijvzsqegYSik88zc7cUtIlnnO+/BvD6gQ==
   dependencies:
     "@types/json-schema" "^7.0.8"
     ajv "^6.12.5"
     ajv-keywords "^3.5.2"
 
 schema-utils@^4.0.0:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-4.0.1.tgz#eb2d042df8b01f4b5c276a2dfd41ba0faab72e8d"
-  integrity sha512-lELhBAAly9NowEsX0yZBlw9ahZG+sK/1RJ21EpzdYHKEs13Vku3LJ+MIPhh4sMs0oCCeufZQEQbMekiA4vuVIQ==
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-4.1.0.tgz#4cff1e434c12ed39502378b9a3e24787b37df41d"
+  integrity sha512-Jw+GZVbP5IggB2WAn6UHI02LBwGmsIeYN/lNbSMZyDziQ7jmtAUrqKqDja+W89YHVs+KL/3IkIMltAklqB1vAw==
   dependencies:
     "@types/json-schema" "^7.0.9"
     ajv "^8.9.0"
@@ -10226,9 +10226,9 @@ webpack-sources@^3.2.3:
   integrity sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==
 
 webpack@^5.78.0:
-  version "5.85.1"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.85.1.tgz#d77406352f8f14ec847c54e4dcfb80b28c776b3f"
-  integrity sha512-xTb7MRf4LY8Z5rzn7aIx4TDrwYJrjcHnIfU1TqtyZOoObyuGSpAUwIvVuqq5wPnv7WEgQr8UvO1q/dgoGG4HjA==
+  version "5.86.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.86.0.tgz#b0eb81794b62aee0b7e7eb8c5073495217d9fc6d"
+  integrity sha512-3BOvworZ8SO/D4GVP+GoRC3fVeg5MO4vzmq8TJJEkdmopxyazGDxN8ClqN12uzrZW9Tv8EED8v5VSb6Sqyi0pg==
   dependencies:
     "@types/eslint-scope" "^3.7.3"
     "@types/estree" "^1.0.0"
