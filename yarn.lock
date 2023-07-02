@@ -1294,11 +1294,11 @@
     semver "^7.3.8"
 
 "@embroider/macros@^1.0.0", "@embroider/macros@^1.10.0", "@embroider/macros@^1.11.0", "@embroider/macros@^1.8.3":
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.12.1.tgz#340a09706f0ae3bbce6e7979d00c1a7b607ad073"
-  integrity sha512-SrVFlOIJoKAiomzKNPVzRBZXQ5QAUcCzpu280xODEatTIcpSPREL7uHcAwXI7+pDK/lEH3K1aX5MN/EmhmLYZw==
+  version "1.12.2"
+  resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.12.2.tgz#feaa0deb3a2329a6441f5a0790279bd85bd80d08"
+  integrity sha512-3AY1iWq9ctQESgTeKk6Hdw/E5ypAx793bK5WZHHYcmjJAIVfR6lHa6SBoNjDNuYRduabd2lN0VJq7StwL62ETg==
   dependencies:
-    "@embroider/shared-internals" "2.2.1"
+    "@embroider/shared-internals" "2.2.2"
     assert-never "^1.2.1"
     babel-import-util "^1.1.0"
     ember-cli-babel "^7.26.6"
@@ -1307,10 +1307,10 @@
     resolve "^1.20.0"
     semver "^7.3.2"
 
-"@embroider/shared-internals@2.2.1", "@embroider/shared-internals@^2.0.0", "@embroider/shared-internals@^2.1.0":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-2.2.1.tgz#4a6591c6dccd01e67c5dcf7862190f78c3666dfd"
-  integrity sha512-btA8ZY4JkPXWJnpcIuNNld7kSz8OYTA3ocppt5qQsOw9gA4cpAU7QJdP3xtpcNrghSAeWTo2vOSpACA638in8A==
+"@embroider/shared-internals@2.2.2", "@embroider/shared-internals@^2.0.0", "@embroider/shared-internals@^2.1.0":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-2.2.2.tgz#8f19c9a8621b4c3f061a4af5060a82ec024655eb"
+  integrity sha512-fOED89UjsNT8e/maA1P3co2D7q/UOmH3DMxqAlJyueyo57LKuVDXFDG6JUYiEyHb2H5eCrzIdGoHI5cz9rH3Ow==
   dependencies:
     babel-import-util "^1.1.0"
     ember-rfc176-data "^0.3.17"
@@ -5779,9 +5779,9 @@ globby@^11.0.3, globby@^11.1.0:
     slash "^3.0.0"
 
 globby@^13.2.0:
-  version "13.2.0"
-  resolved "https://registry.yarnpkg.com/globby/-/globby-13.2.0.tgz#7dd5678d765c4680c2e6d106230d86cb727cb1af"
-  integrity sha512-jWsQfayf13NvqKUIL3Ta+CIqMnvlaIDFveWE/dpOZ9+3AMEJozsxDvKA02zync9UuvOM8rOXzsD5GqKP4OnWPQ==
+  version "13.2.1"
+  resolved "https://registry.yarnpkg.com/globby/-/globby-13.2.1.tgz#986d44187ba6a9fc4aa9b16caf0ab9a04db94ae9"
+  integrity sha512-DPCBxctI7dN4EeIqjW2KGqgdcUMbrhJ9AzON+PlxCtvppWhubTLD4+a0GFxiym14ZvacUydTPjLPc2DlKz7EIg==
   dependencies:
     dir-glob "^3.0.1"
     fast-glob "^3.2.11"
