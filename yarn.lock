@@ -2528,10 +2528,11 @@ babel-plugin-ember-modules-api-polyfill@^3.5.0:
     ember-rfc176-data "^0.3.17"
 
 babel-plugin-ember-template-compilation@^2.0.0, babel-plugin-ember-template-compilation@^2.0.1:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/babel-plugin-ember-template-compilation/-/babel-plugin-ember-template-compilation-2.0.3.tgz#8370e92eabc9987354eb7e3a84f6d5cf1d19b365"
-  integrity sha512-SIetZD/uCLnzIBTJtzYGc2Q55TPqM5WyjuOgW+Is1W3SZVljlY3JD5Add29hDMs//OvXBWoXfOopQxkfG4/pIA==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-ember-template-compilation/-/babel-plugin-ember-template-compilation-2.1.0.tgz#b1c2a50782cc3f3d7a4953da52ed735a69d995f4"
+  integrity sha512-hAAH5WS36Go/z7wQf9V8FITElTmSC5ybGFSqefpQxqkKuLeDO1XYtmVlG43ww3QJEE1tsH3pb7uLXQTzhV9nXg==
   dependencies:
+    "@glimmer/syntax" "^0.84.3"
     babel-import-util "^1.3.0"
 
 babel-plugin-filter-imports@^4.0.0:
