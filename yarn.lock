@@ -2125,9 +2125,9 @@
     "@xtuc/long" "4.2.2"
 
 "@xmldom/xmldom@^0.8.0":
-  version "0.8.9"
-  resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.8.9.tgz#b6ef7457e826be8049667ae673eda7876eb049be"
-  integrity sha512-4VSbbcMoxc4KLjb1gs96SRmi7w4h1SF+fCoiK0XaQX62buCc1G5d0DC5bJ9xJBNPDSVCmIrcl8BiYxzjrqaaJA==
+  version "0.8.10"
+  resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.8.10.tgz#a1337ca426aa61cef9fe15b5b28e340a72f6fa99"
+  integrity sha512-2WALfTl4xo2SkGCYRt6rDTFfk9R1czmBvUQy12gK2KuRKIpWEhcbbzy8EZXtz/jkRqHX8bFEc6FC1HjX4TUWYw==
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -2335,7 +2335,7 @@ argparse@^2.0.1:
   resolved "https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
   integrity sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==
 
-aria-query@^5.0.2:
+aria-query@^5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/aria-query/-/aria-query-5.3.0.tgz#650c569e41ad90b51b3d7df5e5eed1c7549c103e"
   integrity sha512-b0P0sZPKtyu8HkeRAfCq0IfURZK+SuwMjY1UXGBU27wpAiTwQAIlq56IbIO+ytk/JjS1fMR14ee5WBBfKi5J6A==
@@ -3359,9 +3359,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001503:
-  version "1.0.30001516"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001516.tgz#621b1be7d85a8843ee7d210fd9d87b52e3daab3a"
-  integrity sha512-Wmec9pCBY8CWbmI4HsjBeQLqDTqV91nFVR83DnZpYyRnPI1wePDsTg0bGLPC5VU/3OIZV1fmxEea1b+tFKe86g==
+  version "1.0.30001517"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001517.tgz#90fabae294215c3495807eb24fc809e11dc2f0a8"
+  integrity sha512-Vdhm5S11DaFVLlyiKu4hiUTkpZu+y1KA/rZZqVQfOD5YdDT/eQKlkt7NaE0WGOFgX32diqt9MiP9CAiFeRklaA==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -3395,7 +3395,7 @@ chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.2:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^5.2.0, chalk@^5.3.0:
+chalk@^5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.3.0.tgz#67c20a7ebef70e7f3970a01f90fa210cb6860385"
   integrity sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==
@@ -3808,7 +3808,7 @@ crypto-random-string@^2.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-2.0.0.tgz#ef2a7a966ec11083388369baa02ebead229b30d5"
   integrity sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==
 
-css-functions-list@^3.1.0:
+css-functions-list@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/css-functions-list/-/css-functions-list-3.2.0.tgz#8290b7d064bf483f48d6559c10e98dc4d1ad19ee"
   integrity sha512-d/jBMPyYybkkLVypgtGv12R+pIFw4/f/IHtCTxWpZc8ofTYOPigIgmA6vu5rMHartZC+WuXhBUHfnyNUIQSYrg==
@@ -4040,9 +4040,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.431:
-  version "1.4.464"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.464.tgz#2f94bad78dff34e527aacbfc5d0b1a33cf046507"
-  integrity sha512-guZ84yoou4+ILNdj0XEbmGs6DEWj6zpVOWYpY09GU66yEb0DSYvP/biBPzHn0GuW/3RC/pnaYNUWlQE1fJYtgA==
+  version "1.4.465"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.465.tgz#8f7a47a2a45b9b9e9a706967e47098e4d472d237"
+  integrity sha512-XQcuHvEJRMU97UJ75e170mgcITZoz0lIyiaVjk6R+NMTJ8KBIvUHYd1779swgOppUlzxR+JsLpq59PumaXS1jQ==
 
 ember-auto-import@2.6.1:
   version "2.6.1"
@@ -4710,13 +4710,13 @@ ember-template-imports@^3.4.2:
     validate-peer-dependencies "^1.1.0"
 
 ember-template-lint@^5.11.0:
-  version "5.11.0"
-  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-5.11.0.tgz#539ed054a9040066fd2ad2a81ffb391e8b96ce71"
-  integrity sha512-uoVz4IAFRyg3JnMTL+SDtZkHPZM6O1qhvvgcb7LD6325W6asjPZGF1YHDyxnssEOnCSVsu1S5bk77tqE5NnyNg==
+  version "5.11.1"
+  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-5.11.1.tgz#c133c96f697ba44f52dc453bc669b0fc37cc0a80"
+  integrity sha512-PucOG+Wx96h8NNjgD4kTjBzg6qTGOCqvo3agubuHJ3/T9ucO0P88FzEPxWRPWgn4b/PqIyDXj8HhkM7QUccBIQ==
   dependencies:
     "@lint-todo/utils" "^13.0.3"
-    aria-query "^5.0.2"
-    chalk "^5.2.0"
+    aria-query "^5.3.0"
+    chalk "^5.3.0"
     ci-info "^3.8.0"
     date-fns "^2.30.0"
     ember-template-imports "^3.4.2"
@@ -4725,7 +4725,7 @@ ember-template-lint@^5.11.0:
     find-up "^6.3.0"
     fuse.js "^6.5.3"
     get-stdin "^9.0.0"
-    globby "^13.2.0"
+    globby "^13.2.2"
     is-glob "^4.0.3"
     language-tags "^1.0.8"
     micromatch "^4.0.5"
@@ -6034,7 +6034,7 @@ globby@^11.0.3, globby@^11.1.0:
     merge2 "^1.4.1"
     slash "^3.0.0"
 
-globby@^13.2.0:
+globby@^13.2.2:
   version "13.2.2"
   resolved "https://registry.yarnpkg.com/globby/-/globby-13.2.2.tgz#63b90b1bf68619c2135475cbd4e71e66aa090592"
   integrity sha512-Y1zNGV+pzQdh7H39l9zgB4PJqjRNqydvdYCDG4HFXM4XuvSaQQlEc91IU1yALL8gUTDomgBAfz3XJdmUS+oo0w==
@@ -8275,7 +8275,7 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@^8.2.15, postcss@^8.4.24:
+postcss@^8.2.15, postcss@^8.4.25:
   version "8.4.26"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.26.tgz#1bc62ab19f8e1e5463d98cf74af39702a00a9e94"
   integrity sha512-jrXHFF8iTloAenySjM/ob3gSj7pCu0Ji49hnjqzsgSRa50hkWCKD0HQ+gMNJkW38jBI68MpAAg7ZWwHwX8NMMw==
@@ -9522,9 +9522,9 @@ stylelint-prettier@^3.0.0:
     prettier-linter-helpers "^1.0.0"
 
 stylelint@^15.9.0:
-  version "15.10.1"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-15.10.1.tgz#93f189958687e330c106b010cbec0c41dcae506d"
-  integrity sha512-CYkzYrCFfA/gnOR+u9kJ1PpzwG10WLVnoxHDuBA/JiwGqdM9+yx9+ou6SE/y9YHtfv1mcLo06fdadHTOx4gBZQ==
+  version "15.10.2"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-15.10.2.tgz#0ee5a8371d3a2e1ff27fefd48309d3ddef7c3405"
+  integrity sha512-UxqSb3hB74g4DTO45QhUHkJMjKKU//lNUAOWyvPBVPZbCknJ5HjOWWZo+UDuhHa9FLeVdHBZXxu43eXkjyIPWg==
   dependencies:
     "@csstools/css-parser-algorithms" "^2.3.0"
     "@csstools/css-tokenizer" "^2.1.1"
@@ -9533,7 +9533,7 @@ stylelint@^15.9.0:
     balanced-match "^2.0.0"
     colord "^2.9.3"
     cosmiconfig "^8.2.0"
-    css-functions-list "^3.1.0"
+    css-functions-list "^3.2.0"
     css-tree "^2.3.1"
     debug "^4.3.4"
     fast-glob "^3.3.0"
@@ -9553,7 +9553,7 @@ stylelint@^15.9.0:
     micromatch "^4.0.5"
     normalize-path "^3.0.0"
     picocolors "^1.0.0"
-    postcss "^8.4.24"
+    postcss "^8.4.25"
     postcss-resolve-nested-selector "^0.1.1"
     postcss-safe-parser "^6.0.0"
     postcss-selector-parser "^6.0.13"
