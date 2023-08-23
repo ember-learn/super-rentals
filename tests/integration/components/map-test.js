@@ -29,22 +29,22 @@ module('Integration | Component | map', function (hooks) {
 
     assert.ok(
       src.startsWith('https://api.mapbox.com/'),
-      'the src starts with "https://api.mapbox.com/"'
+      'the src starts with "https://api.mapbox.com/"',
     );
 
     assert.ok(
       src.includes('-122.4184,37.7797,10'),
-      'the src should include the lng,lat,zoom parameter'
+      'the src should include the lng,lat,zoom parameter',
     );
 
     assert.ok(
       src.includes('150x120@2x'),
-      'the src should include the width,height and @2x parameter'
+      'the src should include the width,height and @2x parameter',
     );
 
     assert.ok(
       src.includes(`access_token=${token}`),
-      'the src should include the escaped access token'
+      'the src should include the escaped access token',
     );
   });
 
@@ -69,12 +69,12 @@ module('Integration | Component | map', function (hooks) {
 
     assert.ok(
       img.src.includes('-122.4194,37.7749,10'),
-      'the src should include the lng,lat,zoom parameter'
+      'the src should include the lng,lat,zoom parameter',
     );
 
     assert.ok(
       img.src.includes('150x120@2x'),
-      'the src should include the width,height and @2x parameter'
+      'the src should include the width,height and @2x parameter',
     );
 
     this.setProperties({
@@ -85,12 +85,12 @@ module('Integration | Component | map', function (hooks) {
 
     assert.ok(
       img.src.includes('-122.4194,37.7749,12'),
-      'the src should include the lng,lat,zoom parameter'
+      'the src should include the lng,lat,zoom parameter',
     );
 
     assert.ok(
       img.src.includes('300x200@2x'),
-      'the src should include the width,height and @2x parameter'
+      'the src should include the width,height and @2x parameter',
     );
 
     this.setProperties({
@@ -100,12 +100,12 @@ module('Integration | Component | map', function (hooks) {
 
     assert.ok(
       img.src.includes('-122.3321,47.6062,12'),
-      'the src should include the lng,lat,zoom parameter'
+      'the src should include the lng,lat,zoom parameter',
     );
 
     assert.ok(
       img.src.includes('300x200@2x'),
-      'the src should include the width,height and @2x parameter'
+      'the src should include the width,height and @2x parameter',
     );
   });
 
