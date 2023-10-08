@@ -5025,9 +5025,9 @@ eslint-plugin-prettier@^5.0.0:
     synckit "^0.8.5"
 
 eslint-plugin-qunit@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-qunit/-/eslint-plugin-qunit-8.0.0.tgz#92df9b8cc144a67edaf961e9c4db75d98065ce85"
-  integrity sha512-ly2x/pmJPcS0ztGAPap6qLC13GjOFwhBbvun0K1dAjaxaC6KB3TYjeBo+5pGvXqL3WdicmYxEKhTGwmhvoxMBQ==
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-qunit/-/eslint-plugin-qunit-8.0.1.tgz#4969c2a5a13c7362cee1b38a2c0c06b60437a931"
+  integrity sha512-3bFOPryXoQOez95oP/JfWTxHBc/bgDQQZqTuv9uYTwH5sdIvSM2TES1iHDcy/F/LvqiqIpscDAOPAjlqSCnNPg==
   dependencies:
     eslint-utils "^3.0.0"
     requireindex "^1.2.0"
@@ -7003,9 +7003,9 @@ jsonify@^0.0.1:
   integrity sha512-2/Ki0GcmuqSrgFyelQq9M05y7PS0mEwuIzrf3f1fPqkVDVRvZrPZtVSMHxdgo8Aq0sxAOb/cr2aqqA3LeWHVPg==
 
 keyv@^4.5.3:
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/keyv/-/keyv-4.5.3.tgz#00873d2b046df737963157bd04f294ca818c9c25"
-  integrity sha512-QCiSav9WaX1PgETJ+SpNnx2PRRapJ/oRSXM4VO5OGYGSjrxbKPVFVhB3l2OCbLCk329N8qyAtsJjSjvVBWzEug==
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/keyv/-/keyv-4.5.4.tgz#a879a99e29452f942439f2a405e3af8b31d4de93"
+  integrity sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==
   dependencies:
     json-buffer "3.0.1"
 
