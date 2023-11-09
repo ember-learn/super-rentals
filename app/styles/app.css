@@ -317,9 +317,8 @@ p {
   display: flex;
   height: 150px;
   margin: 20px 25px;
-  justify-content: space-between;
+  place-content: space-around space-between;
   flex-wrap: wrap;
-  align-content: space-around;
 }
 
 .rental h3 {
