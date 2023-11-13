@@ -1283,20 +1283,20 @@
     semver "^7.3.5"
 
 "@embroider/addon-shim@^1.8.3", "@embroider/addon-shim@^1.8.4", "@embroider/addon-shim@^1.8.5", "@embroider/addon-shim@^1.8.6":
-  version "1.8.6"
-  resolved "https://registry.yarnpkg.com/@embroider/addon-shim/-/addon-shim-1.8.6.tgz#b676991b4fa32c3a98dc7db7dc6cd655029c3f09"
-  integrity sha512-siC9kP78uucEbpDcVyxjkwa76pcs5rVzDVpWO4PDc9EAXRX+pzmUuSTLAK3GztUwx7/PWhz1BenAivqdSvSgfg==
+  version "1.8.7"
+  resolved "https://registry.yarnpkg.com/@embroider/addon-shim/-/addon-shim-1.8.7.tgz#ba2dcb0647ed2cb0c500c835326266b89ceec595"
+  integrity sha512-JGOQNRj3UR0NdWEg8MsM2eqPLncEwSB1IX+rwntIj22TEKj8biqx7GDgSbeH+ZedijmCh354Hf2c5rthrdzUAw==
   dependencies:
-    "@embroider/shared-internals" "^2.2.3"
+    "@embroider/shared-internals" "^2.5.1"
     broccoli-funnel "^3.0.8"
     semver "^7.3.8"
 
 "@embroider/macros@^1.0.0", "@embroider/macros@^1.10.0", "@embroider/macros@^1.13.1", "@embroider/macros@^1.8.3":
-  version "1.13.2"
-  resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.13.2.tgz#07dda11313a2539f403404881b729e622a80ca17"
-  integrity sha512-AUgJ71xG8kjuTx8XB1AQNBiebJuXRfhcHr318dCwnQz9VRXdYSnEEqf38XRvGYIoCvIyn/3c72LrSwzaJqknOA==
+  version "1.13.3"
+  resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.13.3.tgz#e1ff584e01bcdebb9fa9f6982ecc2ea89886867f"
+  integrity sha512-JUC1aHRLIN2LNy1l+gz7gWkw9JmnsE20GL3LduCzNvCAnEQpMTJhW5BUbEWqdCnAWBPte/M2ofckqBXyTZioTQ==
   dependencies:
-    "@embroider/shared-internals" "2.5.0"
+    "@embroider/shared-internals" "2.5.1"
     assert-never "^1.2.1"
     babel-import-util "^2.0.0"
     ember-cli-babel "^7.26.6"
@@ -1305,10 +1305,10 @@
     resolve "^1.20.0"
     semver "^7.3.2"
 
-"@embroider/shared-internals@2.5.0", "@embroider/shared-internals@^2.0.0", "@embroider/shared-internals@^2.2.3":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-2.5.0.tgz#4a0b5127c589718fae60fc22f81374ed558b944a"
-  integrity sha512-7qzrb7GVIyNqeY0umxoeIvjDC+ay1b+wb2yCVuYTUYrFfLAkLEy9FNI3iWCi3RdQ9OFjgcAxAnwsAiPIMZZ3pQ==
+"@embroider/shared-internals@2.5.1", "@embroider/shared-internals@^2.0.0", "@embroider/shared-internals@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-2.5.1.tgz#a4d8c057cbff293ef6eb29ee6537f263d206b444"
+  integrity sha512-b+TWDBisH1p6HeTbJIO8pgu1WzfTP0ZSAlZBqjXwOyrS0ZxP1qNYRrEX+IxyzIibEFjXBxeLakiejz3DJvZX5A==
   dependencies:
     babel-import-util "^2.0.0"
     debug "^4.3.2"
@@ -5646,9 +5646,9 @@ fixturify@^2.1.0:
     walk-sync "^2.0.2"
 
 flat-cache@^3.0.4, flat-cache@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/flat-cache/-/flat-cache-3.1.1.tgz#a02a15fdec25a8f844ff7cc658f03dd99eb4609b"
-  integrity sha512-/qM2b3LUIaIgviBQovTLvijfyOQXPtSRnRK26ksj2J7rzPIecePUIpJsZ4T02Qg+xiAEKIs5K8dsHEd+VaKa/Q==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/flat-cache/-/flat-cache-3.2.0.tgz#2c0c2d5040c99b1632771a9d105725c0115363ee"
+  integrity sha512-CYcENa+FtcUKLmhhqyctpclsq7QF38pKjZHsGNiSQF5r4FtoKDWabFDl3hzaEQMvT1LHEysw5twgLvpYYb4vbw==
   dependencies:
     flatted "^3.2.9"
     keyv "^4.5.3"
