@@ -1769,9 +1769,9 @@
     "@types/chai" "*"
 
 "@types/chai@*", "@types/chai@^4.2.9":
-  version "4.3.10"
-  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.3.10.tgz#2ad2959d1767edee5b0e4efb1a0cd2b500747317"
-  integrity sha512-of+ICnbqjmFCiixUnqRulbylyXQrPqIGf/B3Jax1wIF3DvSheysQxAWvqHhZiW3IQrycvokcLcFQlveGp+vyNg==
+  version "4.3.11"
+  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.3.11.tgz#e95050bf79a932cb7305dd130254ccdf9bde671c"
+  integrity sha512-qQR1dr2rGIHYlJulmr8Ioq3De0Le9E4MJ5AiaeAETJJpndT1uUNHsGFK3L/UIu+rbkQSdj8J/w2bCsBZc/Y5fQ==
 
 "@types/connect@*":
   version "3.4.38"
@@ -1899,9 +1899,9 @@
   integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
 
 "@types/node@*", "@types/node@>=10.0.0":
-  version "20.9.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.9.2.tgz#002815c8e87fe0c9369121c78b52e800fadc0ac6"
-  integrity sha512-WHZXKFCEyIUJzAwh3NyyTHYSR35SevJ6mZ1nWwJafKtiQbqRTIKSRcw3Ma3acqgsent3RRDqeVwpHntMk+9irg==
+  version "20.9.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.9.3.tgz#e089e1634436f676ff299596c9531bd2b59fffc6"
+  integrity sha512-nk5wXLAXGBKfrhLB0cyHGbSqopS+nz0BUgZkUQqSHSSgdee0kssp1IAqlQOu333bW+gMNs2QREx7iynm19Abxw==
   dependencies:
     undici-types "~5.26.4"
 
@@ -2630,9 +2630,9 @@ basic-auth@~2.0.1:
     safe-buffer "5.1.2"
 
 big-integer@^1.6.44:
-  version "1.6.51"
-  resolved "https://registry.yarnpkg.com/big-integer/-/big-integer-1.6.51.tgz#0df92a5d9880560d3ff2d5fd20245c889d130686"
-  integrity sha512-GPEid2Y9QU1Exl1rpO9B2IPJGHPSupF5GnVIP0blYvNOMer2bTvSWs1jGOUg04hTmu67nmLsQ9TBo1puaotBHg==
+  version "1.6.52"
+  resolved "https://registry.yarnpkg.com/big-integer/-/big-integer-1.6.52.tgz#60a887f3047614a8e1bffe5d7173490a97dc8c85"
+  integrity sha512-QxD8cf2eVqJOOz63z6JIN9BzvVs/dlySa5HGSBH5xtR8dPteIRQnBxxKqkNTiT6jbDTF6jAfrd4oMcND9RGbQg==
 
 big.js@^5.2.2:
   version "5.2.2"
@@ -4058,9 +4058,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.535:
-  version "1.4.589"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.589.tgz#3fc83c284ed8f1f58e0cb3c664c8ebcb4d0b42fb"
-  integrity sha512-zF6y5v/YfoFIgwf2dDfAqVlPPsyQeWNpEWXbAlDUS8Ax4Z2VoiiZpAPC0Jm9hXEkJm2vIZpwB6rc4KnLTQffbQ==
+  version "1.4.590"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.590.tgz#85a428fbabb77265a4804040837ed4f2538e3300"
+  integrity sha512-hohItzsQcG7/FBsviCYMtQwUSWvVF7NVqPOnJCErWsAshsP/CR2LAXdmq276RbESNdhxiAq5/vRo1g2pxGXVww==
 
 ember-auto-import@^2.6.0, ember-auto-import@^2.6.3:
   version "2.6.3"
@@ -4426,10 +4426,10 @@ ember-cli-version-checker@^5.1.1, ember-cli-version-checker@^5.1.2:
     semver "^7.3.4"
     silent-error "^1.1.1"
 
-ember-cli@~5.4.0:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-5.4.0.tgz#180cb5b83a1ed65f43d43ec592dcea2634e3df85"
-  integrity sha512-00RfyeDGTo9OtsmxbIqJIKM0wZvvOGAn1w4A9hFrENcuE7I3HKCb3QYKLHLXywG91fTsWbmXRfCL1kQ5pOva4A==
+ember-cli@~5.4.1:
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-5.4.1.tgz#248205ac0abdb970a7f578a729af99567c5e48fc"
+  integrity sha512-+jwp63OPT0zkUnXP563DkIwb1GiI6kGYHg6DyzJKY48BCdevqcgxsMFn8/RENXoF7krg18A5B9cSa8Y1v15tIw==
   dependencies:
     "@pnpm/find-workspace-dir" "^6.0.2"
     broccoli "^3.5.2"
@@ -4700,9 +4700,9 @@ ember-template-imports@^3.4.2:
     validate-peer-dependencies "^1.1.0"
 
 ember-template-lint@^5.11.2:
-  version "5.12.0"
-  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-5.12.0.tgz#aeb93e41c002c1da3a5a8f91439d68f4db4da12a"
-  integrity sha512-QY3VVwuaYACOmOtF0VzQUUA8p6AYE3VC2LW/4RLsi6B5oa2E8wCfJwyo4wcXKLQb+eSqDMYmD/PQ4iizFFpz5g==
+  version "5.13.0"
+  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-5.13.0.tgz#e9e3864646b9e16ce77a2ec8a91a5204be85d4c4"
+  integrity sha512-AYxz9S9fVZfHPmTsymc7NwsD7FVmDUZyfC+KYpxDlK0wic7JSQx2FNQNqQSBFRLOuzn7VQ0/+1pX6DGqKDGswg==
   dependencies:
     "@lint-todo/utils" "^13.1.1"
     aria-query "^5.3.0"
@@ -4933,6 +4933,11 @@ escape-string-regexp@^5.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-5.0.0.tgz#4683126b500b61762f2dbebace1806e8be31b1c8"
   integrity sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==
 
+eslint-compat-utils@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/eslint-compat-utils/-/eslint-compat-utils-0.1.2.tgz#f45e3b5ced4c746c127cf724fb074cd4e730d653"
+  integrity sha512-Jia4JDldWnFNIru1Ehx1H5s9/yxiRHY/TimCuUc0jNexew3cF1gI6CYZil1ociakfWO3rRqFjl1mskBblB3RYg==
+
 eslint-config-prettier@^9.0.0:
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-9.0.0.tgz#eb25485946dd0c66cd216a46232dc05451518d1f"
@@ -4963,12 +4968,13 @@ eslint-plugin-ember@^11.11.1:
     snake-case "^3.0.3"
 
 eslint-plugin-es-x@^7.1.0:
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-es-x/-/eslint-plugin-es-x-7.3.0.tgz#c699280ad35cd315720c3cccf0fe503092c08788"
-  integrity sha512-W9zIs+k00I/I13+Bdkl/zG1MEO07G97XjUSQuH117w620SJ6bHtLUmoMvkGA2oYnI/gNdr+G7BONLyYnFaLLEQ==
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-es-x/-/eslint-plugin-es-x-7.4.0.tgz#ae3132b5502c28821e3e6eb80314123a4143a87c"
+  integrity sha512-WJa3RhYzBtl8I37ebY9p76s61UhZyi4KaFOnX2A5r32RPazkXj5yoT6PGnD02dhwzEUj0KwsUdqfKDd/OuvGsw==
   dependencies:
     "@eslint-community/eslint-utils" "^4.1.2"
     "@eslint-community/regexpp" "^4.6.0"
+    eslint-compat-utils "^0.1.2"
 
 eslint-plugin-n@^16.2.0:
   version "16.3.1"
