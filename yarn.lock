@@ -4673,7 +4673,7 @@ detect-newline@3.1.0:
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-3.1.0.tgz#576f5dfc63ae1a192ff192d8ad3af6308991b651"
   integrity sha512-TLz+x/vEXm/Y7P7wn1EJFNLxYpUD4TgMosxY6fAVJUnJMbupHBOncxyWUG9OpTaH9EBD7uFI5LfEgmMOc54DsA==
 
-dettle@^1.0.1:
+dettle@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/dettle/-/dettle-1.0.2.tgz#d0f772ca718709e1cc60335aa54362313527235c"
   integrity sha512-pIVcNUx2/R7P45l3wEUsyrZcfbVUCKBmctUN41syh2asCXmrRndJEiNng9+8socNOAEBiBRqsQCh3HhCkOFwwg==
@@ -10750,10 +10750,10 @@ tiny-lr@^2.0.0:
     object-assign "^4.1.0"
     qs "^6.4.0"
 
-tiny-readdir@^2.2.0:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/tiny-readdir/-/tiny-readdir-2.7.1.tgz#573ebc1a945352ee3f0c33b1bca1830ea446abb3"
-  integrity sha512-3uG9QvAfoNLYqvtSTtx8ddsj1DK0bf9RmoUkgQxPRj9vEogLx0vH2YB3A49UHHWCI0+aiicjsZ5q8NjGpPNVgw==
+tiny-readdir@^2.7.2:
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/tiny-readdir/-/tiny-readdir-2.7.2.tgz#2db0e1860621387304789bde1e5391cecc5a07c6"
+  integrity sha512-211Pbj4W3EVVIrIkABDPlEyLNzAz1Zb921qwmkKQvx7YR90ma3wuzojFx62nptlrAlI/ict1f++r9E/+9DcWnQ==
   dependencies:
     promise-make-naked "^2.1.1"
 
@@ -11232,13 +11232,13 @@ watch-detector@^1.0.0, watch-detector@^1.0.2:
     tmp "^0.1.0"
 
 watcher@^2.2.2:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/watcher/-/watcher-2.3.0.tgz#27f4125575da16a6ce6445ccecc1820ef68548f7"
-  integrity sha512-6hVpT1OhmYTZhsgUND2o2gTL79TosB1rH8DWzDO7KBlyR9Yuxg/LXUGeHJqjjvwpnyHT7uUdDwWczprJuqae9Q==
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/watcher/-/watcher-2.3.1.tgz#0c7fc6c91d3ad6a931ee08010c2083dee39adbf9"
+  integrity sha512-d3yl+ey35h05r5EFP0TafE2jsmQUJ9cc2aernRVyAkZiu0J3+3TbNugNcqdUJDoWOfL2p+bNsN427stsBC/HnA==
   dependencies:
-    dettle "^1.0.1"
+    dettle "^1.0.2"
     stubborn-fs "^1.2.5"
-    tiny-readdir "^2.2.0"
+    tiny-readdir "^2.7.2"
 
 watchpack@^2.4.1:
   version "2.4.1"
