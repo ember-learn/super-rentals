@@ -2982,6 +2982,11 @@ babel-import-util@^2.0.0, babel-import-util@^2.0.1:
   resolved "https://registry.yarnpkg.com/babel-import-util/-/babel-import-util-2.1.1.tgz#0f4905fe899abfb8cd835dd52f3df1966d1ffbb0"
   integrity sha512-3qBQWRjzP9NreSH/YrOEU1Lj5F60+pWSLP0kIdCWxjFHH7pX2YPHIxQ67el4gnMNfYoDxSDGcT0zpVlZ+gVtQA==
 
+babel-import-util@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/babel-import-util/-/babel-import-util-3.0.0.tgz#5814c6a58e7b80e64156b48fdfd34d48e6e0b1df"
+  integrity sha512-4YNPkuVsxAW5lnSTa6cn4Wk49RX6GAB6vX+M6LqEtN0YePqoFczv1/x0EyLK/o+4E1j9jEuYj5Su7IEPab5JHQ==
+
 babel-loader@^8.0.6:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.3.0.tgz#124936e841ba4fe8176786d6ff28add1f134d6a8"
@@ -3021,12 +3026,12 @@ babel-plugin-ember-modules-api-polyfill@^3.5.0:
     ember-rfc176-data "^0.3.17"
 
 babel-plugin-ember-template-compilation@^2.0.0, babel-plugin-ember-template-compilation@^2.0.1, babel-plugin-ember-template-compilation@^2.1.1:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/babel-plugin-ember-template-compilation/-/babel-plugin-ember-template-compilation-2.2.2.tgz#e3fdff0458730675716e320d2c4e0aa8fe8c4b25"
-  integrity sha512-wdT2F9/n6uC1rLvAjXCx5+fXbwkl8MIcwt0rg5csWedPbERdzQqhRlDqj0kIwNfUJ9gaXAcKrgSOUXbJcByGOQ==
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/babel-plugin-ember-template-compilation/-/babel-plugin-ember-template-compilation-2.2.3.tgz#44c9a017dc8f18f6934773a410831cc13791ab9d"
+  integrity sha512-wl7w4SX06Bx1Bo8CUpH+rFDOrGo6n70wMxHg2S3nUdg7aqIxcuUJOWDEoqeCzZClwm5/qLMNM12ulWYIXnF+bw==
   dependencies:
     "@glimmer/syntax" "^0.84.3"
-    babel-import-util "^2.0.0"
+    babel-import-util "^3.0.0"
 
 babel-plugin-filter-imports@^4.0.0:
   version "4.0.0"
@@ -4672,9 +4677,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.668:
-  version "1.4.754"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.754.tgz#20a9f3cc80e0fb6a804b86605e55da16918a58b0"
-  integrity sha512-7Kr5jUdns5rL/M9wFFmMZAgFDuL2YOnanFH4OI4iFzUqyh3XOL7nAGbSlSMZdzKMIyyTpNSbqZsWG9odwLeKvA==
+  version "1.4.756"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.756.tgz#7b872ed8c8c5bee571be771730225d6d2a37fe45"
+  integrity sha512-RJKZ9+vEBMeiPAvKNWyZjuYyUqMndcP1f335oHqn3BEQbs2NFtVrnK5+6Xg5wSM9TknNNpWghGDUCKGYF+xWXw==
 
 ember-auto-import@^2.6.0, ember-auto-import@^2.6.3, ember-auto-import@^2.7.0, ember-auto-import@^2.7.2:
   version "2.7.2"
@@ -11062,9 +11067,9 @@ upath@^2.0.1:
   integrity sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w==
 
 update-browserslist-db@^1.0.13:
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.0.14.tgz#46a9367c323f8ade9a9dddb7f3ae7814b3a0b31c"
-  integrity sha512-JixKH8GR2pWYshIPUg/NujK3JO7JiqEEUiNArE86NQyrgUuZeTlZQN3xuS/yiV5Kb48ev9K6RqNkaJjXsdg7Jw==
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.0.15.tgz#60ed9f8cba4a728b7ecf7356f641a31e3a691d97"
+  integrity sha512-K9HWH62x3/EalU1U6sjSZiylm9C8tgq2mSvshZpqc7QE69RaA2qjhkW2HlNA0tFpEbtyFz7HTqbSdN4MSwUodA==
   dependencies:
     escalade "^3.1.2"
     picocolors "^1.0.0"
