@@ -1,12 +1,11 @@
-import { module, test } from 'qunit';
-
 import { setupTest } from 'super-rentals/tests/helpers';
+import { module, test } from 'qunit';
 
 module('Unit | Model | rental', function (hooks) {
   setupTest(hooks);
 
   test('it has the right type', function (assert) {
-    let store = this.owner.lookup('service:store');
+    const store = this.owner.lookup('service:store');
     let rental = store.createRecord('rental', {
       id: 'grand-old-mansion',
       title: 'Grand Old Mansion',
