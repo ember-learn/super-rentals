@@ -3372,9 +3372,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001629:
-  version "1.0.30001637"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001637.tgz#d9fab531493d9ef46a8ff305e9812190ac463f21"
-  integrity sha512-1x0qRI1mD1o9e+7mBI7XtzFAP4XszbHaVWsMiGbSPLYekKTJF7K+FNk6AsXH4sUpc+qrsI3pVgf1Jdl/uGkuSQ==
+  version "1.0.30001638"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001638.tgz#598e1f0c2ac36f37ebc3f5b8887a32ca558e5d56"
+  integrity sha512-5SuJUJ7cZnhPpeLHaH0c/HPAnAHZvS6ElWyHK9GSIbVOQABLzowiI2pjmpvZ1WEbkyz46iFd4UXlOHR5SqgfMQ==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -4059,9 +4059,9 @@ doctrine@^3.0.0:
     esutils "^2.0.2"
 
 dom-element-descriptors@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/dom-element-descriptors/-/dom-element-descriptors-0.5.0.tgz#78c37d2a2d3566b1e2b83804ba04a21536a99ab8"
-  integrity sha512-CVzntLid1oFVHTKdTp/Qu7Kz+wSm8uO30TSQyAJ6n4Dz09yTzVQn3S1oRhVhUubxdMuKs1DjDqt88pubHagbPw==
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/dom-element-descriptors/-/dom-element-descriptors-0.5.1.tgz#3ebfcf64198f922dba928f84f7970bb571891317"
+  integrity sha512-DLayMRQ+yJaziF4JJX1FMjwjdr7wdTr1y9XvZ+NfHELfOMcYDnCHneAYXAS4FT1gLILh4V0juMZohhH1N5FsoQ==
 
 dot-case@^3.0.4:
   version "3.0.4"
@@ -4097,9 +4097,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.796:
-  version "1.4.812"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.812.tgz#21b78709c5a13af5d5c688d135a22dcea7617acf"
-  integrity sha512-7L8fC2Ey/b6SePDFKR2zHAy4mbdp1/38Yk5TsARO66W3hC5KEaeKMMHoxwtuH+jcu2AYLSn9QX04i95t6Fl1Hg==
+  version "1.4.813"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.813.tgz#542a05155df9bf0c4b43cb9fd1ae2f29448f1187"
+  integrity sha512-VyJ4tS2uD5iXFBz30wD2c0KtKZoiSQEfRuhrgfsDBbRMDiQCH+ki+nqe8jVR2miEeLTbZ5dNbSt88fHO01Vc9A==
 
 ember-auto-import@^2.6.0, ember-auto-import@^2.6.3, ember-auto-import@^2.7.3:
   version "2.7.4"
@@ -5614,7 +5614,7 @@ findup-sync@^4.0.0:
     micromatch "^4.0.2"
     resolve-dir "^1.0.1"
 
-fireworm@^0.7.0:
+fireworm@^0.7.2:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/fireworm/-/fireworm-0.7.2.tgz#bc5736515b48bd30bf3293a2062e0b0e0361537a"
   integrity sha512-GjebTzq+NKKhfmDxjKq3RXwQcN9xRmZWhnnuC9L+/x5wBQtR0aaQM50HsjrzJ2wc28v1vSdfOpELok0TKR4ddg==
@@ -6485,16 +6485,14 @@ inquirer@^7.3.3:
     through "^2.3.6"
 
 inquirer@^9.1.5:
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-9.3.0.tgz#58ee70c9e2262f8750a12e42773e6f8ba614390f"
-  integrity sha512-zdopqPUKWmnOcaBJYMMtjqWCB2HHXrteAou9tCYgkTJu01QheLfYOrkzigDfidPBtCizmkdpSU0fp2DKaMdFPA==
+  version "9.3.1"
+  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-9.3.1.tgz#71482e4fd283deebe9d175dc7c78b12fb5ff6a7c"
+  integrity sha512-A5IdVr1I04XqPlwrGgTJMKmzRg5ropqNpSeqo0vj1ZmluSCNSFaPZz4eazdPrhVcZfej7fCEYvD2NYa1KjkTJA==
   dependencies:
     "@inquirer/figures" "^1.0.3"
     ansi-escapes "^4.3.2"
     cli-width "^4.1.0"
     external-editor "^3.1.0"
-    lodash.get "^4.4.2"
-    lodash.set "^4.3.2"
     mute-stream "1.0.0"
     ora "^5.4.1"
     picocolors "^1.0.1"
@@ -7211,11 +7209,6 @@ lodash.flatten@^3.0.2:
     lodash._baseflatten "^3.0.0"
     lodash._isiterateecall "^3.0.0"
 
-lodash.get@^4.4.2:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
-  integrity sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==
-
 lodash.isarguments@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/lodash.isarguments/-/lodash.isarguments-3.1.0.tgz#2f573d85c6a24289ff00663b491c1d338ff3458a"
@@ -7245,11 +7238,6 @@ lodash.omit@^4.1.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.omit/-/lodash.omit-4.5.0.tgz#6eb19ae5a1ee1dd9df0b969e66ce0b7fa30b5e60"
   integrity sha512-XeqSp49hNGmlkj2EJlfrQFIzQ6lXdNro9sddtQzcJY8QaoC2GO0DT7xaIokHeyM+mIT0mPMlPvkYzg2xCuHdZg==
-
-lodash.set@^4.3.2:
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/lodash.set/-/lodash.set-4.3.2.tgz#d8757b1da807dde24816b0d6a84bea1a76230b23"
-  integrity sha512-4hNPN5jlm/N/HLMCO43v8BXKq9Z7QdAGc/VGrRD61w8gN9g/6jF9A4L1pbUgBLCffi0w9VsXfTOij5x8iTyFvg==
 
 lodash.template@^4.4.0:
   version "4.5.0"
@@ -9779,9 +9767,9 @@ terser@^5.26.0, terser@^5.7.0:
     source-map-support "~0.5.20"
 
 testem@^3.10.1:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/testem/-/testem-3.14.0.tgz#ba563f5940d4c4c37e0b3db6d56b001b9aed80d4"
-  integrity sha512-hpybTZhio6DXUM7s0HsE8EOnN8zuA6LdNcz3EsTpQSnD56Cj6gSuFQx82wDKZQ6OmM1kvIBebxP+rEoOYBgCOA==
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/testem/-/testem-3.15.0.tgz#c1f66ff2f6d0e9606c77c4de6b62bca088632d1a"
+  integrity sha512-vI1oQsjJW4QdVaH6ZmfNErzH7nzs0KzHJluocnfvbz1XRYGJKkIMGKWfsbD8MGGJOg+uzXcEek0/2W7BmGR4ug==
   dependencies:
     "@xmldom/xmldom" "^0.8.0"
     backbone "^1.1.2"
@@ -9792,7 +9780,7 @@ testem@^3.10.1:
     consolidate "^0.16.0"
     execa "^1.0.0"
     express "^4.10.7"
-    fireworm "^0.7.0"
+    fireworm "^0.7.2"
     glob "^7.0.4"
     http-proxy "^1.13.1"
     js-yaml "^3.2.5"
