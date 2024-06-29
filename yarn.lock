@@ -1302,9 +1302,9 @@
     eslint-visitor-keys "^3.3.0"
 
 "@eslint-community/regexpp@^4.6.0", "@eslint-community/regexpp@^4.6.1":
-  version "4.10.1"
-  resolved "https://registry.yarnpkg.com/@eslint-community/regexpp/-/regexpp-4.10.1.tgz#361461e5cb3845d874e61731c11cfedd664d83a0"
-  integrity sha512-Zm2NGpWELsQAD1xsJzGQpYfvICSsFkEpU0jxBjfdC6uNEWXcHnfs9hScFWtXVDVl+rBQJGrl4g1vcKIejpH9dA==
+  version "4.11.0"
+  resolved "https://registry.yarnpkg.com/@eslint-community/regexpp/-/regexpp-4.11.0.tgz#b0ffd0312b4a3fd2d6f77237e7248a5ad3a680ae"
+  integrity sha512-G/M/tIiMrTAxEWRfLfQJMmGNX28IxBg4PBz8XqQhqUHLFI6TL2htpIB1iQCj144V5ee/JaKyT9/WZ0MGZWfA7A==
 
 "@eslint/eslintrc@^2.1.4":
   version "2.1.4"
@@ -4097,9 +4097,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.796:
-  version "1.4.813"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.813.tgz#542a05155df9bf0c4b43cb9fd1ae2f29448f1187"
-  integrity sha512-VyJ4tS2uD5iXFBz30wD2c0KtKZoiSQEfRuhrgfsDBbRMDiQCH+ki+nqe8jVR2miEeLTbZ5dNbSt88fHO01Vc9A==
+  version "1.4.814"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.814.tgz#176535a0b899c9c473464502ab77576aa8bb1cbe"
+  integrity sha512-GVulpHjFu1Y9ZvikvbArHmAhZXtm3wHlpjTMcXNGKl4IQ4jMQjlnz8yMQYYqdLHKi/jEL2+CBC2akWVCoIGUdw==
 
 ember-auto-import@^2.6.0, ember-auto-import@^2.6.3, ember-auto-import@^2.7.3:
   version "2.7.4"
@@ -7297,9 +7297,9 @@ lower-case@^2.0.2:
     tslib "^2.0.3"
 
 lru-cache@^10.2.0:
-  version "10.2.2"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.2.2.tgz#48206bc114c1252940c41b25b41af5b545aca878"
-  integrity sha512-9hp3Vp2/hFQUiIwKo8XCeFVnrg8Pk3TYNPIR7tJADKi5YfcF7vEaK7avFHTlSy3kOKYaJQaalfEo6YuXdceBOQ==
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.3.0.tgz#4a4aaf10c84658ab70f79a85a9a3f1e1fb11196b"
+  integrity sha512-CQl19J/g+Hbjbv4Y3mFNNXFEL/5t/KCg8POCuUqd4rMKjGG+j1ybER83hxV58zL+dFI1PTkt3GNFSHRt+d8qEQ==
 
 lru-cache@^5.1.1:
   version "5.1.1"
@@ -10563,6 +10563,6 @@ yocto-queue@^0.1.0:
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
 yocto-queue@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.0.0.tgz#7f816433fb2cbc511ec8bf7d263c3b58a1a3c251"
-  integrity sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.1.0.tgz#1c567759666a1b3bd4af7897551bacb488f482b9"
+  integrity sha512-cMojmlnwkAgIXqga+2sXshlgrrcI0QEPJ5n58pEvtuFo4PaekfomlCudArDD7hj8Hkswjl0/x4eu4q+Xa0WFgQ==
