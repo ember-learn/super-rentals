@@ -3372,9 +3372,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001629:
-  version "1.0.30001638"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001638.tgz#598e1f0c2ac36f37ebc3f5b8887a32ca558e5d56"
-  integrity sha512-5SuJUJ7cZnhPpeLHaH0c/HPAnAHZvS6ElWyHK9GSIbVOQABLzowiI2pjmpvZ1WEbkyz46iFd4UXlOHR5SqgfMQ==
+  version "1.0.30001639"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001639.tgz#972b3a6adeacdd8f46af5fc7f771e9639f6c1521"
+  integrity sha512-eFHflNTBIlFwP2AIKaYuBQN/apnUoKNhBdza8ZnW/h2di4LCZ4xFqYlxUxo+LQ76KFI1PGcC1QDxMbxTZpSCAg==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -6485,9 +6485,9 @@ inquirer@^7.3.3:
     through "^2.3.6"
 
 inquirer@^9.1.5:
-  version "9.3.1"
-  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-9.3.1.tgz#71482e4fd283deebe9d175dc7c78b12fb5ff6a7c"
-  integrity sha512-A5IdVr1I04XqPlwrGgTJMKmzRg5ropqNpSeqo0vj1ZmluSCNSFaPZz4eazdPrhVcZfej7fCEYvD2NYa1KjkTJA==
+  version "9.3.2"
+  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-9.3.2.tgz#9bc5ced19f572e848044baa05094a498f1e448c6"
+  integrity sha512-+ynEbhWKhyomnaX0n2aLIMSkgSlGB5RrWbNXnEqj6mdaIydu6y40MdBjL38SAB0JcdmOaIaMua1azdjLEr3sdw==
   dependencies:
     "@inquirer/figures" "^1.0.3"
     ansi-escapes "^4.3.2"
@@ -6495,12 +6495,12 @@ inquirer@^9.1.5:
     external-editor "^3.1.0"
     mute-stream "1.0.0"
     ora "^5.4.1"
-    picocolors "^1.0.1"
     run-async "^3.0.0"
     rxjs "^7.8.1"
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
     wrap-ansi "^6.2.0"
+    yoctocolors-cjs "^2.1.1"
 
 internal-slot@^1.0.7:
   version "1.0.7"
@@ -10566,3 +10566,8 @@ yocto-queue@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.1.1.tgz#fef65ce3ac9f8a32ceac5a634f74e17e5b232110"
   integrity sha512-b4JR1PFR10y1mKjhHY9LaGo6tmrgjit7hxVIeAmyMw3jegXR4dhYqLaQF5zMXZxY7tLpMyJeLjr1C4rLmkVe8g==
+
+yoctocolors-cjs@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/yoctocolors-cjs/-/yoctocolors-cjs-2.1.1.tgz#1a096cffaeda2eb725e33b19735681875465c920"
+  integrity sha512-c6T13b6qYcJZvck7QbEFXrFX/Mu2KOjvAGiKHmYMUg96jxNpfP6i+psGW72BOPxOIDUJrORG+Kyu7quMX9CQBQ==
