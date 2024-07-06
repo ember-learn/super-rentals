@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "type": "rentals",
+      "type": "rental",
       "id": "grand-old-mansion",
       "attributes": {
         "title": "Grand Old Mansion",
@@ -18,7 +18,7 @@
       }
     },
     {
-      "type": "rentals",
+      "type": "rental",
       "id": "urban-living",
       "attributes": {
         "title": "Urban Living",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "type": "rentals",
+      "type": "rental",
       "id": "downtown-charm",
       "attributes": {
         "title": "Downtown Charm",

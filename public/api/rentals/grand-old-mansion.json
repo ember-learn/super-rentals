@@ -1,6 +1,6 @@
 {
   "data": {
-    "type": "rentals",
+    "type": "rental",
     "id": "grand-old-mansion",
     "attributes": {
       "title": "Grand Old Mansion",
