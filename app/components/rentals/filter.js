@@ -1,6 +1,6 @@
 import Component from '@glimmer/component';
 
-export default class RentalsFilterComponent extends Component {
+export default class RentalsFilter extends Component {
   get results() {
     let { rentals, query } = this.args;
 
