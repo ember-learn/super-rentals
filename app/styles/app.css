@@ -129,6 +129,12 @@ p {
   font-style: italic;
 }
 
+.rentals form p {
+  font-size: 80%;
+  display: block;
+  text-align: center;
+}
+
 .rentals input {
   padding: 11px;
   font-size: 18px;
