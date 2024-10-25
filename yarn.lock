@@ -3960,9 +3960,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.5.41:
-  version "1.5.44"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.44.tgz#0106d327c7d0e7b7bb66fd2da0aaf084ddf1fda5"
-  integrity sha512-Lz3POUa7wANQA8G+9btKAdH+cqkfWCBdkotvQZJVOqRXMYGm1tTD835Z01iCjWpEBf0RInPBWuPfzhGbxOCULw==
+  version "1.5.45"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.45.tgz#fa592ce6a88b44d23acbc7453a2feab98996e6c9"
+  integrity sha512-vOzZS6uZwhhbkZbcRyiy99Wg+pYFV5hk+5YaECvx0+Z31NR3Tt5zS6dze2OepT6PCTzVzT0dIJItti+uAW5zmw==
 
 ember-auto-import@^2.6.0, ember-auto-import@^2.6.3, ember-auto-import@^2.8.1:
   version "2.8.1"
@@ -4433,7 +4433,7 @@ ember-data@~5.3.8:
     "@warp-drive/build-config" "0.0.0-beta.7"
     "@warp-drive/core-types" "0.0.0-beta.12"
 
-ember-eslint-parser@^0.5.2:
+ember-eslint-parser@^0.5.3:
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/ember-eslint-parser/-/ember-eslint-parser-0.5.3.tgz#48dc93529ec942c117fffd6265be2017bd94aaef"
   integrity sha512-FYsoiVcGUGDAybPq8X551hcs9NA0SDx77kfU1sHCTLYqfG4zQ0Rcy+lGxoaXaskH7sTf+Up3/oVyjx/+nJ3joA==
@@ -4861,13 +4861,13 @@ eslint-formatter-kakoune@^1.0.0:
   integrity sha512-Uk/TVLt6Nf6Xoz7C1iYuZjOSdJxe5aaauGRke8JhKeJwD66Y61/pY2FjtLP04Ooq9PwV34bzrkKkU2UZ5FtDRA==
 
 eslint-plugin-ember@^12.2.1:
-  version "12.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-12.2.1.tgz#14d2901434d647bb255bd859344c70def7ca5f75"
-  integrity sha512-HZZueTKXmQRDVxREiMLdh87sLFmmkjH3z37gsS0pLWtnZECJiG447GCd+odVgWpSKoDpB4Hce0BtoJeY2HGSlg==
+  version "12.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-12.3.0.tgz#ad97220409d9a88a4e49dd61472792a50dc027c3"
+  integrity sha512-e+YKwercYYRpkkP6MK+ir5Ol5itOXvbXCy8SEO6HO+ySJ+6TuWUIEaSV5/D1YkJUfuhNf7RJ/xgbTXmJMu25+g==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     css-tree "^2.3.1"
-    ember-eslint-parser "^0.5.2"
+    ember-eslint-parser "^0.5.3"
     ember-rfc176-data "^0.3.18"
     eslint-utils "^3.0.0"
     estraverse "^5.3.0"
@@ -8097,9 +8097,9 @@ pkg-dir@^4.1.0:
     find-up "^4.0.0"
 
 pkg-entry-points@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/pkg-entry-points/-/pkg-entry-points-1.1.0.tgz#f38e6fe0770ee7ace5a6c1eecad14fd4bedb8c0d"
-  integrity sha512-9vL2T/he5Kb97GVY+V3Ih4jCC1lF3PQGIDUJIUqKM4Q6twmhrUSAa0OFj+kb8IEs4wYzEgB6kcc4oYy21kZnQw==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/pkg-entry-points/-/pkg-entry-points-1.1.1.tgz#d5cd87f934e873bf73143ed1d0baf637e5f8fda4"
+  integrity sha512-BhZa7iaPmB4b3vKIACoppyUoYn8/sFs17VJJtzrzPZvEnN2nqrgg911tdL65lA2m1ml6UI3iPeYbZQ4VXpn1mA==
 
 pkg-up@^2.0.0:
   version "2.0.0"
