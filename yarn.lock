@@ -1062,9 +1062,9 @@
   integrity sha512-VmVq/8saCaPdesQmftPqbFtxJWrzxNGSQ+e8x8LLe3Hjm36pJ04Q8LeORGZkAeOhldoUX9seLGmSaHeXkIqoog==
 
 "@ember/optional-features@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@ember/optional-features/-/optional-features-2.1.0.tgz#8e15672ca342b5ca6d4d8a00558dc696db0d6f16"
-  integrity sha512-IXjDpTFhsjPk9h3OXwXjlRfhM/Wjtw2E71Xos/81ZsTTwZMB9H+DWhsxePXOkzYy7Jvw4TIzKbMfcnT8mrtwWQ==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@ember/optional-features/-/optional-features-2.2.0.tgz#61305ea5397e9a712185e4cf4722a2862ea2b9da"
+  integrity sha512-a1OQ+w9vDvMXd9BNA9r779yr8MAPguGaMGbIeTMPWACeWBdD6bACBB5iKE3gNyrJAYKMq2wab6BKmRFS3Qw3hw==
   dependencies:
     chalk "^4.1.2"
     ember-cli-version-checker "^5.1.2"
@@ -3222,9 +3222,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001669:
-  version "1.0.30001671"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001671.tgz#c660a8a0bf6bb8eedaac683d29074e455e84e3f1"
-  integrity sha512-jocyVaSSfXg2faluE6hrWkMgDOiULBMca4QLtDT39hw1YxaIPHWc1CcTCKkPmHgGH6tKji6ZNbMSmUAvENf2/A==
+  version "1.0.30001672"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001672.tgz#02ac296ad4765c6c4f93031525f60cf8bdf4a44f"
+  integrity sha512-XhW1vRo1ob6aeK2w3rTohwTPBLse/rvjq+s3RTSBwnlZqoFFjx9cHsShJjAIbLsLjyoacaTxpLZy9v3gg6zypw==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -3960,9 +3960,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.5.41:
-  version "1.5.46"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.46.tgz#69c98f809a3ea669386263d672f4d920be71da3a"
-  integrity sha512-1XDk0Z8/YRgB2t5GeEg8DPK592DLjVmd/5uwAu6c/S4Z0CUwV/RwYqe5GWxQqcoN3bJ5U7hYMiMRPZzpCzSBhQ==
+  version "1.5.47"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.47.tgz#ef0751bc19b28be8ee44cd8405309de3bf3b20c7"
+  integrity sha512-zS5Yer0MOYw4rtK2iq43cJagHZ8sXN0jDHDKzB+86gSBSAI4v07S97mcq+Gs2vclAxSh1j7vOAHxSVgduiiuVQ==
 
 ember-auto-import@^2.6.0, ember-auto-import@^2.6.3, ember-auto-import@^2.8.1:
   version "2.8.1"
