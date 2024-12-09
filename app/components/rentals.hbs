@@ -1,0 +1,17 @@
+<div class="rentals">
+  <form {{on "input" this.updateQuery}} {{on "submit" this.handleSubmit}}>
+    <label>
+      <span>Where would you like to stay?</span>
+      <input name="rental-search-term" class="light">
+    </label>
+    <p>The results below will update as you type.</p>
+  </form>
+
+  <ul class="results">
+    <Rentals::Filter @rentals={{@rentals}} @query={{this.query}} as |results|>
+      {{#each results as |rental|}}
+        <li><Rental @rental={{rental}} /></li>
+      {{/each}}
+    </Rentals::Filter>
+  </ul>
+</div>
