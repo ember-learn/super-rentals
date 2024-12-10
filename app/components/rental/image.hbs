@@ -1,3 +1,4 @@
-<div class="image">
+<button type="button" class="image {{if this.isLarge "large"}}" {{on "click" this.toggleSize}}>
   <img ...attributes>
-</div>
+  <small>View {{if this.isLarge "Smaller" "Larger"}}</small>
+</button>
