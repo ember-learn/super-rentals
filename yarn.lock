@@ -3114,7 +3114,7 @@ broccoli@^3.5.2:
     underscore.string "^3.2.2"
     watch-detector "^1.0.0"
 
-browserslist@^4.0.0, browserslist@^4.24.0, browserslist@^4.24.2:
+browserslist@^4.0.0, browserslist@^4.24.0, browserslist@^4.24.3:
   version "4.24.3"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.24.3.tgz#5fc2725ca8fb3c1432e13dac278c7cc103e026d2"
   integrity sha512-1CPmv8iobE2fyRMV97dAcMVegvvWKxmq94hkLiAkUGwKVTyDLw33K+ZxiFrREKmmps4rIw6grcCFCnTMSZ/YiA==
@@ -3613,11 +3613,11 @@ copy-descriptor@^0.1.0:
   integrity sha512-XgZ0pFcakEUlbwQEVNg3+QAis1FyTL3Qel9FYy8pSkQqoG3PNoT0bOCQtOXcOkur21r2Eq2kI+IE+gsmAEVlYw==
 
 core-js-compat@^3.38.0, core-js-compat@^3.38.1:
-  version "3.39.0"
-  resolved "https://registry.yarnpkg.com/core-js-compat/-/core-js-compat-3.39.0.tgz#b12dccb495f2601dc860bdbe7b4e3ffa8ba63f61"
-  integrity sha512-VgEUx3VwlExr5no0tXlBt+silBvhTryPwCXRI2Id1PN8WTKu7MreethvddqOubrYxkFdv/RnYrqlv1sFNAUelw==
+  version "3.40.0"
+  resolved "https://registry.yarnpkg.com/core-js-compat/-/core-js-compat-3.40.0.tgz#7485912a5a4a4315c2fdb2cbdc623e6881c88b38"
+  integrity sha512-0XEDpr5y5mijvw8Lbc6E5AkjrHfp7eEoPlu36SWeAbcL8fn1G1ANe8DBlo2XoNN89oVpxWwOjYIPVzR4ZvsKCQ==
   dependencies:
-    browserslist "^4.24.2"
+    browserslist "^4.24.3"
 
 core-js@^2.6.5:
   version "2.6.12"
@@ -3945,9 +3945,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.5.73:
-  version "1.5.77"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.77.tgz#b9e7aa2d833084aac5253d36fc85f99d7cf8ce98"
-  integrity sha512-AnJSrt5JpRVgY6dgd5yccguLc5A7oMSF0Kt3fcW+Hp5WTuFbl5upeSFZbMZYy2o7jhmIhU8Ekrd82GhyXUqUUg==
+  version "1.5.79"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.79.tgz#4424f23f319db7a653cf9ee76102e4ac283e6b3e"
+  integrity sha512-nYOxJNxQ9Om4EC88BE4pPoNI8xwSFf8pU/BAeOl4Hh/b/i6V4biTAzwV7pXi3ARKeoYO5JZKMIXTryXSVer5RA==
 
 ember-auto-import@^2.10.0:
   version "2.10.0"
@@ -6284,9 +6284,9 @@ inflection@^2.0.1:
   integrity sha512-wzkZHqpb4eGrOKBl34xy3umnYHx8Si5R1U4fwmdxLo5gdH6mEK8gclckTj/qWqy4Je0bsDYe/qazZYuO7xe3XQ==
 
 inflection@~3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/inflection/-/inflection-3.0.1.tgz#b1ec2fb8ab0887725d29ad6934810011eb508fa0"
-  integrity sha512-EpyF+TLa3xZPClbkp9pDJZtJFYPHouWuFYsfAQI8AfjnaPVOpmRV6GSzCs+QGelj2eZ7oQllcK23aI1vHhPVVg==
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/inflection/-/inflection-3.0.2.tgz#2f591c3dad053e3fac65a03bf6431b675d829601"
+  integrity sha512-+Bg3+kg+J6JUWn8J6bzFmOWkTQ6L/NHfDRSYU+EVvuKHDxUDHAXgqixHfVlzuBQaPOTac8hn43aPhMNk6rMe3g==
 
 inflight@^1.0.4:
   version "1.0.6"
