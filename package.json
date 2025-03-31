@@ -31,9 +31,11 @@
     "@ember/optional-features": "^2.2.0",
     "@ember/string": "^4.0.0",
     "@ember/test-helpers": "^4.0.4",
+    "@ember/test-waiters": "^4.1.0",
     "@eslint/js": "^9.17.0",
     "@glimmer/component": "^1.1.2",
     "@glimmer/tracking": "^1.1.2",
+    "@warp-drive/schema-record": "^0.0.2",
     "broccoli-asset-rev": "^3.0.0",
     "concurrently": "^9.1.0",
     "ember-auto-import": "^2.10.0",
@@ -74,6 +76,9 @@
     "stylelint-prettier": "^5.0.2",
     "tracked-built-ins": "^3.4.0",
     "webpack": "^5.97.1"
+  },
+  "resolutions": {
+    "@ember/test-waiters": "^4.1.0"
   },
   "engines": {
     "node": ">= 18"
