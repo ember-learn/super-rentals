@@ -3,6 +3,11 @@ import Resolver from 'ember-resolver';
 import loadInitializers from 'ember-load-initializers';
 import config from 'super-rentals/config/environment';
 import { importSync, isDevelopingApp, macroCondition } from '@embroider/macros';
+import { setBuildURLConfig } from '@ember-data/request-utils';
+
+setBuildURLConfig({
+  namespace: 'api',
+});
 
 if (macroCondition(isDevelopingApp())) {
   importSync('./deprecation-workflow');
