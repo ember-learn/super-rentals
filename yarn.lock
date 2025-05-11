@@ -1043,9 +1043,9 @@
     silent-error "^1.1.1"
 
 "@ember/test-helpers@^5.2.1":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/@ember/test-helpers/-/test-helpers-5.2.1.tgz#7ce820beb425133a665c927efabe6fd50e5110c7"
-  integrity sha512-hxY3379AvMolYnQsi9pqrR7tup/SmE/9zzkpiLnu2VTmrW8xsgV7MrXF1a3xw2twLWPSzVF8T3VDPyvuHbvqfw==
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/@ember/test-helpers/-/test-helpers-5.2.2.tgz#275e47154b62915105da0681cc6e7ede80e4e1aa"
+  integrity sha512-Cclqeh0j6RnYvoaElAVC3Nd1fsSUkc3oUTwTsLlNiC3riyPq8lNYxh96VM59/yji2ntrd/cJQ7qhhSZWd6hsEw==
   dependencies:
     "@ember/test-waiters" "^3.1.0 || ^4.0.0"
     "@embroider/addon-shim" "^1.8.7"
