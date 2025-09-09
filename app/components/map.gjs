@@ -17,4 +17,15 @@ export default class Map extends Component {
   get token() {
     return encodeURIComponent(ENV.MAPBOX_ACCESS_TOKEN);
   }
+
+  <template>
+    <div class="map">
+      <img
+        alt="Map image at coordinates {{@lat}},{{@lng}}"
+        ...attributes
+        src={{this.src}}
+        width={{@width}} height={{@height}}
+      >
+    </div>
+  </template>
 }

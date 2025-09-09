@@ -10,4 +10,8 @@ export default class RentalsFilter extends Component {
 
     return rentals;
   }
+
+  <template>
+    {{yield this.results}}
+  </template>
 }

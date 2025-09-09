@@ -1,14 +1,15 @@
 import { module, test } from 'qunit';
 import { setupRenderingTest } from 'super-rentals/tests/helpers';
 import { render } from '@ember/test-helpers';
-import { hbs } from 'ember-cli-htmlbars';
+import Rental from 'super-rentals/components/rental';
+import { tracked } from '@glimmer/tracking';
 
 module('Integration | Component | rental', function (hooks) {
   setupRenderingTest(hooks);
 
   test('it renders information about a rental property', async function (assert) {
-    this.setProperties({
-      rental: {
+    class State { 
+      @tracked rental = {
         id: 'grand-old-mansion',
         title: 'Grand Old Mansion',
         owner: 'Veruca Salt',
@@ -24,10 +25,12 @@ module('Integration | Component | rental', function (hooks) {
           'https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg',
         description:
           'This grand old mansion sits on over 100 acres of rolling hills and dense redwood forests.',
-      },
-    });
+      };
+    };
 
-    await render(hbs`<Rental @rental={{this.rental}} />`);
+    const state = new State();
+
+    await render(<template><Rental @rental={{state.rental}} /></template>);
 
     assert.dom('article').hasClass('rental');
     assert.dom('article h3').hasText('Grand Old Mansion');
