@@ -1,4 +1,4 @@
-**/*.gjs
+**/*.hbs
 # unconventional js
 /blueprints/*/files/
 

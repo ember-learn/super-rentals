@@ -1,5 +1,6 @@
-import Component from '@glimmer/component';
 import { service } from '@ember/service';
+import Component from '@glimmer/component';
+
 const TWEET_INTENT = 'https://twitter.com/intent/tweet';
 
 export default class ShareButton extends Component {
@@ -28,16 +29,4 @@ export default class ShareButton extends Component {
 
     return url;
   }
-
-  <template>
-    <a
-      ...attributes
-      href={{this.shareURL}}
-      target="_blank"
-      rel="external nofollow noopener noreferrer"
-      class="share button"
-    >
-      {{yield}}
-    </a>
-  </template>
 }
