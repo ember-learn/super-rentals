@@ -25,12 +25,6 @@ import babelParser from '@babel/eslint-parser';
 const esmParserOptions = {
   ecmaFeatures: { modules: true },
   ecmaVersion: 'latest',
-  requireConfigFile: false,
-  babelOptions: {
-    plugins: [
-      ['@babel/plugin-proposal-decorators', { decoratorsBeforeExport: true }],
-    ],
-  },
 };
 
 export default [
@@ -81,10 +75,8 @@ export default [
     files: [
       '**/*.cjs',
       'config/**/*.js',
-      'tests/dummy/config/**/*.js',
       'testem.js',
       'testem*.js',
-      'index.js',
       '.prettierrc.js',
       '.stylelintrc.js',
       '.template-lintrc.js',

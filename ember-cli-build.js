@@ -1,9 +1,11 @@
 'use strict';
 
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
+const { compatBuild } = require('@embroider/compat');
 
-module.exports = function (defaults) {
-  const app = new EmberApp(defaults, {
+module.exports = async function (defaults) {
+  const { buildOnce } = await import('@embroider/vite');
+  let app = new EmberApp(defaults, {
     emberData: {
       deprecations: {
         // New projects can safely leave this deprecation disabled.
@@ -16,5 +18,5 @@ module.exports = function (defaults) {
     // Add options here
   });
 
-  return app.toTree();
+  return compatBuild(app, buildOnce);
 };

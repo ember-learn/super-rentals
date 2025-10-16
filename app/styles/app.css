@@ -1,5 +1,5 @@
 /* stylelint-disable no-descending-specificity, media-feature-range-notation */
-@import url("https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic");
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic');
 
 /**
  * Base Elements
@@ -23,7 +23,7 @@ span,
 a,
 button {
   font-family:
-    Lato, "Open Sans", "Helvetica Neue", "Segoe UI", Helvetica, Arial,
+    Lato, 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial,
     sans-serif;
   line-height: 1.5;
 }
@@ -272,7 +272,7 @@ p {
 }
 
 .rental button.image::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -460,7 +460,7 @@ p {
 }
 
 .tomster {
-  background: url("../assets/images/teaching-tomster.png");
+  background: url('../assets/images/teaching-tomster.png');
   background-size: contain;
   background-repeat: no-repeat;
   height: 200px;

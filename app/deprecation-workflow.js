@@ -20,5 +20,12 @@ setupDeprecationWorkflow({
      */
     /* example: */
     /* { handler: 'silence', matchId: 'template-action' }, */
+    /**
+     * TODO: actually fix these deprecations
+     * this change to ember-cli-deprecation-workflow is hidden so people wont
+     * see this in the tutorial.
+     */
+    { handler: 'silence', matchId: 'ember-data:deprecate-legacy-imports' },
+    { handler: 'silence', matchId: 'warp-drive.deprecate-tracking-package' },
   ],
 });

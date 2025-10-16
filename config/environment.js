@@ -45,7 +45,7 @@ module.exports = function (environment) {
     // here you can enable a production-specific feature
   }
 
-  ENV.MAPBOX_ACCESS_TOKEN = process.env.MAPBOX_ACCESS_TOKEN;
+  ENV.TOMTOM_ACCESS_TOKEN = process.env.TOMTOM_ACCESS_TOKEN;
 
   return ENV;
 };
