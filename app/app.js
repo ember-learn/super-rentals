@@ -18,3 +18,8 @@ export default class App extends Application {
 }
 
 loadInitializers(App, config.modulePrefix, compatModules);
+import { setBuildURLConfig } from '@ember-data/request-utils';
+
+setBuildURLConfig({
+  namespace: 'api',
+});
