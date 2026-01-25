@@ -1,6 +1,17 @@
-import BaseStore from 'ember-data/store';
-import { service } from '@ember/service';
+import { useLegacyStore } from '@warp-drive/legacy';
+import { JSONAPICache } from '@warp-drive/json-api';
+import { JsonSuffixHandler } from 'super-rentals/utils/handlers';
 
-export default class Store extends BaseStore {
-  @service requestManager;
-}
+const Store = useLegacyStore({
+  linksMode: false,
+  cache: JSONAPICache,
+  handlers: [
+    // -- your handlers here
+    JsonSuffixHandler
+  ],
+  schemas: [
+    // -- your schemas here
+  ],
+});
+
+export default Store;

@@ -1,6 +1,6 @@
 import Route from '@ember/routing/route';
 import { service } from '@ember/service';
-import { findRecord } from '@ember-data/json-api/request';
+import { findRecord } from '@warp-drive/utilities/json-api';
 
 export default class RentalRoute extends Route {
   @service store;

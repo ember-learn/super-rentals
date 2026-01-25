@@ -1,3 +1,4 @@
+import '@warp-drive/ember/install';
 import Application from 'super-rentals/app';
 import config from 'super-rentals/config/environment';
 import * as QUnit from 'qunit';

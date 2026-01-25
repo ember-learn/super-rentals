@@ -1,3 +1,4 @@
+import '@warp-drive/ember/install';
 import Application from '@ember/application';
 import compatModules from '@embroider/virtual/compat-modules';
 import Resolver from 'ember-resolver';
@@ -18,7 +19,7 @@ export default class App extends Application {
 }
 
 loadInitializers(App, config.modulePrefix, compatModules);
-import { setBuildURLConfig } from '@ember-data/request-utils';
+import { setBuildURLConfig } from '@warp-drive/utilities/json-api';
 
 setBuildURLConfig({
   namespace: 'api',
