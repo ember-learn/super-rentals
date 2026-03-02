@@ -9,6 +9,11 @@ module.exports = async function (defaults) {
 
   let app = new EmberApp(defaults, {
     // Add options here
+    emberData: {
+      deprecations: {
+        DEPRECATE_STORE_EXTENDS_EMBER_OBJECT: false
+      }
+    }
   });
 
   setConfig(app, __dirname, {
