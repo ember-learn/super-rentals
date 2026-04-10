@@ -60,6 +60,7 @@ export default defineConfig([
     },
   },
   {
+    ...qunit.configs.recommended,
     files: ['tests/**/*-test.{js,gjs}'],
     plugins: {
       qunit,
@@ -69,7 +70,8 @@ export default defineConfig([
    * CJS node files
    */
   {
-    files: ['**/*.cjs', 'config/**/*.js', 'ember-cli-build.js'],
+    ...n.configs['flat/recommended-script'],
+    files: ['**/*.cjs', 'config/**/*.js'],
     plugins: {
       n,
     },
@@ -86,6 +88,7 @@ export default defineConfig([
    * ESM node files
    */
   {
+    ...n.configs['flat/recommended-module'],
     files: ['**/*.mjs'],
     plugins: {
       n,
