@@ -47,7 +47,7 @@
     "@embroider/vite": "^1.7.2",
     "@eslint/js": "^9.39.4",
     "@glimmer/component": "^2.0.0",
-    "@rollup/plugin-babel": "^6.1.0",
+    "@rollup/plugin-babel": "^7.0.0",
     "@warp-drive/core": "~5.8.1",
     "@warp-drive/ember": "~5.8.1",
     "@warp-drive/json-api": "~5.8.1",
@@ -81,7 +81,7 @@
     "stylelint": "^16.26.1",
     "stylelint-config-standard": "^38.0.0",
     "testem": "^3.19.1",
-    "vite": "^7.3.1"
+    "vite": "^8.0.10"
   },
   "engines": {
     "node": ">= 20.19.0"
