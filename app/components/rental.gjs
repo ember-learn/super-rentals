@@ -33,7 +33,8 @@ import { LinkTo } from '@ember/routing';
       @zoom="9"
       @width="150"
       @height="150"
-      alt="A map of {{@rental.title}}"
+      role="img"
+      aria-label="A map of {{@rental.title}}"
     />
   </article>
 </template>

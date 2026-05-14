@@ -1,31 +1,33 @@
 import Component from '@glimmer/component';
+import { modifier } from 'ember-modifier';
+import { trustHTML } from '@ember/template';
+import maplibregl from 'maplibre-gl';
+import 'maplibre-gl/dist/maplibre-gl.css';
 import ENV from 'super-rentals/config/environment';
 
-const TOMTOM_API = 'https://api.tomtom.com/map/1/staticimage';
+const displayMap = modifier((element, [lat, lng, zoom]) => {
+  const map = new maplibregl.Map({
+    container: element,
+    style: ENV.MAP_TILE_STYLE,
+    center: [lng, lat],
+    zoom,
+  });
+
+  new maplibregl.Marker().setLngLat([lng, lat]).addTo(map);
+
+  return () => map.remove();
+});
 
 export default class Map extends Component {
-  get src() {
-    let { lng, lat, width, height, zoom } = this.args;
-
-    let coordinates = `&zoom=${zoom}&center=${lng},${lat}`;
-    let dimensions = `&width=${width}&height=${height}`;
-    let accessToken = `?key=${this.token}`;
-
-    return `${TOMTOM_API}${accessToken}${coordinates}${dimensions}`;
-  }
-
-  get token() {
-    return encodeURIComponent(ENV.TOMTOM_ACCESS_TOKEN);
+  get mapSize() {
+    return trustHTML(`width: ${this.args.width}px; height: ${this.args.height}px;`);
   }
 
   <template>
-    <div class="map">
-      <img
-        alt="Map image at coordinates {{@lat}},{{@lng}}"
-        ...attributes
-        src={{this.src}}
-        width={{@width}} height={{@height}}
-      >
-    </div>
+    <div class="map"
+      {{displayMap @lat @lng @zoom}}
+      style={{this.mapSize}}
+      ...attributes
+    ></div>
   </template>
 }
