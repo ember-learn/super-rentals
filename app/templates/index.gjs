@@ -1,6 +1,6 @@
 import { LinkTo } from '@ember/routing';
 import Jumbo from 'super-rentals/components/jumbo';
-import Rental from 'super-rentals/components/rental';
+import Rentals from 'super-rentals/components/rentals';
 
 <template>
   <Jumbo>
@@ -9,11 +9,5 @@ import Rental from 'super-rentals/components/rental';
     <LinkTo @route="about" class="button">About Us</LinkTo>
   </Jumbo>
 
-  <div class="rentals">
-    <ul class="results">
-      {{#each @model as |rental|}}
-        <li><Rental @rental={{rental}} /></li>
-      {{/each}}
-    </ul>
-  </div>
+  <Rentals @rentals={{@model}} />
 </template>
