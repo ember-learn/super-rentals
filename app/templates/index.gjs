@@ -1,7 +1,10 @@
+import { LinkTo } from '@ember/routing'; 
+
 <template>
   <div class="jumbo">
     <div class="right tomster"></div>
     <h2>Welcome to Super Rentals!</h2>
     <p>We hope you find exactly what you're looking for in a place to stay.</p>
+    <LinkTo @route="about" class="button">About Us</LinkTo>
   </div>
 </template>
