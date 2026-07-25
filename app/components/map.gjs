@@ -1,7 +1,7 @@
 import Component from '@glimmer/component';
 import { modifier } from 'ember-modifier';
 import { trustHTML } from '@ember/template';
-import maplibregl from 'maplibre-gl';
+import * as maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import ENV from 'super-rentals/config/environment';
 
