@@ -1,7 +1,6 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
-import { on } from '@ember/modifier';
 import Rental from 'super-rentals/components/rental';
 import RentalsFilter from 'super-rentals/components/rentals/filter';
 
