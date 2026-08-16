@@ -1,19 +1,19 @@
 import Component from '@glimmer/component';
 import { modifier } from 'ember-modifier';
 import { trustHTML } from '@ember/template';
-import * as maplibregl from 'maplibre-gl';
+import { Map as MapLibreGLMap, Marker } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import ENV from 'super-rentals/config/environment';
 
 const displayMap = modifier((element, [lat, lng, zoom]) => {
-  const map = new maplibregl.Map({
+  const map = new MapLibreGLMap({
     container: element,
     style: ENV.MAP_TILE_STYLE,
     center: [lng, lat],
     zoom,
   });
 
-  new maplibregl.Marker().setLngLat([lng, lat]).addTo(map);
+  new Marker().setLngLat([lng, lat]).addTo(map);
 
   return () => map.remove();
 });
