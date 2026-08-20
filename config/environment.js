@@ -45,5 +45,7 @@ module.exports = function (environment) {
     // here you can enable a production-specific feature
   }
 
+  ENV.MAP_TILE_STYLE = 'https://tiles.openfreemap.org/styles/liberty';
+
   return ENV;
 };

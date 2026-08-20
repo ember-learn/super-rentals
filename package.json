@@ -74,6 +74,7 @@
     "eslint-plugin-qunit": "^8.2.6",
     "eslint-plugin-warp-drive": "^5.8.2",
     "globals": "^16.5.0",
+    "maplibre-gl": "^6.4.1",
     "prettier": "^3.9.6",
     "prettier-plugin-ember-template-tag": "^2.1.7",
     "qunit": "^2.26.0",
