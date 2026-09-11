@@ -1,0 +1,14 @@
+**/*.gjs
+# unconventional js
+/blueprints/*/files/
+
+# compiled output
+/dist/
+
+# misc
+/coverage/
+!.*
+.*/
+/pnpm-lock.yaml
+ember-cli-update.json
+*.html
