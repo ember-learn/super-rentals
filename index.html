@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>SuperRentals</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{content-for "head"}}
+
+    <link integrity="" rel="stylesheet" href="/@embroider/virtual/vendor.css">
+    <link integrity="" rel="stylesheet" href="/@embroider/virtual/app.css">
+
+    <script>
+      // if we take a screenshot with ?deterministic we turn off animations
+      // to make screenshots more deterministic and reduce diffs
+      if (window.location.search.indexOf('deterministic') >= 0) {
+        let style = document.createElement('style');
+
+        style.appendChild(document.createTextNode(`
+          *, *::before, *::after {
+            transition-delay: 0s !important;
+            transition-duration: 0s !important;
+          }
+        `));
+
+        document.head.appendChild(style);
+      }
+    </script>
+
+    {{content-for "head-footer"}}
+  </head>
+  <body>
+    {{content-for "body"}}
+
+    <script src="/@embroider/virtual/vendor.js"></script>
+    <script type="module">
+      import Application from './app/app';
+      import environment from './app/config/environment';
+
+      Application.create(environment.APP);
+    </script>
+
+    {{content-for "body-footer"}}
+  </body>
+</html>
