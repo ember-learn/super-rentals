@@ -1,5 +1,6 @@
 import RentalImage from 'super-rentals/components/rental/image';
 import Map from 'super-rentals/components/map';
+import { LinkTo } from '@ember/routing';
 
 <template>
   <article class="rental">
@@ -8,7 +9,11 @@ import Map from 'super-rentals/components/map';
       alt="A picture of {{@rental.title}}"
     />
     <div class="details">
-      <h3>{{@rental.title}}</h3>
+      <h3>
+        <LinkTo @route="rental" @model={{@rental}}>
+          {{@rental.title}}
+        </LinkTo>
+      </h3>
       <div class="detail owner">
         <span>Owner:</span> {{@rental.owner}}
       </div>
